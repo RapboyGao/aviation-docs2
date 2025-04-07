@@ -32,6 +32,6 @@ export default navbar([
   },
   {
     text: "Checklists",
-    children: ["/Checklists/before-flight-day/", "/Checklists/before-flight-going/", "/Checklists/direct-preparing/", "/Checklists/ground-operations"],
+    children: ["/Checklists/before-flight-day", "/Checklists/before-flight-going", "/Checklists/direct-preparing", "/Checklists/ground-operations"],
   },
 ]);
