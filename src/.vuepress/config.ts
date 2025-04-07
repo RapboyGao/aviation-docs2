@@ -1,16 +1,22 @@
 import { defineUserConfig } from "vuepress";
-
-import theme from "./theme.js";
+import theme from "./theme";
+import cardContainerPlugin from "./containers/card";
+import quesContainerPlugin from "./containers/ques";
+import { registerComponentsPlugin } from "@vuepress/plugin-register-components";
+import { path as Path } from "@vuepress/utils";
 
 export default defineUserConfig({
   base: "/",
 
   lang: "zh-CN",
-  title: "文档演示",
-  description: "vuepress-theme-hope 的文档演示",
-
+  title: "Aviation Docs",
+  description: "Aviation documentation",
+  plugins: [
+    cardContainerPlugin,
+    quesContainerPlugin,
+    registerComponentsPlugin({
+      componentsDir: Path.join(__dirname, "components"),
+    }),
+  ],
   theme,
-
-  // 和 PWA 一起启用
-  // shouldPrefetch: false,
 });
