@@ -20,7 +20,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "默认页脚",
+  footer: "Aviation Docs © 2023-present",
   displayFooter: true,
 
   // 加密配置
