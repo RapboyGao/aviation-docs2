@@ -1,31 +1,37 @@
 import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
-  "/",
-  "/portfolio",
-  "/demo/",
   {
-    text: "指南",
-    icon: "lightbulb",
-    prefix: "/guide/",
+    link: "/",
+    text: "Home",
+  },
+  {
+    text: "English",
+    children: ["/Notes/pepec/index.html"],
+  },
+  {
+    text: "Study",
     children: [
       {
-        text: "Bar",
-        icon: "lightbulb",
-        prefix: "bar/",
-        children: ["baz", { text: "...", icon: "ellipsis", link: "" }],
+        text: "运行手册",
+        children: ["/Notes/operations-manual/OM-05.md", "/Notes/operations-manual/OM-Misc.md"],
       },
       {
-        text: "Foo",
-        icon: "lightbulb",
-        prefix: "foo/",
-        children: ["ray", { text: "...", icon: "ellipsis", link: "" }],
+        text: "危险品",
+        children: ["/dangerous-goods/index.html"],
+      },
+      {
+        text: "FCTM",
+        children: ["/Notes/FCTM/index.html"],
+      },
+      {
+        text: "Fleet",
+        children: ["/Notes/Fleet/3DD"],
       },
     ],
   },
   {
-    text: "V2 文档",
-    icon: "book",
-    link: "https://theme-hope.vuejs.press/zh/",
+    text: "Checklists",
+    children: ["/Checklists/before-flight-day/", "/Checklists/before-flight-going/", "/Checklists/direct-preparing/", "/Checklists/ground-operations"],
   },
 ]);
