@@ -14,6 +14,7 @@
     "@vuepress/bundler-vite": "2.0.0-rc.20",
     "@vuepress/plugin-markdown-container": "2.0.0-rc.79",
     "@vuepress/plugin-register-components": "2.0.0-rc.82",
+    "@vueuse/core": "^13.0.0",
     "@vueuse/shared": "^13.0.0",
     "element-plus": "^2.9.7",
     "katex": "^0.16.21",
