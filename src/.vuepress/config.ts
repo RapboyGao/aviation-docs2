@@ -1,13 +1,14 @@
-import { defineUserConfig } from "vuepress";
-import theme from "./theme";
-import cardContainerPlugin from "./containers/card";
-import quesContainerPlugin from "./containers/ques";
 import { registerComponentsPlugin } from "@vuepress/plugin-register-components";
 import { path as Path } from "@vuepress/utils";
+import { defineUserConfig } from "vuepress";
+import cardContainerPlugin from "./containers/card";
+import quesContainerPlugin from "./containers/ques";
+import head from "./head";
+import theme from "./theme";
 
 export default defineUserConfig({
   base: "/",
-
+  head,
   lang: "zh-CN",
   title: "Aviation Docs",
   description: "Aviation documentation",
@@ -19,4 +20,6 @@ export default defineUserConfig({
     }),
   ],
   theme,
+  shouldPreload: true,
+  shouldPrefetch: true,
 });
