@@ -11,6 +11,12 @@ importers:
       '@vuepress/bundler-vite':
         specifier: 2.0.0-rc.20
         version: 2.0.0-rc.20(@types/node@22.14.0)(sass-embedded@1.86.3)
+      '@vuepress/plugin-markdown-container':
+        specifier: 2.0.0-rc.79
+        version: 2.0.0-rc.79(vuepress@2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@22.14.0)(sass-embedded@1.86.3))(vue@3.5.13))
+      '@vuepress/plugin-register-components':
+        specifier: 2.0.0-rc.82
+        version: 2.0.0-rc.82(vuepress@2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@22.14.0)(sass-embedded@1.86.3))(vue@3.5.13))
       sass-embedded:
         specifier: ^1.86.0
         version: 1.86.3
@@ -803,6 +809,11 @@ packages:
     peerDependencies:
       vuepress: 2.0.0-rc.20
 
+  '@vuepress/plugin-markdown-container@2.0.0-rc.79':
+    resolution: {integrity: sha512-ydSa2Zvl/gt9id6WykSebWoXNM29jwxHhMW3jltjRgvzK+RygED+yxHMPoBVXEl/b5Jj0ZPe0XL/f1yfSYxOQg==}
+    peerDependencies:
+      vuepress: 2.0.0-rc.20
+
   '@vuepress/plugin-markdown-ext@2.0.0-rc.91':
     resolution: {integrity: sha512-fhKuRFe2BPOIErQFhB9nz3LLh/LP+3CdRU3CyU7FMu2ami2k10iifSQ1kXg+9vzzSErXcdvzORr6dH76b6dZFw==}
     peerDependencies:
@@ -868,6 +879,11 @@ packages:
   '@vuepress/plugin-redirect@2.0.0-rc.91':
     resolution: {integrity: sha512-X1gLYpwJsykWzxtJvF54jbjNcgK6v1pOTvb9929m81Z45nl8CzcU5txlvHXm9kJbdwZPwa1qYln/DChEiHf7OA==}
     hasBin: true
+    peerDependencies:
+      vuepress: 2.0.0-rc.20
+
+  '@vuepress/plugin-register-components@2.0.0-rc.82':
+    resolution: {integrity: sha512-D+bod3ujf/RC/41nSbWWfzonKomuh/pFTYMXBdLCWb4e92Ckqz3dt5bR3aFGgOaUC9iNDmVPTGkXKuAd30Amqw==}
     peerDependencies:
       vuepress: 2.0.0-rc.20
 
@@ -1375,6 +1391,9 @@ packages:
     peerDependencies:
       '@types/markdown-it': '*'
       markdown-it: '*'
+
+  markdown-it-container@4.0.0:
+    resolution: {integrity: sha512-HaNccxUH0l7BNGYbFbjmGpf5aLHAMTinqRZQAEQbMr2cdD3z91Q6kIo1oUn1CQndkT03jat6ckrdRYuwwqLlQw==}
 
   markdown-it-emoji@3.0.0:
     resolution: {integrity: sha512-+rUD93bXHubA4arpEZO3q80so0qgoFJEKRkRbjKX8RTdca89v2kfyF+xR3i2sQTwql9tpPZPOQN5B+PunspXRg==}
@@ -2909,6 +2928,12 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
+  '@vuepress/plugin-markdown-container@2.0.0-rc.79(vuepress@2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@22.14.0)(sass-embedded@1.86.3))(vue@3.5.13))':
+    dependencies:
+      '@types/markdown-it': 14.1.2
+      markdown-it-container: 4.0.0
+      vuepress: 2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@22.14.0)(sass-embedded@1.86.3))(vue@3.5.13)
+
   '@vuepress/plugin-markdown-ext@2.0.0-rc.91(markdown-it@14.1.0)(vuepress@2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@22.14.0)(sass-embedded@1.86.3))(vue@3.5.13))':
     dependencies:
       '@mdit/plugin-container': 0.16.0(markdown-it@14.1.0)
@@ -3043,6 +3068,11 @@ snapshots:
       vuepress: 2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@22.14.0)(sass-embedded@1.86.3))(vue@3.5.13)
     transitivePeerDependencies:
       - typescript
+
+  '@vuepress/plugin-register-components@2.0.0-rc.82(vuepress@2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@22.14.0)(sass-embedded@1.86.3))(vue@3.5.13))':
+    dependencies:
+      chokidar: 4.0.3
+      vuepress: 2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@22.14.0)(sass-embedded@1.86.3))(vue@3.5.13)
 
   '@vuepress/plugin-rtl@2.0.0-rc.91(vuepress@2.0.0-rc.20(@vuepress/bundler-vite@2.0.0-rc.20(@types/node@22.14.0)(sass-embedded@1.86.3))(vue@3.5.13))':
     dependencies:
@@ -3595,6 +3625,8 @@ snapshots:
     dependencies:
       '@types/markdown-it': 14.1.2
       markdown-it: 14.1.0
+
+  markdown-it-container@4.0.0: {}
 
   markdown-it-emoji@3.0.0: {}
 
