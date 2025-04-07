@@ -12,13 +12,7 @@ export default defineUserConfig({
   lang: "zh-CN",
   title: "Aviation Docs",
   description: "Documents and notes about aviation knowledge",
-  plugins: [
-    cardContainerPlugin,
-    quesContainerPlugin,
-    registerComponentsPlugin({
-      componentsDir: Path.join(__dirname, "components"),
-    }),
-  ],
+  plugins: [cardContainerPlugin, quesContainerPlugin, registerComponentsPlugin()],
   theme,
   shouldPreload: true,
   shouldPrefetch: true,
