@@ -13,9 +13,11 @@
   "devDependencies": {
     "@vuepress/bundler-vite": "2.0.0-rc.20",
     "@vuepress/plugin-markdown-container": "2.0.0-rc.79",
+    "@vuepress/plugin-pwa": "^1.9.10",
     "@vuepress/plugin-register-components": "2.0.0-rc.82",
     "@vuepress/utils": "2.0.0-rc.2",
     "element-plus": "^2.9.7",
+    "katex": "^0.16.21",
     "nanoid": "^5.1.5",
     "sass-embedded": "^1.86.0",
     "store2": "^2.14.4",
