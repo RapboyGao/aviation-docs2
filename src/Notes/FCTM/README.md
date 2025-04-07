@@ -1,11 +1,11 @@
 ---
 title: 737 训练手册
-sidebar: heading
+sidebar: true
 category: Notes
 tag:
-    - FCTM
-    - Quiz
-    - Notes
+  - FCTM
+  - Quiz
+  - Notes
 ---
 
 ## [综合信息](./737/FCTM-01.html)

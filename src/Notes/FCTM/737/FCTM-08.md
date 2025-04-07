@@ -1,22 +1,22 @@
 ---
 title: 训练手册 第8章
-sidebar: heading
+sidebar: true
 category: Notes
 tag:
-    - FCTM
-    - Quiz
-    - Notes
+  - FCTM
+  - Quiz
+  - Notes
 prev: ./FCTM-07
 # next: ./FCTM-07
 ---
 
 ###### 8.14
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
--   Ditching
+- Ditching
 
 :::: ques
 
@@ -55,7 +55,7 @@ of @10° to 12@°. Maintain airspeed and rate of descent with thrust.
 
 ###### 8.15
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -72,7 +72,7 @@ non-normal oil pressure or oil temperature indications.
 
 ###### 8.16
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -90,9 +90,9 @@ accomplish the NNC **memory** items.
 
 Engine tailpipe fires can occur due to the following:
 
--   @engine control malfunction@
--   @excess fuel in the combustor, turbine or exhaust nozzle@
--   @oil accumulation in the hot section flow path or exhaust system.@
+- @engine control malfunction@
+- @excess fuel in the combustor, turbine or exhaust nozzle@
+- @oil accumulation in the hot section flow path or exhaust system.@
 
 ::::
 
@@ -100,13 +100,13 @@ Engine tailpipe fires can occur due to the following:
 
 ###### 8.17
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
 :::: ques
 
--   Loss of Engine Thrust Control
+- Loss of Engine Thrust Control
 
 In some conditions, such as
 during low speed ground operations, immediate engine shutdown may be
@@ -118,7 +118,7 @@ necessary to maintain directional control.
 
 ###### 8.18
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -136,13 +136,13 @@ not near or rapidly approaching the limit@.
 
 ###### 8.18
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
 :::: ques
 
--   Airframe Vibration Due to Engine Severe Damage or Separation
+- Airframe Vibration Due to Engine Severe Damage or Separation
 
 Certain engine failures, such as fan blade separation can cause high levels of
 airframe vibration. Although the airframe vibration may seem severe to the
@@ -157,7 +157,7 @@ as airspeed decreases vibration levels decrease.
 
 ###### 8.19
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -173,7 +173,7 @@ increase.@
 
 ###### 8.20
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -182,9 +182,9 @@ increase.@
 If large birds or flocks of birds are reported or observed
 near the runway, the crew should consider:
 
--   @delaying the takeoff or landing when fuel permits. Advise the ATC and
-    wait for airport action before continuing@
--   @takeoff or land on another runway that is free of bird activity, if available.@
+- @delaying the takeoff or landing when fuel permits. Advise the ATC and
+  wait for airport action before continuing@
+- @takeoff or land on another runway that is free of bird activity, if available.@
 
 ::::
 
@@ -194,11 +194,11 @@ near the runway, the crew should consider:
 
 To prevent or reduce the consequences of a bird strike, the crew should:
 
--   @discuss bird strikes during takeoff and approach briefings when operating
-    at airports with known or suspected bird activity.@
--   @be extremely vigilant if birds are reported on final approach@
--   @if birds are expected on final approach, plan additional landing distance to
-    account for the possibility of no thrust reverser use if a bird strike occurs.@
+- @discuss bird strikes during takeoff and approach briefings when operating
+  at airports with known or suspected bird activity.@
+- @be extremely vigilant if birds are reported on final approach@
+- @if birds are expected on final approach, plan additional landing distance to
+  account for the possibility of no thrust reverser use if a bird strike occurs.@
 
 Note: The use of weather radar to scare the birds has not been proven
 effective.
@@ -240,11 +240,11 @@ especially when @engine vibration or high EGT@ is indicated@.
 
 ###### 8.21
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
--   Discharging Fire Bottles During an Evacuation
+- Discharging Fire Bottles During an Evacuation
 
 :::: ques
 
@@ -267,11 +267,11 @@ dissipates quickly into the atmosphere
 
 ###### 8.22
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
--   All Flaps Up Landing
+- All Flaps Up Landing
 
 :::: ques
 
@@ -300,13 +300,13 @@ approximately @1,000@ feet down the runway.
 
 ###### 8.23
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
 :::: ques
 
--   Leading Edge Flaps Transit - Landing
+- Leading Edge Flaps Transit - Landing
 
 If an asymmetrical or skewed leading edge device condition occurs, use the
 LEADING EDGE FLAPS TRANSIT NNC to determine the flap setting and
@@ -319,7 +319,7 @@ allows for 15° overshoot protection in all cases.
 
 ###### 8.24
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -329,10 +329,10 @@ A flight control jam in the pitch axis may be difficult to recognize. In the cas
 of the elevator, the jammed control can be masked by trim. Some indications
 of an elevator jam are:
 
--   @unexplained autopilot disengagement @
--   @autopilot that cannot be engaged @
--   @undershoot or overshoot of an altitude during autopilot level-off @
--   @higher than normal control forces required during speed or configuration changes.@
+- @unexplained autopilot disengagement @
+- @autopilot that cannot be engaged @
+- @undershoot or overshoot of an altitude during autopilot level-off @
+- @higher than normal control forces required during speed or configuration changes.@
 
 ::::
 
@@ -340,7 +340,7 @@ of an elevator jam are:
 
 ###### 8.25
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -361,21 +361,21 @@ Note: @Asymmetric engine thrust@ may aid roll and directional control.
 
 ###### 8.26
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
 :::: ques
 
--   Jammed or Restricted Flight Controls
+- Jammed or Restricted Flight Controls
 
-    -   Approach and Landing
+  - Approach and Landing
 
-        Establish touchdown attitude no later than @crossing the
-        threshold@ and do not reduce thrust to idle until @after touchdown@. Above
-        maximum landing weight, some stabilizer trim is needed to assist in the flare
-        if the elevator is jammed. @Asymmetrical braking and asymmetrical thrust
-        reverser deployment@ may aid directional control on the runway.
+    Establish touchdown attitude no later than @crossing the
+    threshold@ and do not reduce thrust to idle until @after touchdown@. Above
+    maximum landing weight, some stabilizer trim is needed to assist in the flare
+    if the elevator is jammed. @Asymmetrical braking and asymmetrical thrust
+    reverser deployment@ may aid directional control on the runway.
 
 ::::
 
@@ -383,7 +383,7 @@ Note: @Asymmetric engine thrust@ may aid roll and directional control.
 
 :::: ques
 
--   Go Around Procedure
+- Go Around Procedure
 
 If the elevator is known or suspected to be jammed, a go-around should be
 @avoided if at all possible@. To execute a go-around with a jammed elevator,
@@ -397,7 +397,7 @@ go-around procedure is handled in the same manner as a normal go-around.
 
 ###### 8.27
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -413,7 +413,7 @@ in a manner that is not appropriate for current flight conditions.@
 
 ###### 8.28
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -449,7 +449,7 @@ manually
 
 ###### 8.31
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -459,21 +459,21 @@ The memorized pitch and thrust setting for the current configuration (flaps
 extended/flaps up) should be applied immediately with the following
 considerations:
 
--   The flaps extended pitch and thrust settings will result in a @climb@.
--   The flaps up pitch and thrust settings will result in a slight climb at light
-    weights and low altitudes, and a slight descent at heavy weights and high
-    altitudes.
--   At light weight and low altitude, the true airspeed will be higher than
-    normal, but within the flight envelope. At heavy weight and high altitude,
-    the same settings will result in airspeed lower than normal cruise but
-    within the flight envelope.
--   The goal of these pitch and thrust settings is to maintain the airplane
-    safely within the flight envelope, not to maintain a specific climb or level
-    flight.
--   The current flap position should be maintained until the memory pitch
-    and thrust settings have been set and the airplane stabilized. If further flap
-    extension/flap retraction is required refer to PI-QRH Unreliable Airspeed
-    table.
+- The flaps extended pitch and thrust settings will result in a @climb@.
+- The flaps up pitch and thrust settings will result in a slight climb at light
+  weights and low altitudes, and a slight descent at heavy weights and high
+  altitudes.
+- At light weight and low altitude, the true airspeed will be higher than
+  normal, but within the flight envelope. At heavy weight and high altitude,
+  the same settings will result in airspeed lower than normal cruise but
+  within the flight envelope.
+- The goal of these pitch and thrust settings is to maintain the airplane
+  safely within the flight envelope, not to maintain a specific climb or level
+  flight.
+- The current flap position should be maintained until the memory pitch
+  and thrust settings have been set and the airplane stabilized. If further flap
+  extension/flap retraction is required refer to PI-QRH Unreliable Airspeed
+  table.
 
 ::::
 
@@ -481,7 +481,7 @@ considerations:
 
 ###### 8.32
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -490,9 +490,9 @@ considerations:
 Possible erroneous flight deck indications that can assist the flight crew to
 determine a reliable airspeed indication are:
 
--   @Stick shaker activation on one side @
--   @Airspeed low indications on one side @
--   @Pitch Limit Indicator (PLI) on one side@
+- @Stick shaker activation on one side @
+- @Airspeed low indications on one side @
+- @Pitch Limit Indicator (PLI) on one side@
 
 Note: Comparing only two corresponding airspeeds is not a conclusive
 indication to determine a reliable airspeed indication. The two
@@ -517,7 +517,7 @@ determine a reliable airspeed indication.
 
 ###### 8.33
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -546,7 +546,7 @@ selected level off altitude, reduce rate of descent to 1,000 FPM.
 
 ###### 8.34
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -585,7 +585,7 @@ Note: If only @the standby airspeed indication is reliable@, do not use TO/GA.
 
 ###### 8.34
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -613,7 +613,7 @@ aural callouts are inaccurate.
 
 ###### 8.35
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -638,7 +638,7 @@ higher fuel consumption@.
 
 ###### 8.36
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -664,7 +664,7 @@ This is the most common type of fuel leak since fuel lines are exposed in the st
 
 ###### 8.37
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -707,7 +707,7 @@ fuel quantity indicator has failed, the crew would not suspect a fuel leak.
 
 ###### 8.38
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -740,13 +740,13 @@ the tanks.
 
 ###### /
 
--   /
+- /
 
 ::::::::::::::::::: card
 
 :::: ques
 
--   Hydraulic System(s) Inoperative - Landing
+- Hydraulic System(s) Inoperative - Landing
 
 Braking action becomes the primary means of directional
 control below approximately @60@ knots where the rudder becomes less
@@ -761,7 +761,7 @@ buildup in the brakes.
 
 :::: ques
 
--   Manual Reversion
+- Manual Reversion
 
 A noticeable dead band will be observed in both of
 these controls. High control forces are required for turns and the control
@@ -773,7 +773,7 @@ wheel must be @deliberately@ returned to the aileron neutral position.
 
 :::: ques
 
--   Manual Reversion
+- Manual Reversion
 
 Both @electric@ and manual trim are still functional. Do not over trim. The
 airplane should be trimmed @slightly nose up@ and a light forward pressure held
@@ -785,13 +785,13 @@ on the control column to minimize the effects of the elevator dead band.
 
 ###### 8.40
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
 :::: ques
 
--   Manual Reversion
+- Manual Reversion
 
 Do not make a flat approach.
 Anticipate that the airplane tends to pitch down as thrust is reduced for
@@ -803,7 +803,7 @@ touchdown.
 
 :::: ques
 
--   Manual Reversion
+- Manual Reversion
 
 To help reduce the pitch down tendency, trim slightly nose up on
 approach and initiate the flare at a @higher@ than normal altitude.
@@ -814,7 +814,7 @@ approach and initiate the flare at a @higher@ than normal altitude.
 
 :::: ques
 
--   Manual Reversion
+- Manual Reversion
 
 Although
 trimming during the flare is not normally recommended, the high control
@@ -827,7 +827,7 @@ adding a small amount of nose up trim during the flare.
 
 :::: ques
 
--   Manual Reversion
+- Manual Reversion
 
 After touchdown, thrust reverser operation is slow.
 Apply @steady@ brake pressure since only accumulator pressure is available.
@@ -838,13 +838,13 @@ Apply @steady@ brake pressure since only accumulator pressure is available.
 
 ###### 8.41
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
 :::: ques
 
--   Tire Failure During or After Takeoff
+- Tire Failure During or After Takeoff
 
 When a tire failure is suspected during takeoff, the landing gear @can@ be
 retracted normally. Wheel well design features and automatic wheel braking
@@ -869,13 +869,13 @@ or leaks, etc.).
 
 ###### 8.41
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
 :::: ques
 
--   Landing on a Flat Tire
+- Landing on a Flat Tire
 
 Boeing airplanes are designed so that the landing gear and remaining tire(s)
 have adequate strength to accommodate @a flat nose gear tire or main gear tire@.
@@ -925,7 +925,7 @@ control column back pressure. Maintain nose gear contact with the runway.
 
 ###### 8.42
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -953,7 +953,7 @@ thrust **as needed** to stop the airplane.
 
 ###### 8.42
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -978,20 +978,20 @@ of fuel@ while attempting to solve a gear problem.
 
 ###### 8.42
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
 :::: ques
 
--   Partial or Gear Up Landing
+- Partial or Gear Up Landing
 
-    -   Landing Runway
+  - Landing Runway
 
-    Consideration should be given to landing at the most suitable airport with
-    adequate runway and fire fighting capability. Foaming the runway is @not
-    necessary. Tests have shown that foaming provides minimal benefit and it
-    takes approximately 30 minutes to replenish the fire truck’s foam supply.
+  Consideration should be given to landing at the most suitable airport with
+  adequate runway and fire fighting capability. Foaming the runway is @not
+  necessary. Tests have shown that foaming provides minimal benefit and it
+  takes approximately 30 minutes to replenish the fire truck’s foam supply.
 
 ::::
 
@@ -999,29 +999,11 @@ of fuel@ while attempting to solve a gear problem.
 
 :::: ques
 
--   Partial or Gear Up Landing
+- Partial or Gear Up Landing
 
-    -   Prior to Approach
+  - Prior to Approach
 
-    At the captain’s command, advise the crew and the passengers of the situation, as needed. Coordinate with all ground emergency facilities. For example, fire trucks normally operate on a @common@ VHF frequency with the airplane and can advise the crew of the airplane condition during the landing. Advise the cabin crew to perform emergency landing procedures and to brief passengers on evacuation procedures.
-
-::::
-
-:::::::::::::::::::
-
-###### 8.43
-
--   June 30, 2022
-
-::::::::::::::::::: card
-
-:::: ques
-
--   Partial or Gear Up Landing
-
-    -   Landing Techniques
-
-    At @touchdown@ speed, the rudder has sufficient authority to provide directional control in most configurations. At speeds below 60 knots, use @nose wheel/rudder pedal steering@, if available, and @differential braking@ as needed.
+  At the captain’s command, advise the crew and the passengers of the situation, as needed. Coordinate with all ground emergency facilities. For example, fire trucks normally operate on a @common@ VHF frequency with the airplane and can advise the crew of the airplane condition during the landing. Advise the cabin crew to perform emergency landing procedures and to brief passengers on evacuation procedures.
 
 ::::
 
@@ -1029,17 +1011,35 @@ of fuel@ while attempting to solve a gear problem.
 
 ###### 8.43
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
 :::: ques
 
--   Partial or Gear Up Landing
+- Partial or Gear Up Landing
 
-    -   Use of Speedbrakes
+  - Landing Techniques
 
-    Extending the speedbrakes after a complete touchdown also creates a risk of @not being able to stow the speedbrakes@ after the airplane has come to a rest. If this is the case, there would be an increase in the probability of injuring passengers if the over wing exits are used for evacuation.
+  At @touchdown@ speed, the rudder has sufficient authority to provide directional control in most configurations. At speeds below 60 knots, use @nose wheel/rudder pedal steering@, if available, and @differential braking@ as needed.
+
+::::
+
+:::::::::::::::::::
+
+###### 8.43
+
+- June 30, 2022
+
+::::::::::::::::::: card
+
+:::: ques
+
+- Partial or Gear Up Landing
+
+  - Use of Speedbrakes
+
+  Extending the speedbrakes after a complete touchdown also creates a risk of @not being able to stow the speedbrakes@ after the airplane has come to a rest. If this is the case, there would be an increase in the probability of injuring passengers if the over wing exits are used for evacuation.
 
 ::::
 
@@ -1047,11 +1047,11 @@ of fuel@ while attempting to solve a gear problem.
 
 :::: ques
 
--   Partial or Gear Up Landing
+- Partial or Gear Up Landing
 
-    -   Use of Speedbrakes
+  - Use of Speedbrakes
 
-    If the speedbrakes are deployed before all areas have made contact with the runway, the airplane will complete touchdown sooner and at a higher speed.
+  If the speedbrakes are deployed before all areas have made contact with the runway, the airplane will complete touchdown sooner and at a higher speed.
 
 ::::
 
@@ -1059,17 +1059,17 @@ of fuel@ while attempting to solve a gear problem.
 
 ###### 8.43
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
 :::: ques
 
--   Partial or Gear Up Landing
+- Partial or Gear Up Landing
 
-    -   Use of Reverse Thrust
+  - Use of Reverse Thrust
 
-    Selecting reverse thrust with any gear not extended may produce @an additional asymmetric@ condition that makes directional control more difficult.
+  Selecting reverse thrust with any gear not extended may produce @an additional asymmetric@ condition that makes directional control more difficult.
 
 ::::
 
@@ -1077,13 +1077,13 @@ of fuel@ while attempting to solve a gear problem.
 
 ###### 8.44
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
 :::: ques
 
--   Both Main Gear Extended with Nose Gear Up
+- Both Main Gear Extended with Nose Gear Up
 
 @Do not attempt@ to hold the nose of the airplane off the runway
 
@@ -1093,7 +1093,7 @@ of fuel@ while attempting to solve a gear problem.
 
 :::: ques
 
--   Nose Gear Only Extended
+- Nose Gear Only Extended
 
 The engines contact the ground @prior to@ the nose gear.
 
@@ -1103,7 +1103,7 @@ The engines contact the ground @prior to@ the nose gear.
 
 :::: ques
 
--   One Main Gear Extended and Nose Gear Extended
+- One Main Gear Extended and Nose Gear Extended
 
 Land the airplane on the side of the runway that @corresponds@ to the extended main gear down.
 At touchdown, maintain wings level as long as possible.
@@ -1116,7 +1116,7 @@ After all gear, or the engine nacelle on the side where the gear is not extended
 
 :::: ques
 
--   One Main Gear Only Extended
+- One Main Gear Only Extended
 
 Land the airplane on the side of the runway that @corresponds@ to the extended main gear down.
 At touchdown, maintain wings level as long as possible.
@@ -1129,13 +1129,13 @@ After all gear, or the nose or the engine nacelle of gear on the side that do no
 
 ###### 8.45
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
 :::: ques
 
--   Overspeed
+- Overspeed
 
 When the airspeed is below VMO/MMO, retract the speedbrakes at
 the same rate as @they were deployed@.
@@ -1174,7 +1174,7 @@ temporarily may be helpful in controlling speed.
 
 ###### 8.46
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -1182,9 +1182,9 @@ temporarily may be helpful in controlling speed.
 
 Any one of the following conditions can be an indication of a tail strike during rotation or flare:
 
--   @a noticeable bump or jolt@
--   @a scraping noise from the tail of the airplane@
--   @pitch rate stopping momentarily@
+- @a noticeable bump or jolt@
+- @a scraping noise from the tail of the airplane@
+- @pitch rate stopping momentarily@
 
 ::::
 
@@ -1192,7 +1192,7 @@ Any one of the following conditions can be an indication of a tail strike during
 
 ###### 8.49
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -1208,7 +1208,7 @@ However, @increasing amounts of smoke@ can be an indication the fire is uncontro
 
 ###### 8.50
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -1223,22 +1223,22 @@ Therefore, continued cargo compartment fire warnings alone @should not@ be consi
 
 ###### 8.50
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
 :::: ques
 
--   Wheel Well Fire
+- Wheel Well Fire
 
 Either of the following techniques results in the autothrottle reverting to the SPD mode and provides a more rapid speed
 reduction than using VNAV speed intervention or LVL CHG.
 
--   select @altitude hold@ and set approximately @250@ knots
--   for airplanes equipped with speed intervention, set the MCP altitude to a
-    @desired level off altitude@ and use speed intervention to reduce airspeed.
-    Note: Additionally, the thrust levers may be reduced to idle and/or the
-    speedbrakes may be used to expedite deceleration.
+- select @altitude hold@ and set approximately @250@ knots
+- for airplanes equipped with speed intervention, set the MCP altitude to a
+  @desired level off altitude@ and use speed intervention to reduce airspeed.
+  Note: Additionally, the thrust levers may be reduced to idle and/or the
+  speedbrakes may be used to expedite deceleration.
 
 ::::
 

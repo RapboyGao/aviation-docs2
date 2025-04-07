@@ -1,9 +1,9 @@
 ---
 title: PEPEC 900 句
-sidebar: heading
+sidebar: true
 category: Notes
 tag:
-    - PEPEC
+  - PEPEC
 ---
 
 <Pepec></Pepec>

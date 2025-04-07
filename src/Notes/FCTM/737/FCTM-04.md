@@ -1,11 +1,11 @@
 ---
 title: 训练手册 第4章
-sidebar: heading
+sidebar: true
 category: Notes
 tag:
-    - FCTM
-    - Quiz
-    - Notes
+  - FCTM
+  - Quiz
+  - Notes
 prev: ./FCTM-03
 next: ./FCTM-05
 ---
@@ -16,7 +16,7 @@ next: ./FCTM-05
 
 ###### 4.4
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -24,8 +24,8 @@ next: ./FCTM-05
 
 Economy Climb Schedule - FMC Data Unavailable
 
--   @250 knots/VREF 40 + 70 knots, whichever is higher - Below 10,000 feet @
--   @280 knots/0.78M - Above 10,000 feet@
+- @250 knots/VREF 40 + 70 knots, whichever is higher - Below 10,000 feet @
+- @280 knots/0.78M - Above 10,000 feet@
 
 ::::
 
@@ -35,7 +35,7 @@ Economy Climb Schedule - FMC Data Unavailable
 
 ###### 4.4
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -44,11 +44,11 @@ Economy Climb Schedule - FMC Data Unavailable
 A maximum rate climb provides both high climb rates and minimum time to cruise altitude.
 Maximum rate climb can be approximated by using the following:
 
--   737-600 - 737-900ER
-    -   @flaps up maneuver speed + 50 knots until intercepting 0.76M@
--   737-7 - 737-9
-    -   @flaps up maneuver speed + 50 knots until intercepting 0.78M@
-        Note: The FMC provides maximum rate climb speeds.
+- 737-600 - 737-900ER
+  - @flaps up maneuver speed + 50 knots until intercepting 0.76M@
+- 737-7 - 737-9
+  - @flaps up maneuver speed + 50 knots until intercepting 0.78M@
+    Note: The FMC provides maximum rate climb speeds.
 
 ::::
 
@@ -58,7 +58,7 @@ Maximum rate climb can be approximated by using the following:
 
 ###### 4.4
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -80,7 +80,7 @@ maneuver speed@.
 
 ###### 4.6
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -88,26 +88,26 @@ maneuver speed@.
 
 The FMC predicted maximum altitude is the lowest of:
 
--   @maximum certified @altitude
+- @maximum certified @altitude
 
-    the altitude determined during certification
-    considering structural limit (limits on the fuselage), rapid descent
-    capability, or other factors determined by the certifying authority
+  the altitude determined during certification
+  considering structural limit (limits on the fuselage), rapid descent
+  capability, or other factors determined by the certifying authority
 
--   @thrust limited @altitude
+- @thrust limited @altitude
 
-    the altitude at which sufficient thrust is available
-    to provide a specific minimum rate of climb. (Reference the Long Range
-    Cruise Maximum Operating Altitude table in the PI Chapter, Volume 1 of
-    the FCOM). Depending on the thrust rating of the engines, the thrust
-    limited altitude may be above or below the maneuver altitude capability
+  the altitude at which sufficient thrust is available
+  to provide a specific minimum rate of climb. (Reference the Long Range
+  Cruise Maximum Operating Altitude table in the PI Chapter, Volume 1 of
+  the FCOM). Depending on the thrust rating of the engines, the thrust
+  limited altitude may be above or below the maneuver altitude capability
 
--   @ buffet or maneuver limited@ altitude
+- @ buffet or maneuver limited@ altitude
 
-    the altitude at which a specific maneuver margin exists prior to buffet onset.
-    This altitude provides a g margin prior to buffet chosen by airline policy.
-    The minimum margin available is 0.3g (40° bank) prior to @buffet@.
-    Some regulatory agencies may require a different minimum maneuver margin.
+  the altitude at which a specific maneuver margin exists prior to buffet onset.
+  This altitude provides a g margin prior to buffet chosen by airline policy.
+  The minimum margin available is 0.3g (40° bank) prior to @buffet@.
+  Some regulatory agencies may require a different minimum maneuver margin.
 
 ::::
 
@@ -124,7 +124,7 @@ This function protects the commanded bank angle from @exceeding the current avai
 
 ###### 4.7
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -141,9 +141,9 @@ of @10@° or less.
 
 If speed drops below the lower amber band, immediately increase speed by doing one or more of the following:
 
--   @reduce angle of bank@
--   @increase thrust up to maximum continuous@
--   @descend.@
+- @reduce angle of bank@
+- @increase thrust up to maximum continuous@
+- @descend.@
 
 ::::
 
@@ -153,7 +153,7 @@ If speed drops below the lower amber band, immediately increase speed by doing o
 
 ###### 4.7
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -195,11 +195,11 @@ OPT altitude calculation does not consider the effects of @temperature@ deviatio
 
 ###### 4.9
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
--   737-600 - 737-900ER
+- 737-600 - 737-900ER
 
 :::: ques
 
@@ -211,7 +211,7 @@ altitude, air temperature, and climb speed.
 
 ---
 
--   737-7 - 737-9
+- 737-7 - 737-9
 
 :::: ques
 
@@ -236,7 +236,7 @@ unless the cruise time of the higher altitude is approximately @20 minutes@ or l
 
 ###### 4.9
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -252,7 +252,7 @@ maximum.
 
 ###### 4.10
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -271,9 +271,9 @@ per hour possible under the most extreme conditions.
 Total air temperature can be raised in the following three ways, used
 individually or in combination:
 
--   @climb or descend to a warmer air mass@
--   @deviate to a warmer air mass@
--   @increase Mach number.@
+- @climb or descend to a warmer air mass@
+- @deviate to a warmer air mass@
+- @increase Mach number.@
 
 ::::
 
@@ -301,30 +301,19 @@ An increase of 0.01 Mach results in an increase of @0.5° to 0.7@° C total air 
 
 ###### 4.11
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
 :::: ques
 
--   737-7 - 737-9
--   737-600 - 737-900ER
+- 737-7 - 737-9
+- 737-600 - 737-900ER
 
-    For flight planning purposes, reference the appropriate airplane Flight Planning and Performance Manuals:
+  For flight planning purposes, reference the appropriate airplane Flight Planning and Performance Manuals:
 
-    -   ISA + @10@° C: 1% increase in trip fuel
-    -   @2,000@ feet above/below optimum altitude: 1% to 2% increase in trip fuel
-
-::::
-
----
-
-:::: ques
-
--   737-600 - 737-900ER
-    -   4,000 feet below optimum altitude: @3% to 5@% increase in trip fuel
--   737-7 - 737-9
-    -   4,000 feet below optimum altitude: @2@% increase in trip fuel
+  - ISA + @10@° C: 1% increase in trip fuel
+  - @2,000@ feet above/below optimum altitude: 1% to 2% increase in trip fuel
 
 ::::
 
@@ -332,11 +321,22 @@ An increase of 0.01 Mach results in an increase of @0.5° to 0.7@° C total air 
 
 :::: ques
 
--   737-600 - 737-900ER
-    -   8,000 feet below optimum altitude: @8% to 14@% increase in trip fuel
--   737-7 - 737-9
-    -   8,000 feet below optimum altitude: @7@% increase in trip fuel
-    -   cruise speed 0.01M above LRC: @1% to 2@% increase in trip fuel.
+- 737-600 - 737-900ER
+  - 4,000 feet below optimum altitude: @3% to 5@% increase in trip fuel
+- 737-7 - 737-9
+  - 4,000 feet below optimum altitude: @2@% increase in trip fuel
+
+::::
+
+---
+
+:::: ques
+
+- 737-600 - 737-900ER
+  - 8,000 feet below optimum altitude: @8% to 14@% increase in trip fuel
+- 737-7 - 737-9
+  - 8,000 feet below optimum altitude: @7@% increase in trip fuel
+  - cruise speed 0.01M above LRC: @1% to 2@% increase in trip fuel.
 
 ::::
 
@@ -364,11 +364,11 @@ Long range cruise also provides @the best buffet margin@ at all cruise altitudes
 
 ###### 4.20
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
--   737-600 - 737-900ER
+- 737-600 - 737-900ER
 
 :::: ques
 
@@ -382,7 +382,7 @@ Long range cruise also provides @the best buffet margin@ at all cruise altitudes
 
 ---
 
--   737-7 - 737-9
+- 737-7 - 737-9
 
 :::: ques
 
@@ -410,7 +410,7 @@ knots.
 
 :::: ques
 
--   737-600 - 737-900ER
+- 737-600 - 737-900ER
 
 For planning purposes, it requires approximately @25 seconds and 2 @NM to decelerate from 280 to 250 knots in level flight without speedbrakes.
 It requires an additional @35 seconds and 3 @NM to decelerate to flaps up maneuver speed at average gross weights.
@@ -422,7 +422,7 @@ Using speedbrakes to aid in deceleration reduces these times and distances by ap
 
 :::: ques
 
--   737-7 - 737-9
+- 737-7 - 737-9
 
 For planning purposes, it requires approximately @30@ seconds and @2.5 @NM to decelerate from 280 to 250 knots in level flight without speedbrakes.
 It requires an additional @55@ seconds and @4 @NM to decelerate to flaps up maneuver speed at average gross weights.
@@ -436,7 +436,7 @@ Using speedbrakes to aid in deceleration reduces these times and distances by ap
 
 ###### 4.23
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -470,7 +470,7 @@ or @1 1/2@ minutes when above 14,000 feet or as required by the regulatory autho
 
 :::: ques
 
--   ICAO Holding Airspeeds (Maximum)
+- ICAO Holding Airspeeds (Maximum)
 
 | Altitude                            | Speed       |
 | ----------------------------------- | ----------- |
@@ -485,7 +485,7 @@ or @1 1/2@ minutes when above 14,000 feet or as required by the regulatory autho
 
 :::: ques
 
--   FAA Holding Airspeeds (Maximum)
+- FAA Holding Airspeeds (Maximum)
 
 | Altitude                                   | Speed                                                                                                                |
 | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------- |
@@ -501,7 +501,7 @@ or @1 1/2@ minutes when above 14,000 feet or as required by the regulatory autho
 
 ###### 4.24
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 

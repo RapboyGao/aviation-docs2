@@ -2,9 +2,9 @@
 icon: lock
 title: Interpolation
 category:
-    - Interpolation
-    - Private
-sidebar: heading
+  - Interpolation
+  - Private
+sidebar: true
 ---
 
 ## Graph
@@ -25,22 +25,22 @@ f(x) = kz + bx + C
 
 $$
 
--   $\frac{df(x)}{dx}$ decreases and $dx$ orange line decreases.
-    -   $k * q < 0$
--   provided $(x_1, \frac{f(x)}{dx_1})$, $(x_0, \frac{f(x)}{dx_0})$ is on $kx^q + b$
-    -   $\frac{f(x)}{dx_1} * \frac{f(x)}{dx_0} > 0$
-        -   if not, $\frac{f(x)}{dx}$ changes too quickly
-            -   if $y_0 > y1$, set $\frac{f(x)}{dx_0} = 0$
-            -   if $y_0 < y1$, set $\frac{f(x)}{dx_1} = 0$
-    -   $\because x_1 < x_0 \And \frac{f(x)}{dx} decreases$ , $\therefore \frac{f(x)}{dx_1} > \frac{f(x)}{dx_0}$ is guaranteed.
-        -   if $y_1<y_0$, $0<\frac{f(x)}{dx_0}<\frac{f(x)}{dx_1}<1$ (实线蓝色), if not
-            -   set $\frac{f(x)}{dx_1}=1$
-            -   then, set $\frac{f(x)}{dx_0}>=0$
-        -   if $y_1>y_0$, $\frac{f(x)}{dx_0}<\frac{f(x)}{dx_1}<0$ (第二种可能)
-            -   make sure $\frac{f(x)}{dx_1} < 0$
-            -   otherwise set $\frac{f(x)}{dx_1}=0$
-    -   if $\frac{f(x)}{dx} = 0$
-        -   $y = C$
+- $\frac{df(x)}{dx}$ decreases and $dx$ orange line decreases.
+  - $k * q < 0$
+- provided $(x_1, \frac{f(x)}{dx_1})$, $(x_0, \frac{f(x)}{dx_0})$ is on $kx^q + b$
+  - $\frac{f(x)}{dx_1} * \frac{f(x)}{dx_0} > 0$
+    - if not, $\frac{f(x)}{dx}$ changes too quickly
+      - if $y_0 > y1$, set $\frac{f(x)}{dx_0} = 0$
+      - if $y_0 < y1$, set $\frac{f(x)}{dx_1} = 0$
+  - $\because x_1 < x_0 \And \frac{f(x)}{dx} decreases$ , $\therefore \frac{f(x)}{dx_1} > \frac{f(x)}{dx_0}$ is guaranteed.
+    - if $y_1<y_0$, $0<\frac{f(x)}{dx_0}<\frac{f(x)}{dx_1}<1$ (实线蓝色), if not
+      - set $\frac{f(x)}{dx_1}=1$
+      - then, set $\frac{f(x)}{dx_0}>=0$
+    - if $y_1>y_0$, $\frac{f(x)}{dx_0}<\frac{f(x)}{dx_1}<0$ (第二种可能)
+      - make sure $\frac{f(x)}{dx_1} < 0$
+      - otherwise set $\frac{f(x)}{dx_1}=0$
+  - if $\frac{f(x)}{dx} = 0$
+    - $y = C$
 
 ## With assumed k
 
@@ -72,7 +72,7 @@ $$
 
 ## Re-solving k
 
--   with $n = \frac{f(x)}{dx}$
+- with $n = \frac{f(x)}{dx}$
 
 $$
 
@@ -96,5 +96,6 @@ k(\frac{\Delta z}{\Delta x}- x^q) = \frac{\Delta y}{\Delta x} - n
 \\ \space
 \\ \space
 k = (\frac{\Delta y}{\Delta x} - n) \div (\frac{\Delta z}{\Delta x}- x^q)
+
 
 $$

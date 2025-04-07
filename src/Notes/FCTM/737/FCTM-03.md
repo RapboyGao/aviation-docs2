@@ -1,11 +1,11 @@
 ---
 title: 训练手册 第3章
-sidebar: heading
+sidebar: true
 category: Notes
 tag:
-    - FCTM
-    - Quiz
-    - Notes
+  - FCTM
+  - Quiz
+  - Notes
 prev: ./FCTM-02
 next: ./FCTM-04
 ---
@@ -16,7 +16,7 @@ next: ./FCTM-04
 
 ###### 3.5
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -55,7 +55,7 @@ contaminated or slippery runway@.
 
 ###### 3.6
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -80,7 +80,7 @@ thrust levers to takeoff thrust (autothrottle TO/GA).
 
 ###### 3.7
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -131,7 +131,7 @@ steering.
 
 ###### 3.8
 
--   June 30, 2022
+- June 30, 2022
 
 :::: ques card
 
@@ -145,7 +145,7 @@ should be adjusted by the PM, if required, to @- 0% + 1%@ target N1.
 
 ###### 3.9
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -174,7 +174,7 @@ thrust setting.
 
 ###### 3.12
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -217,7 +217,7 @@ thrust setting.
 
 ###### 3.19
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -256,7 +256,7 @@ control wheel and rudder pedals after liftoff.
 
 ###### 3.19
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -265,11 +265,11 @@ control wheel and rudder pedals after liftoff.
 To increase tail clearance during strong crosswind conditions, consider using a
 higher VR if takeoff performance permits. This can be done by:
 
--   @increasing VR speed to the performance limited gross weight rotation
-    speed, not to exceed actual gross weight VR + 20 knots. Set V speeds for
-    the actual gross weight. Rotate at the adjusted (higher) rotation speed.
-    This increased rotation speed results in an increased stall margin, and
-    meets takeoff performance requirements.@
+- @increasing VR speed to the performance limited gross weight rotation
+  speed, not to exceed actual gross weight VR + 20 knots. Set V speeds for
+  the actual gross weight. Rotate at the adjusted (higher) rotation speed.
+  This increased rotation speed results in an increased stall margin, and
+  meets takeoff performance requirements.@
 
 ::::
 
@@ -279,7 +279,7 @@ higher VR if takeoff performance permits. This can be done by:
 
 ###### 3.25
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -287,14 +287,14 @@ higher VR if takeoff performance permits. This can be done by:
 
 The takeoff field length is the longest of the following:
 
--   @the distance required to accelerate with all engines, experience an engine
-    failure 1 second prior to V1, continue the takeoff and reach a point 35 feet
-    above the runway at V2 speed.@ (Accelerate-Go Distance).
--   @the distance required to accelerate with all engines, experience an event 1
-    second prior to V1, recognize the event, initiate the stopping maneuver
-    and stop within the confines of the runway@ (Accelerate-Stop Distance).
--   @1.15 times the all engine takeoff distance required to reach a point 35 feet
-    above the runway@.
+- @the distance required to accelerate with all engines, experience an engine
+  failure 1 second prior to V1, continue the takeoff and reach a point 35 feet
+  above the runway at V2 speed.@ (Accelerate-Go Distance).
+- @the distance required to accelerate with all engines, experience an event 1
+  second prior to V1, recognize the event, initiate the stopping maneuver
+  and stop within the confines of the runway@ (Accelerate-Stop Distance).
+- @1.15 times the all engine takeoff distance required to reach a point 35 feet
+  above the runway@.
 
 ::::
 
@@ -304,7 +304,7 @@ The takeoff field length is the longest of the following:
 
 ###### 3.27
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -320,7 +320,7 @@ If neither pilot recalls the correct rotation speed, rotate the airplane 5 to 10
 
 ###### 3.28
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -328,12 +328,12 @@ If neither pilot recalls the correct rotation speed, rotate the airplane 5 to 10
 
 As a result, the FAA has changed the definition of V1 in 14 CFR Part 25 to read as follows:
 
--   V1 means the maximum speed in the takeoff at which @the pilot must take
-    the first action (e.g., apply brakes, reduce thrust, deploy speedbrakes) to
-    stop the airplane@ within the accelerate-stop distance and
--   V1 also means the minimum speed in the takeoff, @following a failure of
-    an engine at which the pilot can continue the takeoff and achieve the
-    required height above the takeoff surface within the takeoff distance@.
+- V1 means the maximum speed in the takeoff at which @the pilot must take
+  the first action (e.g., apply brakes, reduce thrust, deploy speedbrakes) to
+  stop the airplane@ within the accelerate-stop distance and
+- V1 also means the minimum speed in the takeoff, @following a failure of
+  an engine at which the pilot can continue the takeoff and achieve the
+  required height above the takeoff surface within the takeoff distance@.
 
 ::::
 
@@ -343,7 +343,7 @@ As a result, the FAA has changed the definition of V1 in 14 CFR Part 25 to read 
 
 ###### 3.32
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -360,7 +360,7 @@ maximum altitude gain in the shortest distance from takeoff@.
 
 ###### 3.32
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -376,7 +376,7 @@ The minimum fuel recommended for takeoff is @trip fuel plus reserves@.
 
 ###### 3.35
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -415,7 +415,7 @@ and do the After Takeoff checklist.
 
 ###### 3.37
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -444,7 +444,7 @@ normal takeoff, resulting in a rotation rate of approx @1.5° to 2.5@° per seco
 
 ###### 3.40
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -485,7 +485,7 @@ normal takeoff, resulting in a rotation rate of approx @1.5° to 2.5@° per seco
 
 ###### 3.42
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 

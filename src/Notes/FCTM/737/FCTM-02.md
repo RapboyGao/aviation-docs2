@@ -1,11 +1,11 @@
 ---
 title: 训练手册 第2章
-sidebar: heading
+sidebar: true
 category: Notes
 tag:
-    - FCTM
-    - Quiz
-    - Notes
+  - FCTM
+  - Quiz
+  - Notes
 prev: ./FCTM-01
 next: ./FCTM-03
 ---
@@ -16,7 +16,7 @@ next: ./FCTM-03
 
 ###### 2.6
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -44,7 +44,7 @@ foreign object damage.
 
 ###### 2.9
 
--   June 30, 2022
+- June 30, 2022
 
 :::: ques card
 
@@ -60,11 +60,11 @@ foreign object damage.
 
 ###### 2.10
 
--   June 30, 2022
+- June 30, 2022
 
 :::: ques card
 
--   Turns of 90 degrees or more
+- Turns of 90 degrees or more
 
 Initiate the turn as the intersecting taxiway centerline (or intended exit point)
 approaches approximately @the center of the number 3 window@.

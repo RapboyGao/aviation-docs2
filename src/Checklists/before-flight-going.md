@@ -1,9 +1,9 @@
 ---
 title: 航前检查单
-sidebar: heading
+sidebar: true
 isOriginal: true
 tag:
-    - Checklist
+  - Checklist
 category: Checklist
 prev: ../before-flight-day
 next: ../direct-preparing
@@ -18,6 +18,7 @@ next: ../direct-preparing
 #### 物品
 
 <!-- <my-check> 通讯本</my-check> -->
+
 <my-check> IPAD </my-check>
 <my-check> 帽子 </my-check>
 <my-check> 墨镜 </my-check>

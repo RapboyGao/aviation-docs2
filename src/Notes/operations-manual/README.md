@@ -1,6 +1,6 @@
 ---
 title: 运行手册
-sidebar: heading
+sidebar: true
 ---
 
 ## [运行手册第 5 章](./OM-05.md)

@@ -2,17 +2,17 @@
 icon: lock
 title: Humidity
 category:
-    - Humidity
-    - Private
-sidebar: heading
+  - Humidity
+  - Private
+sidebar: true
 ---
 
 ## Note
 
--   Two particular sets provide a range of −40 °C to +50 °C between the two, with even lower maximum error within the indicated range than all the sets above:
+- Two particular sets provide a range of −40 °C to +50 °C between the two, with even lower maximum error within the indicated range than all the sets above:
 
-    -   a = 6.1121 hPa, b = 17.368, c = 238.88 °C; for 0 °C ≤ T ≤ 50 °C (error ≤ 0.05%).
-    -   a = 6.1121 hPa, b = 17.966, c = 247.15 °C; for −40 °C ≤ T ≤ 0 °C (error ≤ 0.06%).
+  - a = 6.1121 hPa, b = 17.368, c = 238.88 °C; for 0 °C ≤ T ≤ 50 °C (error ≤ 0.05%).
+  - a = 6.1121 hPa, b = 17.966, c = 247.15 °C; for −40 °C ≤ T ≤ 0 °C (error ≤ 0.06%).
 
 ## Dew Point Calculation
 
@@ -32,7 +32,7 @@ $$
 
 ## Relative Humidity Calculation
 
--   Solving y
+- Solving y
 
 $$
 
@@ -90,7 +90,7 @@ y = \frac{b}{\frac{c}{T_dp} + 1}
 
 $$
 
--   Solving RH
+- Solving RH
 
 $$
 

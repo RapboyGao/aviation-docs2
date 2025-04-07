@@ -1,11 +1,11 @@
 ---
 title: 训练手册 第6章
-sidebar: heading
+sidebar: true
 category: Notes
 tag:
-    - FCTM
-    - Quiz
-    - Notes
+  - FCTM
+  - Quiz
+  - Notes
 prev: ./FCTM-05
 next: ./FCTM-07
 ---
@@ -16,7 +16,7 @@ next: ./FCTM-07
 
 ###### 6.6
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -38,7 +38,7 @@ the runway.@ The PAPI is normally aligned to intersect the runway 1,000 to
 
 ###### 6.42
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -90,7 +90,7 @@ Do not retract the flaps or landing gear until @a positive rate of climb is esta
 
 ###### 6.42
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -109,7 +109,7 @@ procedure as prescribed in the FCOM/QRH.
 
 ###### 6.42
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -135,9 +135,9 @@ away from the runway environment.
 
 Considerations for a balked landing include
 
--   @clearance of an obstacle in the runway environment,@
--   @insufficient runway for continued landing, or@
--   @transitioning to a go-around from a low-energy state.@
+- @clearance of an obstacle in the runway environment,@
+- @insufficient runway for continued landing, or@
+- @transitioning to a go-around from a low-energy state.@
 
 ::::
 
@@ -161,7 +161,7 @@ FCOM/QRH.
 
 ###### 6.44
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -184,7 +184,7 @@ reduced braking effectiveness.
 
 ###### 6.44
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -204,7 +204,7 @@ and brake application may cause rapid antiskid modulation.
 
 ###### 6.53
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -223,7 +223,7 @@ energy absorption.
 
 ###### 6.63
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 

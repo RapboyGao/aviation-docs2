@@ -1,9 +1,9 @@
 ---
 title: 直接准备检查单
-sidebar: heading
+sidebar: true
 isOriginal: true
 tag:
-    - Checklist
+  - Checklist
 category: Checklist
 prev: ./before-flight-going
 next: ./ground-operations

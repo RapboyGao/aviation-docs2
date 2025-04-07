@@ -1,11 +1,11 @@
 ---
 title: 训练手册 第5章
-sidebar: heading
+sidebar: true
 category: Notes
 tag:
-    - FCTM
-    - Quiz
-    - Notes
+  - FCTM
+  - Quiz
+  - Notes
 prev: ./FCTM-04
 next: ./FCTM-06
 ---
@@ -16,7 +16,7 @@ next: ./FCTM-06
 
 ###### 5.4
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -36,7 +36,7 @@ procedure.
 
 ###### 5.5
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -45,13 +45,13 @@ procedure.
 All approaches should be stabilized by 1,000 feet AFE in instrument meteorological conditions (IMC) and by 500 feet AFE in visual meteorological conditions (VMC).
 An approach is considered stabilized when all of the following criteria are met:
 
--   @the airplane is on the correct flight path@
--   @only small changes in heading and pitch are required to maintain the correct flight path@
--   @the airplane should be at approach speed. Deviations of +10 knots to – 5 knots are acceptable if the airspeed is trending toward approach speed@
--   @the airplane is in the correct landing configuration@
--   @sink rate is no greater than 1,000 fpm; if an approach requires a sink rate greater than 1,000 fpm, a special briefing should be conducted@
--   @thrust setting is appropriate for the airplane configuration@
--   @all briefings and checklists have been conducted.@
+- @the airplane is on the correct flight path@
+- @only small changes in heading and pitch are required to maintain the correct flight path@
+- @the airplane should be at approach speed. Deviations of +10 knots to – 5 knots are acceptable if the airspeed is trending toward approach speed@
+- @the airplane is in the correct landing configuration@
+- @sink rate is no greater than 1,000 fpm; if an approach requires a sink rate greater than 1,000 fpm, a special briefing should be conducted@
+- @thrust setting is appropriate for the airplane configuration@
+- @all briefings and checklists have been conducted.@
 
 ::::
 
@@ -61,9 +61,9 @@ An approach is considered stabilized when all of the following criteria are met:
 
 Specific types of approaches are stabilized if they also fulfill the following:
 
--   ILS and GLS approaches should be flown within @one dot@ of the glide slope and localizer, or within @the expanded localizer scale@
--   approaches using IAN should be flown within one dot of the glide path and FAC
--   during a circling approach, wings should be level on final when the airplane reaches @300 feet AFE@.
+- ILS and GLS approaches should be flown within @one dot@ of the glide slope and localizer, or within @the expanded localizer scale@
+- approaches using IAN should be flown within one dot of the glide path and FAC
+- during a circling approach, wings should be level on final when the airplane reaches @300 feet AFE@.
 
 Unique approach procedures or abnormal conditions requiring a deviation
 from the above elements of a stabilized approach require a special briefing.
@@ -91,11 +91,11 @@ the lateral confines of the runway edges extended.
 
 As the airplane crosses the runway threshold it should be:
 
--   @stabilized on approach airspeed to within + 10 knots until arresting descent rate at flare@
--   @on a stabilized flight path using normal maneuvering@
--   @positioned to make a normal landing in the touchdown zone (the first
-    3,000 feet or first third of the runway, whichever is less).
-    Initiate a go-around if the above criteria cannot be maintained.@
+- @stabilized on approach airspeed to within + 10 knots until arresting descent rate at flare@
+- @on a stabilized flight path using normal maneuvering@
+- @positioned to make a normal landing in the touchdown zone (the first
+  3,000 feet or first third of the runway, whichever is less).
+  Initiate a go-around if the above criteria cannot be maintained.@
 
 ::::
 
@@ -105,7 +105,7 @@ As the airplane crosses the runway threshold it should be:
 
 ###### 5.6
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -114,11 +114,11 @@ As the airplane crosses the runway threshold it should be:
 On all instrument approaches, where suitable visual reference has not been
 established and maintained, execute an immediate missed approach when:
 
--   ...
--   on ILS or GLS final approach and either the localizer expanded scale
-    shows full deflection or the glide slope indicator shows @half or more@
-    deflection
--   ...
+- ...
+- on ILS or GLS final approach and either the localizer expanded scale
+  shows full deflection or the glide slope indicator shows @half or more@
+  deflection
+- ...
 
 ::::
 
@@ -128,7 +128,7 @@ established and maintained, execute an immediate missed approach when:
 
 ###### 5.8
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -143,7 +143,7 @@ When performance criteria are met, use flaps 40 to @minimize landing speed, and 
 
 ###### 5.9
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -162,7 +162,7 @@ VREF 40 + 5 knots during a go-around at go-around thrust.
 
 ###### 5.9
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -181,7 +181,7 @@ slope@ is used to determine the MAP.
 
 ###### 5.14
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -197,7 +197,7 @@ Cross the procedure turn fix at flaps 5 maneuver airspeed.
 
 ###### 5.15
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -207,9 +207,9 @@ If displaying the arrival procedure is not desired, perform a “DIRECT TO” or
 “INTERCEPT COURSE TO” the FAF, OM, or appropriate fix, to simplify
 the navigation display. This provides:
 
--   @a display of distance remaining to the FAF, OM, or appropriate fix@
--   @a depiction of cross track error from the final approach course@
--   @LNAV capability during the missed approach procedure.@
+- @a display of distance remaining to the FAF, OM, or appropriate fix@
+- @a depiction of cross track error from the final approach course@
+- @LNAV capability during the missed approach procedure.@
 
 ::::
 
@@ -227,10 +227,10 @@ When operating in speed intervention (as installed) or an autothrottle SPD mode,
 
 APP mode should not be selected until:
 
--   @the ILS or GLS is tuned and identified@
--   @the airplane is on an inbound intercept heading@
--   @both localizer and glide slope pointers appear on the attitude display in the proper position @
--   @clearance for the approach has been received.@
+- @the ILS or GLS is tuned and identified@
+- @the airplane is on an inbound intercept heading@
+- @both localizer and glide slope pointers appear on the attitude display in the proper position @
+- @clearance for the approach has been received.@
 
 ::::
 
@@ -240,7 +240,7 @@ APP mode should not be selected until:
 
 ###### 5.18
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -249,9 +249,9 @@ APP mode should not be selected until:
 The following technique will help the crew intercept the G/S safely and
 establish stabilized approach criteria by 1,000 feet AFE:
 
--   @select APP on the MCP and verify that the G/S is armed @
--   @establish final landing configuration and set the MCP altitude no lower than 1,000 feet AFE @
--   @select the V/S mode and set -1000 to -1500 fpm to achieve G/S capture and be stabilized for the approach by 1,000 feet AFE. Use of the VSD (as installed) or the green altitude range arc may assist in establishing the correct rate of descent.@
+- @select APP on the MCP and verify that the G/S is armed @
+- @establish final landing configuration and set the MCP altitude no lower than 1,000 feet AFE @
+- @select the V/S mode and set -1000 to -1500 fpm to achieve G/S capture and be stabilized for the approach by 1,000 feet AFE. Use of the VSD (as installed) or the green altitude range arc may assist in establishing the correct rate of descent.@
 
 ::::
 
@@ -265,13 +265,13 @@ establish stabilized approach criteria by 1,000 feet AFE:
 
 ###### 5.39
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
 :::: ques
 
--   Approach Requirements Relating to RNP
+- Approach Requirements Relating to RNP
 
 | Approach Type     | RNP    |
 | ----------------- | ------ |
@@ -290,7 +290,7 @@ establish stabilized approach criteria by 1,000 feet AFE:
 
 ###### 5.70
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
@@ -307,13 +307,13 @@ Use the weather minima associated with the @anticipated circling@ speed.
 
 ###### 5.71
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 
 :::: ques
 
--   FAA
+- FAA
 
 | Maximum IAS | Circling Area Radius (r) from Threshold |
 | ----------- | --------------------------------------- |
@@ -326,7 +326,7 @@ Use the weather minima associated with the @anticipated circling@ speed.
 
 :::: ques
 
--   ICAO
+- ICAO
 
 | Maximum IAS | Circling Area Radius (r) from Threshold |
 | ----------- | --------------------------------------- |
@@ -341,7 +341,7 @@ Use the weather minima associated with the @anticipated circling@ speed.
 
 ###### 5.73
 
--   June 30, 2022
+- June 30, 2022
 
 ::::::::::::::::::: card
 

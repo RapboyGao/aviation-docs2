@@ -2,9 +2,9 @@
 icon: lock
 title: Airspeeds
 category:
-    - Airspeeds
-    - Private
-sidebar: heading
+  - Airspeeds
+  - Private
+sidebar: true
 ---
 
 ## CAS
@@ -65,7 +65,7 @@ $$
 
 where a normal shock forms in front of the pitot probe, the Rayleigh formula applies
 
--   To start with,
+- To start with,
 
 $$
 
@@ -74,7 +74,7 @@ CAS = \alpha_0
 
 $$
 
--   Then iterate until CAS mergers
+- Then iterate until CAS mergers
 
 $$
 
@@ -137,7 +137,7 @@ $$
 
 #### Subsonic
 
--   Assuming air to be an ideal gas, the formula to compute Mach number in a subsonic compressible flow is:
+- Assuming air to be an ideal gas, the formula to compute Mach number in a subsonic compressible flow is:
 
 $$
 
@@ -225,7 +225,7 @@ M = \sqrt{
 
 $$
 
--   Iterate until M merges:
+- Iterate until M merges:
 
 $$
 
@@ -257,7 +257,7 @@ If TAS is measured in **knots**, Ratio = 38.96823501298186
 
 ### TAS & Dynamic Pressure
 
--   Valid for subsonic flow
+- Valid for subsonic flow
 
 $$
 
@@ -300,7 +300,7 @@ $$
 
 ## Temperatures and Speeds
 
--   This section is based on perfectly measured TAT.
+- This section is based on perfectly measured TAT.
 
 ### [Total Air Temperature on Wikipedia](https://en.wikipedia.org/wiki/Total_air_temperature)
 
@@ -404,16 +404,16 @@ $$
 
 ## Notes
 
--   $P$ or $p$ is static pressure.
+- $P$ or $p$ is static pressure.
 
--   $q_c$ is impact pressure
+- $q_c$ is impact pressure
 
--   $\alpha_0$ is the speed of sound at standard sea level (661.47 knots (1,225.04 km/h; 340.29 m/s))
+- $\alpha_0$ is the speed of sound at standard sea level (661.47 knots (1,225.04 km/h; 340.29 m/s))
 
--   $T$ is static air temperature in kelvins
+- $T$ is static air temperature in kelvins
 
--   $T_t$ is total air temperature in kelvins
+- $T_t$ is total air temperature in kelvins
 
--   $T_0$ is the temperature at standard sea level (288.15 K).
+- $T_0$ is the temperature at standard sea level (288.15 K).
 
--   $\gamma$, is the ratio of specific heat of a gas at a constant pressure to heat at a constant volume (1.4 for air)
+- $\gamma$, is the ratio of specific heat of a gas at a constant pressure to heat at a constant volume (1.4 for air)
