@@ -1,4 +1,0 @@
-packages:
-  - "packages/*"
-
-registry: "https://registry.npmmirror.com"
