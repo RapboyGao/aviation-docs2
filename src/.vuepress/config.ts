@@ -11,7 +11,7 @@ export default defineUserConfig({
   head,
   lang: "zh-CN",
   title: "Aviation Docs",
-  description: "Aviation documentation",
+  description: "Documents and notes about aviation knowledge",
   plugins: [
     cardContainerPlugin,
     quesContainerPlugin,
