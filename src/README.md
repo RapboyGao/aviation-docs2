@@ -7,4 +7,5 @@ heroText: Gao's Blog
 heroFullScreen: true
 bgImage: /hero.jpg
 tagline: Documents and notes about aviation knowledge
+footer: false
 ---
