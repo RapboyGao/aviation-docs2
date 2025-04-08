@@ -1,5 +1,6 @@
 export interface PepecStory {
   index: number;
+  title: string;
   content: string;
   translation: string;
 }
@@ -7,6 +8,7 @@ export interface PepecStory {
 export const stories: PepecStory[] = [
   {
     index: 1,
+    title: "Crash at Singapore Changi Airport",
     content: `AFR123 crashed at Singapore Changi Airport during takeoff.
 The tower controller instructed the crew to takeoff on Runway 02L,
 but the crew lined up runway 02R and began their takeoff rolling.
@@ -29,6 +31,7 @@ Finally, the crew members' idle chatting during the taxi resulted the loss of si
   },
   {
     index: 2,
+    title: "Collision during taxi",
     content: `An A320 collided with a B737 during taxi.
 The right ailerons of B737 was severely damaged but A320 only had minor damage on left wing.
 Luckily, there were no injuries.
@@ -53,6 +56,7 @@ A320的机长认为他们有足够的空间。
   },
   {
     index: 3,
+    title: "Landing gear problem",
     content: `A pilot of Air China airline told us an event with landing gear problem.
 After normal push-back, start-up and taxi, he requested takeoff.
 However, he was instructed to hold short of the runway in order to give way to ACA702 on final.
@@ -75,6 +79,7 @@ There were no casualties except some minor injuries.`,
   },
   {
     index: 4,
+    title: "Missed approach",
     content: `When the pilot initially contacted the tower controller, he was told the Runway Visual Range was 500m.
 The pilot executed a missed approach because of no contact at minima.
 Then, he was given radar vectors for a second ILS approach.
@@ -96,6 +101,7 @@ According to the investigation, the poor visibility made the pilot nervous and h
   },
   {
     index: 5,
+    title: "Delta emergency landing",
     content: `A Delta Airline aircraft departed from Shanghai to Seoul. 
 It carried 256 passengers and 13 crew members on board. 
 During takeoff rolling, an unknown foreign object was sucked into port engine and the engine fire warning light illuminated. 
@@ -116,6 +122,7 @@ After circling over the sea and dumping fuel for almost one hour, the plane retu
   },
   {
     index: 6,
+    title: "Flight 523 TCAS alert",
     content: `The crew of flight 523 found a traffic 20 miles at FL 294 right ahead of the airplane on TCAS at FL 290 near LAMEN. 
 The captain reported to Shanghai Control immediately, but the controller responded that there was no indication on his radar screen and there had not been any flight advisory. 
 The captain then instructed the crew to turn left and found the conflicting traffic closing to the flight path and a TCAS warning was initiated. 
@@ -130,6 +137,7 @@ The crew reported to the controller about the conflict after the conflict had be
   },
   {
     index: 7,
+    title: "United Airlines in-flight engine fire",
     content: `An United aircraft experienced an in-flight engine fire during departure climb from New York City. 
 During the return to the departure airport, the nose landing gear failed to extend, and the flight crew was instructed to execute a go-around, during which the crew extended the nose gear using the emergency procedure. 
 The flight crew conducted an emergency landing, and the 2 flight crew members, 3 flight attendants, and 138 passengers deplaned on the runway. 
@@ -145,6 +153,7 @@ The NTSB determines that the probable cause of this accident was the inappropria
   },
   {
     index: 8,
+    title: "China Southern aircraft incident",
     content: `A China Southern aircraft lost a left upper wing trailing edge panel during cruise at FL270. 
 Initially, ATC received a pilot report that the flight crew had experienced "light chop". 
 The flight was en route from Greenyard to Blueyard Airport. 
@@ -169,6 +178,7 @@ There were 174 passengers and 6 crew members with no reported injuries.`,
   },
   {
     index: 9,
+    title: "Collision during taxi",
     content: `An Airbus 320 collided with an ERJ 145 during taxi in the run-up area of runway 19. 
 The right aileron of the ERJ was seriously damaged; the left winglet of the Airbus had minor damage. 
 There were no injuries. 
@@ -189,6 +199,7 @@ ERJ右副翼严重受损；这架空客飞机的左小翼有轻微损坏。
   },
   {
     index: 10,
+    title: "Missed approach",
     content: `Before the first ILS approach, the pilot was advised that the runway visual range was 600 feet, then he was given a landing clearance. 
 The pilot declared a missed approach and was given radar vectors for a second ILS approach. 
 After turning inbound on the localizer, the pilot was advised the runway visual range and then cleared to land. 
@@ -208,6 +219,7 @@ According to the investigation, the pilot misinterpreted the missed approach ins
   },
   {
     index: 11,
+    title: "Collision during pushback",
     content: `A Boeing 757 and a Bombardier were seriously damaged when the tails of both airplanes collided during the pushback. 
 The flight crew of the Bombardier reported that they were in a stopped position and their ground crew was in the process of disconnecting the tug. 
 Company maintenance personnel stated they were pushing the 757 back and did not see the Bombardier. 
@@ -225,6 +237,7 @@ The ground controller did not advise either aircraft of simultaneous adjacent pu
   },
   {
     index: 12,
+    title: "Air France 551 over flew United 83",
     content: `Air France 551 departed runway 15R and over flew United 83 at Atlantic Airport. 
 The tower controller had cleared United 83 to land on runway 10 when the aircraft was about 6 miles on final approach. 
 Simultaneously, ATC cleared Air France 551 for takeoff on runway 15R. 
@@ -243,6 +256,7 @@ The main cause of this incident is local controller's failure of maintaining awa
   },
   {
     index: 13,
+    title: "Piper and Cessna collision",
     content: `The Piper and Cessna pilots were inbound to the same airport. 
 The Cessna pilot was directed to enter a left downwind, then flew south before turning southwest. 
 The Piper pilot was also directed to enter a left downwind. 
@@ -261,6 +275,7 @@ Later, the Piper pilot informed the controller of the collision and declared an 
   },
   {
     index: 14,
+    title: "SIA128 radio failure",
     content: `When SIA128 was approaching the airspace of Chicago center area control, the controller instructed the flight crew to change radio frequency for the next sector on 132.1. 
 The first officer acknowledged the frequency change and read back the correct frequency. 
 However, the flight crew did not contact ATC on the new frequency. 
@@ -276,6 +291,7 @@ The controller finally regained contact with SIA128 on the emergency frequency 5
   },
   {
     index: 15,
+    title: "Landing light signal",
     content: `Landing light signal could provide useful information to controllers. 
 One day, a B757 vacated runway 36L via taxiway A9 after landing. 
 It was then cleared to cross runway 36R. 
@@ -299,6 +315,7 @@ Realizing the risk of runway incursion, he canceled A320's takeoff clearance imm
   },
   {
     index: 16,
+    title: "Flight 626 collision",
     content: `It was a foggy day, Flight 626 was cleared to taxi to runway 36R. 
 Later, the ground controller gave start-up clearance to a Cessna pilot. 
 Then he requested Flight 626 to contact Tower controller. 
@@ -322,6 +339,7 @@ Unfortunately, the two aircraft collided, all people on board died.
   },
   {
     index: 17,
+    title: "Flight 145 and Flight 101 incident",
     content: `The tower controller cleared Flight 145 to land on runway 22. 
 But he forgot the arriving aircraft when he cleared Flight 101 to take off from the intersecting runway 16. 
 After Flight 145 touched down, the ground radar system alerted. 
@@ -346,6 +364,7 @@ But it was regarded as the most serious incident of this kind.`,
   },
   {
     index: 18,
+    title: "Flight 815 landing accident",
     content: `When an Flight 815 was approaching the terminal area of its destination, the flight crew contacted the Approach and requested ILS approach for runway 12. 
 Because of the tailwind conditions, the controller advised the pilot to make a circling approach for runway 30. 
 But the flight crew insisted to land on runway 12 and the controller cleared them to land on that runway. 
@@ -364,6 +383,7 @@ No one was killed, but many passengers suffered from serious injuries.`,
   },
   {
     index: 19,
+    title: "Flight 456 crash",
     content: `Flight 456 with 152 passengers and 9 crews was flying to land at Tokyo Airport. 
 When it was transferred from Tokyo Control to Tokyo Approach, the pilot was instructed to proceed to DA to hold because of traffic congestion. 
 During the holding, the pilot was informed that the local weather was deteriorating and the controller suggested the crew to divert to the alternate, but the pilot reported that their fuel was not enough. 
@@ -382,6 +402,7 @@ Later, it crashed into a hillside due to fuel shortage.`,
   },
   {
     index: 20,
+    title: "Flight 611 crash",
     content: `A Boeing 747 performed the flight from Taiwan to Hongkong carrying 206 passengers and 19 crew members on board. 
 It broke up and crashed, killing all those on board. 
 It is the deadliest air disaster in Taiwan. 
@@ -402,6 +423,7 @@ For the following 22 years, maintenance crews had not noticed anything unusual.`
   },
   {
     index: 21,
+    title: "Jiuzhai Huanglong Airport",
     content: `Jiuzhai Huanglong Airport, also known as Jiuzhaigou Airport, is an airport in Songpan County, Sichuan province. 
 It is one of the highest airport in the world with an altitude of 3448 meters. 
 There are breathtaking mountain ranges on both sides of the axis of the runway, and the highest Xuebao peak is the main peak of Minshan Mountain, more than 18000 feet above the sea level. 
@@ -418,6 +440,7 @@ Due to the high elevation, some passengers may experience symptoms of altitude s
   },
   {
     index: 22,
+    title: "Pakistan flight crash",
     content: `A Pakistan flight reported the failure of the left hand engine. 
 The crew shut the engine down and continued descending, some time later, they declared Mayday and shortly afterwards radio and radar contact was lost. 
 The aircraft was unable to maintain heading and turned left before impact with the ground. 
@@ -436,6 +459,7 @@ Due to maintenance irregularities, a turbine blade fractured causing further dam
   },
   {
     index: 23,
+    title: "Boeing 747 crash",
     content: `A Boeing 747 was on final approach to runway 26. 
 After the aircraft went around from very low height, it did not climb out to safety altitude and impacted terrain about 1100 meters past the runway. 
 The cause of the accident was the missing control of the crew over the aircraft position in relation to the glide slope during the automatic approach. 
@@ -450,6 +474,7 @@ And as a result, the go-around was not taken in due time and the aircraft had a 
   },
   {
     index: 24,
+    title: "Boeing 747 crash in Afghanistan",
     content: `A Cargo Boeing 747 with 7 crew and cargo of military vehicles, has crashed shortly after takeoff. 
 Afghan Authorities immediately denied claims that the crash was the result of enemy activities. 
 Several observers on the ground reported the aircraft had just lifted off and was climbing through approximately 1200 feet when it's nose sharply rose. 
@@ -468,6 +493,7 @@ The cargo moved after and damaged hydraulic systems and horizontal stabilizer co
   },
   {
     index: 25,
+    title: "Flight 60 turbulence incident",
     content: `Flight 60 encountered moderate turbulence at 9000 feet during descending to Dallas. 
 According to NTSB, as the flight began its descent, the captain illuminated the seat belt sign and made a public address reminding passengers to buckle up. 
 Then the airplane entered a band of small cumulus clouds and experienced 10-15 seconds of moderate turbulence. 
@@ -486,6 +512,7 @@ Finally, the passenger was transported to the hospital.`,
   },
   {
     index: 26,
+    title: "Flight 123 smoke in cockpit",
     content: `A flight with 98 passengers, encountered smoke in cockpit shortly after departure. 
 The aircraft was cleared to FL340 and was about to contact Area Control when the smell of smoke was detected by the cockpit crew. 
 After some discussion, they decided to return to Departure airport. 
@@ -504,6 +531,7 @@ Finally the aircraft landed safely.
   },
   {
     index: 27,
+    title: "Flight 123 turbulence incident",
     content: `An Airbus with 146 passengers and 5 crew, encountered turbulence during climbing from FL320 to FL340, causing injuries to 24 passengers and 3 cabin crew. 
 The aircraft diverted for a safe landing on runway 32 about 25 minutes after stopping the climb at FL334. 
 The 27 injured were taken to a hospital. 
@@ -522,6 +550,7 @@ According to NTSB, probable cause of the occurrence was an inadvertent encounter
   },
   {
     index: 28,
+    title: "Flight 08 and Flight 29 incident",
     content: `Flight 08 was cleared to climb to and maintain FL220. 
 At the same time, another flight 29 was enroute at FL240. 
 ATC instructed flight 08 to turn left heading 270. 
@@ -547,6 +576,7 @@ ATC thus instructed 08 to continue the climb to FL260.`,
   },
   {
     index: 29,
+    title: "Flight 28 NDB approach incident",
     content: `A flight was on NDB approach to runway 28 in instrument meteorological conditions. 
 The aircraft descended below minimum safe altitude when it was handed off to tower. 
 The approach controller received a Minimum Safe Altitude Warning and the aircraft's EGPWS issued a warning, too. 
@@ -565,6 +595,7 @@ Meanwhile, the first preparation of the approach was probably incomplete or impr
   },
   {
     index: 30,
+    title: "A320 engine cowling incident",
     content: `An A320 with 114 passengers and 6 crew, departed from the runway. 
 At that time, the left engine dropped two bonnets. 
 In the absence of any abnormal indications and unaware of the separation, the crew continued the flight for a safe landing. 
@@ -581,6 +612,7 @@ The investigation has determined that the incident was caused by flying the airp
   },
   {
     index: 31,
+    title: "QFA67 runway incursion",
     content: `QFA67 had safely landed on runway 03, vacated the runway via taxiway but taxied past the holding point of runway 06 and crossed an illuminated stop bar without ATC clearance. 
 Another QFA82 was accelerating for takeoff from runway 06 when QFA67 crossed the hold short line. 
 QFA67 became aware of their position and stopped their aircraft just before crossing the edge of runway 06. 
@@ -599,6 +631,7 @@ QF582的翼尖低速从QF567机头约15米处经过。
   },
   {
     index: 32,
+    title: "B747 wrong airport incident",
     content: `A B747 performing freight with 2 crew, was on a GPS/RNAV approach to A Airport runway 19L, but unintentionally landed on runway 18 of B Airport. 
 The crew requested to vacate via taxiway D, the puzzled tower responded "stand by", then informed the crew that they were about 8nm from the original airport. 
 The crew believed they had landed on A Airport, the even more puzzled tower replied "confirm you landed at A Airport?". 
@@ -614,6 +647,7 @@ In the meantime a ground person arrived at the aircraft and told the crew the lo
   },
   {
     index: 33,
+    title: "ERJ and ultralight aircraft incident",
     content: `An ERJ was cleared self-positioning for an ILS approach. 
 At the same time, an ultralight aircraft was operating VFR flight below the controlled airspace. 
 The two aircraft were on different radio frequencies. 
@@ -634,6 +668,7 @@ The aircraft made another approach and landed safely.`,
   },
   {
     index: 34,
+    title: "A319 co-pilot unfit to fly incident",
     content: `An A319 with 148 passengers and 6 crew, was descending when the first officer, pilot flying, became unfit to fly, relinquished control to the captain and left the cockpit. 
 The captain declared PANPAN and continued for a safe landing. 
 The probable cause of the incident was that the co-pilot experienced anxiety which developed into an anxiety attack during the approach. 
@@ -648,6 +683,7 @@ If the co-pilot reported that he is unfit for duty, and if there were more effec
   },
   {
     index: 35,
+    title: "AirAsia A330 engine failure incident",
     content: `An AirAsia Airbus 330-300, with 359 people on board, was enroute at FL380 about 200 nautical mile southwest of Perth. 
 Then the left hand engine suffered a blade fracture. 
 the engine ingested the blade and caused severe damage in engine core and severe vibrations. 
@@ -672,6 +708,7 @@ The passengers then rebooked onto other flights.`,
   },
   {
     index: 36,
+    title: "Eastar Jet B737 runway incursion incident",
     content: `An Eastar Jet B737 performing flight from Korea to Japan, was cleared for the approach to runway 03L. 
 however, the aircraft was aligned with runway 03R. 
 but the runway 03R was occupied by a vehicle. 
@@ -694,6 +731,7 @@ JTSB报告说，飞机没有按照空中交通管制的指示降落在正确的�
   },
   {
     index: 37,
+    title: "Air France A320 smoke in cockpit incident",
     content: `An Air France aircraft performs flight from London to Paris with 136 people on board. 
 When the aircraft was climbing through FL230, the crew donned their oxygen masks, declared Mayday and requested an immediate return to London. 
 The crew advised they suspected a fire on board, and then, they reported they had smoke and fumes in the cockpit. 
@@ -714,6 +752,7 @@ Maintenance identified a faulty display as source of the fumes and smoke.`,
   },
   {
     index: 38,
+    title: "Flight from Philippines to Singapore incident",
     content: `A flight from Philippines to Singapore with 129 people on board, was descending towards Singapore when the flight crew donned their oxygen masks. 
 declared PAN PAN, reporting excessive cabin altitude and initiated an emergency descent to 9000 feet. 
 The aircraft continued to Singapore for a safe landing on runway 20C. 
@@ -730,6 +769,7 @@ CPC制造商认为，损坏是由CPC电路板上的焊点疲劳引起的。
   },
   {
     index: 39,
+    title: "British aircraft pushback incident",
     content: `A British aircraft pushed back using a towbarless tractor at London Heathrow Airport. 
 But that unit was disconnected from the aircraft. 
 After receiving taxi clearance from ATC, the aircraft started moving under its own power and, shortly afterwards, collided with the tractor that had just performed the pushback. 
@@ -747,6 +787,7 @@ Contributory factors were the co-pilot failing to see the tractor and the tracto
   },
   {
     index: 40,
+    title: "ERJ190 overrun incident",
     content: `An ERJ190 from Durango to Mexico rejected takeoff from Durango's runway 03 because of adverse weather. 
 The aircraft overran the end of the runway and burst into flames and was destroyed, there were no fatalities, 2 people received serious injuries and 83 people received minor injuries. 
 Some people with injuries were taken to a local hospital. 
@@ -765,6 +806,7 @@ According to flight data recorder as well as cockpit voice recorder, the pilots 
   },
   {
     index: 41,
+    title: "Flight from New York to Paris incident",
     content: `A flight from New York to Paris was enroute at FL380 when the crew decided to divert, reporting with left hand engine failure. 
 The crew requested to descend to FL320. 
 The diversion was approved, however, the request to descent took more than 15 minutes due to traffic. 
@@ -785,6 +827,7 @@ The crew thus declared emergency and diverted.`,
   },
   {
     index: 42,
+    title: "Visual approach",
     content: `A visual approach is an ATC authorization for aircraft on IFR flight plan to proceed visually to the airport, even to the landing. 
 It is not an instrument approach procedure, and there is no missed approach segment. 
 Even when an aircraft is being vectored for an instrument approach, controllers may initiate or pilots may request a visual approach if the pilot reports the airport or runway in sight. 
@@ -801,6 +844,7 @@ This approach must be authorized and under ATC facility.`,
   },
   {
     index: 43,
+    title: "British Airways flight smoke incident",
     content: `A British Airways aircraft was from London to Paris. 
 20 minutes into the flight, a passenger reported an "acrid burning smell" from seat 12A, fearing the plane was on fire, and alerted crew members. 
 The crew conducted an immediate inspection of the seating area, but did not find any source of the burning smell. 
@@ -810,6 +854,7 @@ The captain had sent the "Pan-Pan" emergency signal to the control center, reque
   },
   {
     index: 44,
+    title: "B767 tail strike incident",
     content: `A B767 suffered tail strike during takeoff. 
 During the takeoff roll, the V1 call was delayed by about 10-15 knots by the captain, as he thought the aircraft might be heavier than calculated. 
 During the rotation the TAILSKID message illuminated, indicating that the aircraft had suffered a tail strike. 
@@ -828,6 +873,7 @@ This generated significantly slower takeoff speeds than required for the actual 
   },
   {
     index: 45,
+    title: "Flight safety and anti-missile system",
     content: `With frequent terrorist attacks, the threat level is growing rapidly, causing deep concerns among passengers about the safety of air travel. 
 In order to ensure flight safety, airports have no choice but to increase the number of security checks, but this also leads to frequent delays in passengers' travel. 
 In response to the new risk of low-altitude aircraft being targeted by terrorist attacks, some have proposed installing anti-missile systems on landing gear. 
