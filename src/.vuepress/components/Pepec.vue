@@ -28,6 +28,12 @@
       </template>
 
       <template #default>
+        <Ques v-if="getFirstFiveWordsWithCheck(item.content)">
+          <div>
+            <span>@{{ getFirstFiveWordsWithCheck(item.content) }}@</span>
+          </div>
+        </Ques>
+        <ElDivider />
         <Ques>
           <div>
             <span v-if="item.mismatch || item.specialReading">官方原文： </span>
@@ -104,6 +110,14 @@ const sorted = computed(() => {
 });
 
 const sortedFiltered = computed(() => sorted.value.filter(($0) => (filterByFavorites.value ? favorites.value[$0.index] : true)));
+
+function getFirstFiveWordsWithCheck(str: string): string | undefined {
+  const words = str.trim().split(/\s+/);
+  if (words.length < 5) {
+    return undefined;
+  }
+  return words.slice(0, 5).join(" ");
+}
 </script>
 <style scoped lang="scss">
 .flex {
