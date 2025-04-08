@@ -1,9 +1,11 @@
 ---
-title: PEPEC 900 句
+title: PEPEC
 sidebar: true
 category: Notes
 tag:
   - PEPEC
 ---
 
-<Pepec></Pepec>
+## [PEPEC 900 句](./pepec-900s)
+
+## [PEPEC 故事复述](./pepec-stories)

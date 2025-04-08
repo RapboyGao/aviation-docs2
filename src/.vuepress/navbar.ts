@@ -6,8 +6,8 @@ export default navbar([
     text: "Home",
   },
   {
-    text: "English",
-    children: ["/Notes/pepec/index.html", "/Notes/pepec/pepec-stories.html"],
+    text: "PEPEC",
+    children: ["/Notes/pepec/pepec-900s.html", "/Notes/pepec/pepec-stories.html"],
   },
   {
     text: "Study",
