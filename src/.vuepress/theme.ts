@@ -1,15 +1,15 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import navbar from "./navbar.js";
-import sidebar from "./sidebar.js";
-import pwa from "./misc/pwa.js";
+import navbar from "./navbar";
+import sidebar from "./sidebar";
+import pwa from "./misc/pwa";
 
 export default hopeTheme({
-  hostname: "http://albertgao.gitee.io/aviation-docs/",
+  hostname: "https://aviation-docs2.vercel.app",
 
-  author: {
-    name: "Albert Gao",
-    url: "https://gitee.com/AlbertGao",
-  },
+  // author: {
+  //   name: "Albert Gao",
+  //   url: "https://gitee.com/AlbertGao",
+  // },
 
   docsDir: "src",
 
@@ -128,6 +128,6 @@ export default hopeTheme({
     icon: {
       prefix: "fa6-solid:",
     },
-    // pwa,
+    pwa,
   },
 });
