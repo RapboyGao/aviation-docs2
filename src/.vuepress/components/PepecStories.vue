@@ -35,12 +35,23 @@ interface Favorites {
 }
 
 function getFavorites(): Favorites {
-  return Store2.get("favorites") ?? {};
+  return Store2.get("favorites-pepec-stories") ?? {};
 }
 
 function saveFavorites(favorites: Favorites) {
-  Store2.set("favorites", favorites, true);
+  Store2.set("favorites-pepec-stories", favorites, true);
 }
 const favorites = ref<Favorites>(getFavorites());
 watchEffect(() => saveFavorites(favorites.value));
 </script>
+<style scoped lang="scss">
+.flex {
+  display: flex;
+}
+.space-between {
+  justify-content: space-between;
+}
+.mt-50 {
+  margin-top: 50px;
+}
+</style>

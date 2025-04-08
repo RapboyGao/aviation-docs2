@@ -59,11 +59,11 @@ interface Favorites {
 }
 
 function getFavorites(): Favorites {
-  return Store2.get("favorites") ?? {};
+  return Store2.get("favorites-900s") ?? {};
 }
 
 function saveFavorites(favorites: Favorites) {
-  Store2.set("favorites", favorites, true);
+  Store2.set("favorites-900s", favorites, true);
 }
 
 function getSourceName(item: ContentProtocol): string {
