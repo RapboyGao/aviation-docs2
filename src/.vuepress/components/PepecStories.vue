@@ -19,6 +19,12 @@
             <span>@{{ item.content }}@</span>
           </div>
         </Ques>
+        <ElDivider />
+        <Ques>
+          <div>
+            <span>@{{ item.translation }}@</span>
+          </div>
+        </Ques>
       </template>
     </ElCard>
   </div>
