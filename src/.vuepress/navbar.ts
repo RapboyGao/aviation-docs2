@@ -7,7 +7,14 @@ export default navbar([
   },
   {
     text: "PEPEC",
-    children: ["/Notes/pepec/pepec-900s.html", "/Notes/pepec/pepec-stories.html"],
+    children: [
+      "/Notes/pepec/pepec-900s.html",
+      "/Notes/pepec/pepec-stories.html",
+      "/Notes/pepec/pepec-10-part1.html",
+      "/Notes/pepec/pepec-10-part2.html",
+      "/Notes/pepec/pepec-20-part1.html",
+      "/Notes/pepec/pepec-20-part2.html",
+    ],
   },
   {
     text: "Study",

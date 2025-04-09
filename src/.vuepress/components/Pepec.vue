@@ -126,21 +126,3 @@ function getFirstFiveWordsWithCheck(str: string): string | undefined {
   return words.slice(0, 5).join(" ");
 }
 </script>
-<style scoped lang="scss">
-.flex {
-  display: flex;
-}
-.space-between {
-  justify-content: space-between;
-}
-.mt-50 {
-  margin-top: 50px;
-}
-.margin-left-right {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-.flex-wrap {
-  flex-wrap: wrap;
-}
-</style>

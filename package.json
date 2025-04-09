@@ -11,11 +11,13 @@
     "docs:update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
+    "@types/node": "^22.14.0",
     "@vuepress/bundler-vite": "2.0.0-rc.20",
     "@vuepress/plugin-markdown-container": "2.0.0-rc.79",
     "@vuepress/plugin-register-components": "2.0.0-rc.82",
     "@vueuse/core": "^13.1.0",
     "@vueuse/shared": "^13.1.0",
+    "axios": "^1.8.4",
     "element-plus": "^2.9.7",
     "katex": "^0.16.21",
     "nanoid": "^5.1.5",

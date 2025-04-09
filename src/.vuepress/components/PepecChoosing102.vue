@@ -1,0 +1,8 @@
+<template>
+  <PepecChoosing :choosing-questions="choosing10sPart1"></PepecChoosing>
+</template>
+
+<script setup lang="ts">
+import PepecChoosing from "./PepecChoosing.vue";
+import { choosing10sPart2 } from "./pepec-choosing";
+</script>
