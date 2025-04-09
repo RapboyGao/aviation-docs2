@@ -23,12 +23,14 @@
     "sass-embedded": "^1.86.3",
     "store2": "^2.14.4",
     "vue": "^3.5.13",
-    "vuepress": "2.0.0-rc.20",
-    "vuepress-theme-hope": "2.0.0-rc.78"
+    "vuepress": "2.0.0-rc.20"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
       "esbuild"
     ]
+  },
+  "dependencies": {
+    "vuepress-theme-hope": "2.0.0-rc.78"
   }
 }

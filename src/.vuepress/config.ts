@@ -21,5 +21,5 @@ export default defineUserConfig({
   ],
   theme,
   shouldPreload: true,
-  shouldPrefetch: true,
+  shouldPrefetch: false,
 });
