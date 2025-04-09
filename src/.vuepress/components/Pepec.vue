@@ -12,10 +12,17 @@
     </div>
   </div>
   <ElDivider></ElDivider>
+  <div class="flex flex-wrap">
+    Jump to:
+    <el-link v-for="i in 18" :key="i" :href="'#pepec-sentence-' + i * 50" class="margin-left-right">
+      {{ i * 50 }}
+    </el-link>
+  </div>
+  <ElDivider></ElDivider>
   <div v-for="(item, index) in sortedFiltered" :key="item.index" class="mt-50" :id="`pepec-${index}`">
     <ElCard>
       <template #header>
-        <div>
+        <div :id="'pepec-sentence-' + index">
           <div class="flex space-between">
             <h3>
               {{ sortBySize ? `@${k0s(index + 1, 3)}` : "" }}
@@ -128,5 +135,12 @@ function getFirstFiveWordsWithCheck(str: string): string | undefined {
 }
 .mt-50 {
   margin-top: 50px;
+}
+.margin-left-right {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.flex-wrap {
+  flex-wrap: wrap;
 }
 </style>
