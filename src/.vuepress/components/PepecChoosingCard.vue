@@ -29,7 +29,7 @@
 import { defineProps, ref } from "vue";
 import { ElCard, ElDivider, ElCheckbox } from "element-plus";
 import { k0s } from "../../common";
-let showAnswer = ref(0);
+let showAnswer = ref(false);
 defineProps({
   question: {
     type: Object,

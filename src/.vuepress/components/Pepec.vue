@@ -9,6 +9,7 @@
       <a href="/music/mp3-hardest/151-200.mp3" target="_blank"> 151-200 </a>
       <a href="/music/mp3-hardest/201-250.mp3" target="_blank"> 201-250 </a>
       <a href="/music/mp3-hardest/251-300.mp3" target="_blank"> 251-300 </a>
+      <a href="/music/mp3-hardest/251-300.mp3" target="_blank"> 301-350 </a>
     </div>
   </div>
   <ElDivider></ElDivider>
