@@ -10,9 +10,8 @@ const pwa: PwaPluginOptions = {
     icon: "/assets/icon/apple-icon-152.png",
     statusBarColor: "black",
   },
-  maxSize: Infinity,
-  maxImageSize: Infinity,
-  
+  maxSize: 1024 * 1024,
+  maxImageSize: 1024 * 1024,
 };
 
 export default pwa;
