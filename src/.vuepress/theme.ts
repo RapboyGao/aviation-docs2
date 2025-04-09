@@ -126,6 +126,6 @@ export default hopeTheme({
     // icon: {
     //   prefix: "fa6-solid:",
     // },
-    // pwa,
+    pwa,
   },
 });
