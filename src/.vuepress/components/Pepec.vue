@@ -24,15 +24,13 @@
   <div v-for="(item, index) in sortedFiltered" :key="item.index" class="mt-50" :id="`pepec-${index}`">
     <ElCard>
       <template #header>
-        <div :id="'pepec-sentence-' + index">
-          <div class="flex space-between">
-            <h3>
-              {{ sortBySize ? `@${k0s(index + 1, 3)}` : "" }}
-              {{ k0s(item.index, 3) }}
-            </h3>
-            <el-checkbox v-model="favorites[item.index]" label="Favorite" size="large" />
-            <el-button @click="playAudio(item)" text type="primary">播放</el-button>
-          </div>
+        <div :id="'pepec-sentence-' + index" class="flex space-between">
+          <h3>
+            {{ sortBySize ? `@${k0s(index + 1, 3)}` : "" }}
+            {{ k0s(item.index, 3) }}
+          </h3>
+          <el-checkbox v-model="favorites[item.index]" label="Favorite" size="large" />
+          <el-button @click="playAudio(item)" text type="primary">播放</el-button>
         </div>
       </template>
 
@@ -56,10 +54,11 @@
             <span>实际读法： </span>
             <span>@{{ item.specialReading }}@</span>
           </div>
-          <div>
-            <ElButton :data-clipboard-target="item.content"> 复制 </ElButton>
-          </div>
         </Ques>
+        <ElDivider />
+        <div class="flex">
+          <ElLink @click="copyText(item.content)" type="primary"> 复制 </ElLink>
+        </div>
       </template>
     </ElCard>
   </div>
@@ -71,6 +70,7 @@ import { ElCheckbox, ElDivider, ElButton, ElCard, ElLink } from "element-plus";
 import { ref, computed, watchEffect, onMounted } from "vue";
 import { k0s } from "../../common";
 import Store2 from "store2";
+import { useClipboard } from "@vueuse/core";
 
 interface Favorites {
   [index: number]: boolean;
@@ -138,5 +138,10 @@ function getFirstFiveWordsWithCheck(str: string): string | undefined {
     return undefined;
   }
   return words.slice(0, 5).join(" ");
+}
+
+function copyText(text: string) {
+  const { copy } = useClipboard();
+  copy(text);
 }
 </script>
