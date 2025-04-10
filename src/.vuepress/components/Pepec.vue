@@ -56,6 +56,9 @@
             <span>实际读法： </span>
             <span>@{{ item.specialReading }}@</span>
           </div>
+          <div>
+            <ElButton :data-clipboard-target="item.content"> 复制 </ElButton>
+          </div>
         </Ques>
       </template>
     </ElCard>
