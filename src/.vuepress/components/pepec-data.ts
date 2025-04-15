@@ -11,6 +11,11 @@ export interface ContentProtocol {
   size: number;
   /** 是否为方形许可或等待 */
   hasLotOfInfo?: true;
+
+  /**
+   * 笔记
+   */
+  notes?: string;
 }
 
 export function getContent(item: ContentProtocol) {
@@ -1432,11 +1437,13 @@ export const contents: ContentProtocol[] = [
     index: 271,
     content: "We have traffic at our 12 o’clock, 5 miles, 500 feet below, climbing.",
     size: 75964,
+    notes: "12、1、10点(只有10点的tornado)有our, 其他没有",
   },
   {
     index: 272,
     content: "Traffic indication at our 1 o’clock, 4 miles, same altitude, converging.",
     size: 78872,
+    notes: "12、1、10点(只有10点的tornado)有our, 其他没有",
   },
   {
     index: 273,
@@ -1698,6 +1705,7 @@ export const contents: ContentProtocol[] = [
     index: 323,
     content: "Reduce to minimum approach speed, turn right heading 230, cleared for ILS approach Runway 27.",
     size: 123905,
+    notes: "有两个approach",
   },
   {
     index: 324,
@@ -2154,6 +2162,7 @@ export const contents: ContentProtocol[] = [
     index: 413,
     content: "Remain outside controlled airspace, expect joining clearance at time 55.",
     size: 100112,
+    notes: "没有of",
   },
   {
     index: 414,
@@ -2194,6 +2203,7 @@ export const contents: ContentProtocol[] = [
     index: 421,
     content: "Remain outside controlled airspace, expect further clearance at 55.",
     size: 90424,
+    notes: "没有of",
   },
   {
     index: 422,
@@ -2259,6 +2269,7 @@ export const contents: ContentProtocol[] = [
     index: 434,
     content: "Position 42N(North)165E (East) at 0800, FL390, estimating 44 N 180E at 0900 45N 170W next.",
     size: 307316,
+    hasLotOfInfo: true,
   },
   {
     index: 435,
@@ -2446,6 +2457,7 @@ export const contents: ContentProtocol[] = [
     index: 471,
     content: "The ILS signal seems to be very unstable. Did any other pilot report a similar situation?",
     size: 95669,
+    notes: "seems to be very unstable有very",
   },
   {
     index: 472,
@@ -2466,6 +2478,7 @@ export const contents: ContentProtocol[] = [
     index: 475,
     content: "The ILS signal was unstable. Request approach to another runway or request another type of approach.",
     size: 107060,
+    notes: "was unstable过去式 / approach to",
   },
   {
     index: 476,
@@ -2487,6 +2500,7 @@ export const contents: ContentProtocol[] = [
     index: 479,
     content: "We need to reconfigure the flight management computers for approach. Request holding instructions.",
     size: 92069,
+    notes: "For approach",
   },
   {
     index: 480,
@@ -2643,11 +2657,13 @@ export const contents: ContentProtocol[] = [
     index: 510,
     content: "We have switched off most of our electrical systems for smoke procedure. Request vectors for a long final, Runway 15.",
     size: 69866,
+    notes: "没有radar",
   },
   {
     index: 511,
     content: "We have cut off the electrical system to the cabin and the onboard fire is under control.",
     size: 46364,
+    notes: "有3个the",
   },
   {
     index: 512,
@@ -2714,6 +2730,7 @@ export const contents: ContentProtocol[] = [
     index: 524,
     content: "A passenger ignited the lavatory waste bin. Advise the airport police to await our arrival.",
     size: 51113,
+    notes: "The",
   },
   {
     index: 525,
@@ -2750,6 +2767,7 @@ export const contents: ContentProtocol[] = [
     index: 531,
     content: "Our flight control computers are not functioning well. We are having difficulty maintaining level flight, unable RVSM.",
     size: 63339,
+    notes: "maintaining",
   },
   {
     index: 532,
@@ -2760,11 +2778,13 @@ export const contents: ContentProtocol[] = [
     index: 533,
     content: "The aircraft has a tendency to roll to the right. I need additional airspace to maneuver.",
     size: 54959,
+    notes: "The aircraft不是airplane",
   },
   {
     index: 534,
     content: "We have finished the checklist but still cannot retract some of the speed brakes. Request the longest runway for landing.",
     size: 69778,
+    notes: "只有这句和the thrust reverser有still cannot",
   },
   {
     index: 535,
@@ -2775,6 +2795,7 @@ export const contents: ContentProtocol[] = [
     index: 536,
     content: "We have asymmetric flaps. Airplane is rolling to the left. Request holding to solve the problem.",
     size: 51075,
+    notes: "airplane没有the",
   },
   {
     index: 537,
@@ -2790,6 +2811,7 @@ export const contents: ContentProtocol[] = [
     index: 539,
     content: "Request vectors for long final. We are controlling the airplane with mechanical backup.",
     size: 40556,
+    notes: "没有radar",
   },
   {
     index: 540,
@@ -2801,6 +2823,7 @@ export const contents: ContentProtocol[] = [
     index: 541,
     content: "We have a problem with yaw damping. The aircraft is oscillating severely. Request diversion.",
     size: 46215,
+    notes: "The aircraft",
   },
   {
     index: 542,
@@ -2861,6 +2884,7 @@ export const contents: ContentProtocol[] = [
     index: 553,
     content: "We have leaked a large amount of fuel onto the apron. Request fire trucks on standby and the stairs vehicle to disembark the passengers.",
     size: 63095,
+    notes: "the stairs vehicle有the(只有这一句有)",
   },
   {
     index: 554,
@@ -2877,6 +2901,7 @@ export const contents: ContentProtocol[] = [
     index: 556,
     content: "We are evacuating. Advise emergency personnel that fuel odors are still present in the cabin.",
     size: 47939,
+    notes: "Advise emergency personnel",
   },
   {
     index: 557,
@@ -2972,6 +2997,7 @@ export const contents: ContentProtocol[] = [
     index: 575,
     content: "We must descend immediately to exit icing conditions. Our right engine bleed air has failed.",
     size: 68974,
+    notes: "to exit",
   },
   {
     index: 576,
@@ -3018,6 +3044,7 @@ export const contents: ContentProtocol[] = [
     index: 584,
     content: "We have a master caution. I will notify you if a diversion is required.",
     size: 44740,
+    notes: "前面是we后面是I",
   },
   {
     index: 585,
@@ -3098,6 +3125,7 @@ export const contents: ContentProtocol[] = [
     index: 600,
     content: "We have conflicting traffic at eleven o’clock, 8 miles, climbing. Request vectors for avoidance.",
     size: 58037,
+    notes: "没有radar",
   },
   {
     index: 601,
@@ -3149,6 +3177,7 @@ export const contents: ContentProtocol[] = [
     index: 610,
     content: "We are reading high engine vibration. Request to delay takeoff.",
     size: 43557,
+    notes: "delay takeoff没有our，只有descent和approach有",
   },
   {
     index: 611,
@@ -3200,6 +3229,7 @@ export const contents: ContentProtocol[] = [
     index: 620,
     content: "Our brakes have seized. The tyres might burst during touchdown. Request fire trucks on arrival.",
     size: 72504,
+    notes: "Our brakes / The tires",
   },
   {
     index: 621,
@@ -3250,6 +3280,7 @@ export const contents: ContentProtocol[] = [
     index: 630,
     content: "Our inertial reference system has failed, unable GPS approach. Request ILS or VOR approach.",
     size: 73305,
+    notes: "ILS在前",
   },
   {
     index: 631,
@@ -3316,6 +3347,7 @@ export const contents: ContentProtocol[] = [
     index: 643,
     content: "Our weather radar has malfunctioned. What is the highest available level for cruise?",
     size: 46714,
+    notes: "有available",
   },
   {
     index: 644,
@@ -3368,6 +3400,7 @@ export const contents: ContentProtocol[] = [
     content: "There was heavy smoke in the cabin before we ventilated the aircraft. Request medical assistance for passengers after landing.",
     mismatch: "There was heavy smoke in the cabin before we ventilated the aircraft. Request medical assistance for the passengers after landing.",
     size: 72053,
+    notes: "注意the",
   },
   {
     index: 654,
@@ -3393,6 +3426,7 @@ export const contents: ContentProtocol[] = [
     index: 658,
     content: "We are unable to restart engine number one with bleed air. Request high speed for a windmill air start.",
     size: 58460,
+    notes: "restart",
   },
   {
     index: 659,
@@ -3403,6 +3437,7 @@ export const contents: ContentProtocol[] = [
     index: 660,
     content: "We have no bleed air coming from either engines or APU. Request rapid descent to 10,000 feet.",
     size: 60731,
+    notes: "有coming",
   },
   {
     index: 661,
@@ -3433,6 +3468,7 @@ export const contents: ContentProtocol[] = [
     index: 666,
     content: "Another aircraft has seen a lot of smoke coming from our APU. We are evacuating. Request emergency services.",
     size: 72265,
+    notes: "有coming",
   },
   {
     index: 667,
@@ -3458,11 +3494,13 @@ export const contents: ContentProtocol[] = [
     index: 671,
     content: "We have an abnormal noise coming from one of our cabin doors. Request rapid descent to 5000 feet.",
     size: 63003,
+    notes: "有coming",
   },
   {
     index: 672,
     content: "Smoke is coming from the cabin floor. We are performing an evacuation. All slides have been deployed.",
     size: 62933,
+    notes: "是performing不是ordering",
   },
   {
     index: 673,
@@ -3473,11 +3511,13 @@ export const contents: ContentProtocol[] = [
     index: 674,
     content: "We have a cargo smoke warning. We are disembarking passengers. Request fire services.",
     size: 54321,
+    notes: "disembarking没有the",
   },
   {
     index: 675,
     content: "We have smoke coming from our avionics bay. Advise the fire fighters that it might be an electrical fire.",
     size: 64035,
+    notes: "Coming from our不是out of",
   },
   {
     index: 676,
@@ -3513,6 +3553,7 @@ export const contents: ContentProtocol[] = [
     index: 682,
     content: "We still cannot retract the thrust reverser. Our approach speed will be higher than normal. Request vectors for the longest Runway.",
     size: 79651,
+    notes: "只有这句和some of the speed brakes有still cannot" + "\n没有radar",
   },
   {
     index: 683,
@@ -3543,6 +3584,7 @@ export const contents: ContentProtocol[] = [
     index: 688,
     content: "We have performed our procedures but engine vibration still exists. Request diversion.",
     size: 55678,
+    notes: "but engine vibration",
   },
   {
     index: 689,
@@ -3568,6 +3610,7 @@ export const contents: ContentProtocol[] = [
     index: 693,
     content: "The Number Two engine has been shut down. We are no longer able to maintain level flight. Request descent to FL200.",
     size: 71386,
+    notes: "第一句有The，第二句是We",
   },
   {
     index: 694,
@@ -3608,16 +3651,19 @@ export const contents: ContentProtocol[] = [
     index: 701,
     content: "Ice is accumulating rapidly on the wings and fuselage. Request emergency descent to 6000 feet.",
     size: 94431,
+    notes: "这次积冰是紧急下降",
   },
   {
     index: 702,
     content: "We are encountering moderate icing. Request immediate descent.",
     size: 53087,
+    notes: "immediate不是rapid",
   },
   {
     index: 703,
     content: "We made a diversion due to reports of freezing rain at our original destination.",
     size: 62550,
+    notes: "除了frontal weather and freezing rain这句话，其他都是reports of freezing rain没有单独用的",
   },
   {
     index: 704,
@@ -3643,6 +3689,7 @@ export const contents: ContentProtocol[] = [
     index: 708,
     content: "We have a “Wind-shear Ahead” warning message. Request to delay takeoff or change to another runway.",
     size: 74268,
+    notes: "delay takeoff没有our，只有descent和approach有",
   },
   {
     index: 709,
@@ -3673,6 +3720,7 @@ export const contents: ContentProtocol[] = [
     index: 714,
     content: "We had to descend immediately due to wind-shear at our cruise level. We didn’t have time to request descent as the frequency was busy.",
     size: 94339,
+    notes: "只有这句是cruise level其他都是cruising level",
   },
   {
     index: 715,
@@ -3743,11 +3791,13 @@ export const contents: ContentProtocol[] = [
     index: 728,
     content: "We performed the missed approach below the minimum because of advection fog. We could no longer see the runway lights.",
     size: 80795,
+    notes: "below the minimum只有这一句里出现",
   },
   {
     index: 729,
     content: "The latest weather says that frontal weather and freezing rain is now stationary over the airport. Request diversion.",
     size: 86071,
+    notes: "frontal是the latest weather，snow storm是the latest weather at out destination",
   },
   {
     index: 730,
@@ -3813,6 +3863,7 @@ export const contents: ContentProtocol[] = [
     index: 742,
     content: "We have received reports of freezing rain ranging from ground up to 5000 feet. Request diversion.",
     size: 87290,
+    notes: "除了frontal weather and freezing rain这句话，其他都是reports of freezing rain没有单独用的",
   },
   {
     index: 743,
@@ -3848,11 +3899,13 @@ export const contents: ContentProtocol[] = [
     index: 749,
     content: "We have a visual on a tornado at our 10 o’clock, about 2 miles. Request immediate right turn.",
     size: 78459,
+    notes: "12、1、10点(只有10点的tornado)有our, 其他没有",
   },
   {
     index: 750,
     content: "The weather forecast says that the typhoon along our route will be intensifying. Request change our airway clearance.",
     size: 93745,
+    notes: "台风是the weather forecast says",
   },
   {
     index: 751,
@@ -3873,6 +3926,7 @@ export const contents: ContentProtocol[] = [
     index: 754,
     content: "We have entered volcanic ash. Our radios and engines are not working properly, now heading 235, and descending to FL 220, squawking 7700.",
     size: 165035,
+    notes: "只有这句话的descending有and",
   },
   {
     index: 755,
@@ -3928,6 +3982,7 @@ export const contents: ContentProtocol[] = [
     index: 765,
     content: "Another aircraft has collided with us. I’ll command an evacuation as soon as we both turn off our engines.",
     size: 94363,
+    notes: "前面是us后面是I",
   },
   {
     index: 766,
@@ -3943,16 +3998,19 @@ export const contents: ContentProtocol[] = [
     index: 768,
     content: "A catering truck collided with our aft fuselage. There are fumes in the cabin and we are quickly disembarking all passengers. Request fire services.",
     size: 129419,
+    notes: "disembarking all passengers",
   },
   {
     index: 769,
     content: "The flaps were extended inadvertently and hit the fuel truck. We are disembarking all onboard personnel. Request fire services.",
     size: 122303,
+    notes: "disembarking all onboard personnel",
   },
   {
     index: 770,
     content: "Our airplane nose has now lifted off the ground due to improper load and balance. Request ground maintenance.",
     size: 89093,
+    notes: "有now",
   },
   {
     index: 771,
@@ -3963,6 +4021,7 @@ export const contents: ContentProtocol[] = [
     index: 772,
     content: "Our cabin crew will direct all passengers to stay outside the runway after evacuation.",
     size: 78346,
+    notes: "outside the runway不是out side of",
   },
   {
     index: 773,
@@ -4023,6 +4082,7 @@ export const contents: ContentProtocol[] = [
     index: 784,
     content: "My apologies for the deviation due the wrong altitude setting. Request further instructions.",
     size: 79905,
+    notes: "没有to",
   },
   {
     index: 785,
@@ -4038,6 +4098,7 @@ export const contents: ContentProtocol[] = [
     index: 787,
     content: "We were not informed of a frequency change. I will now monitor your frequency.",
     size: 67240,
+    notes: "前面是we后面是I",
   },
   {
     index: 788,
@@ -4063,6 +4124,7 @@ export const contents: ContentProtocol[] = [
     index: 792,
     content: "I can read you, but I’m not sure you can hear me. I will squawk ident to comply with your instructions.",
     size: 80314,
+    notes: "hear不是read",
   },
   {
     index: 793,
@@ -4093,6 +4155,7 @@ export const contents: ContentProtocol[] = [
     index: 798,
     content: "Request diversion. The latest weather at our destination suggests snow storm will last for 5 hours.",
     size: 104312,
+    notes: "frontal是the latest weather，snow storm是the latest weather at out destination suggests",
   },
   {
     index: 799,
@@ -4128,6 +4191,7 @@ export const contents: ContentProtocol[] = [
     index: 805,
     content: "We have a hostage situation. Request stair vehicles on standby to disembark the passengers.",
     size: 94560,
+    notes: "只有这一句是stair vehicles，其他的都是stairs vehicle或者the stairs vehicle",
   },
   {
     index: 806,
@@ -4330,6 +4394,7 @@ export const contents: ContentProtocol[] = [
     index: 845,
     content: "Request passenger stairs connect immediately after we stop on the runway. We want to disembark passengers as quickly as possible.",
     size: 103149,
+    notes: "disembark passengers",
   },
   {
     index: 846,
@@ -4355,11 +4420,13 @@ export const contents: ContentProtocol[] = [
     index: 850,
     content: "We have traffic indication at 2 o’clock, 300 feet above our level.",
     size: 50664,
+    notes: "12、1、10点(只有10点的tornado)有our, 其他没有",
   },
   {
     index: 851,
     content: "We have a possible traffic conflict at 10 o’clock, converging with our flight path.",
     size: 50315,
+    notes: "12、1、10点(只有10点的tornado)有our, 其他没有",
   },
   {
     index: 852,
