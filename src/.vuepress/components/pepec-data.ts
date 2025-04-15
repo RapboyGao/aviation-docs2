@@ -3121,18 +3121,20 @@ export const contents: ContentProtocol[] = [
     index: 599,
     content: "We have conflicting traffic at one o’clock, 6 miles, descending. Request heading 130 for avoidance.",
     size: 73687,
+    notes: "12、1、10点(只有10点的tornado)有our, 其他没有",
   },
   {
     index: 600,
     content: "We have conflicting traffic at eleven o’clock, 8 miles, climbing. Request vectors for avoidance.",
     size: 58037,
-    notes: "没有radar",
+    notes: "没有radar\n" + "12、1、10点(只有10点的tornado)有our, 其他没有",
   },
   {
     index: 601,
     content: "Traffic at our twelve o’clock, 10 miles, climbing. Should we expedite our descent to cross altitudes?",
     mismatch: "Traffic at our twelve o’clock, 10 miles, climbing. Should we expedite or descent to cross altitudes?",
     size: 77739,
+    notes: "没有radar\n" + "12、1、10点(只有10点的tornado)有our, 其他没有",
   },
   {
     index: 602,
@@ -4132,6 +4134,7 @@ export const contents: ContentProtocol[] = [
     index: 793,
     content: "I see wildfire at my 10 o’clock, about 8 miles.",
     size: 53836,
+    notes: "只有这句是my 10 o’clock",
   },
   {
     index: 794,
