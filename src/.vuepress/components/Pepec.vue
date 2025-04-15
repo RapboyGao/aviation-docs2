@@ -56,6 +56,13 @@
           </div>
         </Ques>
         <ElDivider />
+        <Ques v-if="item.notes">
+          <div>Notes:</div>
+          <div>
+            {{ item.notes }}
+          </div>
+        </Ques>
+        <ElDivider />
         <div class="flex">
           <ElLink @click="copyText(item.content)" type="primary"> 复制 </ElLink>
         </div>
