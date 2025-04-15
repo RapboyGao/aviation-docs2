@@ -2500,7 +2500,7 @@ export const contents: ContentProtocol[] = [
     index: 479,
     content: "We need to reconfigure the flight management computers for approach. Request holding instructions.",
     size: 92069,
-    notes: "For approach",
+    notes: "For approach只有重心那句是prior to approach",
   },
   {
     index: 480,
@@ -4073,6 +4073,7 @@ export const contents: ContentProtocol[] = [
     index: 782,
     content: "The center of gravity is disturbed. We will relocate passengers prior to approach. Request holding.",
     size: 85476,
+    notes: "只有这一句用到了prior to",
   },
   {
     index: 783,
