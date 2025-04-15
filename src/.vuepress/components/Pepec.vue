@@ -3,6 +3,7 @@
     <el-checkbox v-model="sortBySize" label="长度倒序" size="large" />
     <el-checkbox v-model="filterByFavorites" label="只显示Favorites" size="large" />
     <el-checkbox v-model="filterByLotOfInfo" label="只显示放行和等待" size="large" />
+    <el-checkbox v-model="filterNotes" label="只显示带有笔记的" size="large" />
     <div v-if="sortBySize">
       <a href="/music/mp3-hardest/001-050.mp3" target="_blank"> 000-050 </a>
       <a href="/music/mp3-hardest/051-100.mp3" target="_blank"> 051-100 </a>
@@ -120,6 +121,7 @@ watchEffect(() => saveFavorites(favorites.value));
 const sortBySize = ref(true);
 const filterByFavorites = ref(false);
 const filterByLotOfInfo = ref(false);
+const filterNotes = ref(false);
 
 const sorted = computed(() => {
   if (sortBySize.value) {
@@ -136,6 +138,9 @@ const sortedFiltered = computed(() =>
     })
     .filter(($0) => {
       return filterByLotOfInfo.value ? $0.hasLotOfInfo : true;
+    })
+    .filter(($0) => {
+      return filterNotes.value ? $0.notes : true;
     })
 );
 
