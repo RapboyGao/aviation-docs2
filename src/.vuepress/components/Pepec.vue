@@ -56,16 +56,15 @@
             <span>@{{ item.specialReading }}@</span>
           </div>
         </Ques>
-        <ElDivider />
-        <Ques v-if="item.notes">
-          <div>Notes:</div>
-          <div>
-            {{ item.notes }}
-          </div>
-        </Ques>
-        <ElDivider />
+        <template v-if="item.notes">
+          <ElDivider />
+          <Ques>
+            <div>Notes:</div>
+            <span>@{{ item.notes }}@</span>
+          </Ques>
+        </template>
         <div class="flex">
-          <ElLink @click="copyText(item.content)" type="primary"> 复制 </ElLink>
+          <ElLink @click="copyTextAndNotes(item)" type="primary"> 复制 </ElLink>
         </div>
       </template>
     </ElCard>
@@ -155,5 +154,14 @@ function getFirstFiveWordsWithCheck(str: string): string | undefined {
 function copyText(text: string) {
   const { copy } = useClipboard();
   copy(text);
+}
+
+function copyTextAndNotes(obj: ContentProtocol) {
+  const { copy } = useClipboard();
+  if (typeof obj.notes === "string") {
+    copy(obj.content + "\n\nNotes: " + obj.notes + "\n\n\n");
+  } else {
+    copy(obj.content);
+  }
 }
 </script>

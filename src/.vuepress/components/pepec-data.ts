@@ -2745,6 +2745,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 527,
     content: "We have smoke coming from our avionics bay. We are disembarking the passengers.",
+    notes: "这一句disembarking有the",
     size: 42555,
   },
   {
@@ -3511,7 +3512,7 @@ export const contents: ContentProtocol[] = [
     index: 674,
     content: "We have a cargo smoke warning. We are disembarking passengers. Request fire services.",
     size: 54321,
-    notes: "disembarking没有the",
+    notes: "这一句disembarking没有the",
   },
   {
     index: 675,
@@ -3998,13 +3999,13 @@ export const contents: ContentProtocol[] = [
     index: 768,
     content: "A catering truck collided with our aft fuselage. There are fumes in the cabin and we are quickly disembarking all passengers. Request fire services.",
     size: 129419,
-    notes: "disembarking all passengers",
+    notes: "quickly disembarking all passengers。只有这一句是quickly",
   },
   {
     index: 769,
     content: "The flaps were extended inadvertently and hit the fuel truck. We are disembarking all onboard personnel. Request fire services.",
     size: 122303,
-    notes: "disembarking all onboard personnel",
+    notes: "只有这一句disembarking all onboard personnel",
   },
   {
     index: 770,
@@ -4394,7 +4395,7 @@ export const contents: ContentProtocol[] = [
     index: 845,
     content: "Request passenger stairs connect immediately after we stop on the runway. We want to disembark passengers as quickly as possible.",
     size: 103149,
-    notes: "disembark passengers",
+    notes: "只有这句disembark passengers而不带the 或者all",
   },
   {
     index: 846,
