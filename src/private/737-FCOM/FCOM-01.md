@@ -2,7 +2,7 @@
 title: FCOM 第1章 - B737
 isOriginal: true
 sidebar: true
-headerDepth: 10
+toc.levels: 10
 prev: ./A-Limits.md
 next: ./FCOM-02.md
 ---

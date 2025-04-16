@@ -2,9 +2,9 @@
 icon: lock
 title: Private Documents
 category:
-    - Private
+  - Private
 # sidebar: structure
-headerDepth: 10
+toc.levels: 10
 navbar: true
 ---
 
@@ -74,7 +74,7 @@ for(let i = 1; i <= 15; i++) {
 
 ## [B737 CRM](./737-CRM/README.md)
 
--   如何保证飞行安全 (程序以外)
+- 如何保证飞行安全 (程序以外)
 
 ## [B737 FCOM 题库](./737-FCOM/A-0.md)
 

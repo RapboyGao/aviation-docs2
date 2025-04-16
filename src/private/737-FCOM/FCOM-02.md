@@ -2,7 +2,7 @@
 title: FCOM 第2章 - B737
 isOriginal: true
 sidebar: true
-headerDepth: 10
+toc.levels: 10
 prev: ./FCOM-01.md
 next: ./FCOM-03.md
 ---

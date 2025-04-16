@@ -6,8 +6,11 @@ import head from "./misc/head";
 import theme from "./theme";
 import Path from "path";
 
+type BaseUrl = "/" | `/${string}/` | undefined;
+const baseUrl = (process.env?.BASE_URL as BaseUrl) ?? "/";
+
 export default defineUserConfig({
-  base: "/",
+  base: baseUrl,
   head,
   lang: "zh-CN",
   title: "Aviation Docs",

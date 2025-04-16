@@ -2,7 +2,7 @@
 title: FCOM 第15章 - B737
 isOriginal: true
 sidebar: true
-headerDepth: 10
+toc.levels: 10
 prev: ./FCOM-14.md
 # next: ./FCOM-05.md
 ---

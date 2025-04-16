@@ -2,7 +2,7 @@
 title: FCOM 第7章 - B737
 isOriginal: true
 sidebar: true
-headerDepth: 10
+toc.levels: 10
 prev: ./FCOM-06.md
 next: ./FCOM-08.md
 ---
