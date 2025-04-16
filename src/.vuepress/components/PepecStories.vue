@@ -8,7 +8,6 @@
               {{ k0s(item.index, 2) }}
             </h3>
             <el-checkbox v-model="favorites[item.index]" label="Favorite" size="large" />
-            <!-- <el-button @click="playAudio(item)" text type="primary">播放</el-button> -->
           </div>
         </div>
       </template>
@@ -26,6 +25,10 @@
             <span>@{{ item.translation }}@</span>
           </div>
         </Ques>
+        <ElDivider />
+        <div class="flex center">
+          <ElButton @click="copy(item.content + '\n' + item.translation + '\n\n')">复制</ElButton>
+        </div>
       </template>
     </ElCard>
   </div>
@@ -37,6 +40,7 @@ import { ElCheckbox, ElDivider, ElButton, ElCard, ElLink } from "element-plus";
 import { ref, computed, watchEffect, onMounted } from "vue";
 import { k0s } from "../../common";
 import Store2 from "store2";
+import { useClipboard } from "@vueuse/core";
 interface Favorites {
   [index: number]: boolean;
 }
@@ -50,15 +54,6 @@ function saveFavorites(favorites: Favorites) {
 }
 const favorites = ref<Favorites>(getFavorites());
 watchEffect(() => saveFavorites(favorites.value));
+
+const { copy } = useClipboard();
 </script>
-<style scoped lang="scss">
-.flex {
-  display: flex;
-}
-.space-between {
-  justify-content: space-between;
-}
-.mt-50 {
-  margin-top: 50px;
-}
-</style>

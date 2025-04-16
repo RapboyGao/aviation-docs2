@@ -63,7 +63,7 @@
             <span>@{{ item.notes }}@</span>
           </Ques>
         </template>
-        <div class="flex">
+        <div class="flex center">
           <ElLink @click="copyTextAndNotes(item)" type="primary"> 复制 </ElLink>
         </div>
       </template>
