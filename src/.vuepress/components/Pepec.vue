@@ -158,10 +158,11 @@ function copyText(text: string) {
 
 function copyTextAndNotes(obj: ContentProtocol) {
   const { copy } = useClipboard();
+  let index = k0s(obj.index, 3) + ". ";
   if (typeof obj.notes === "string") {
-    copy(obj.content + "\n\nNotes: " + obj.notes + "\n\n\n");
+    copy(index + obj.content + "\n\nNotes: " + obj.notes + "\n\n\n");
   } else {
-    copy(obj.content);
+    copy(index + obj.content);
   }
 }
 </script>
