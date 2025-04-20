@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ElLink v-for="pageIndex in pages" :key="pageIndex" :href="`#choosing-${pageIndex * 50}`" class="margin-left-right">
+    <ElLink v-for="pageIndex in pages" :key="pageIndex" :href="`#choosing-${pageIndex * 50}`" class="margin-left-right" type="primary">
       {{ pageIndex * 50 }}
     </ElLink>
   </div>
@@ -14,7 +14,6 @@ import { ElDivider, ElLink } from "element-plus";
 import { defineProps } from "vue";
 import type { PepecChoosing } from "../pepec.types";
 import PepecChoosingCard from "./PepecChoosingCard.vue";
-
 const props = defineProps<{
   choosingQuestions: PepecChoosing[];
 }>();

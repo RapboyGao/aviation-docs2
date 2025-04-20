@@ -16,8 +16,8 @@
       </Ques>
       <ElDivider />
       <div :id="'choosing-' + index" @click="showAnswer = !showAnswer">
-        <div v-for="(option, index) in question.options" :key="index">
-          <ElCheckbox :model-value="showAnswer && option.right"> {{ option.index }}. {{ option.content }} </ElCheckbox>
+        <div v-for="(option, index) in shuffledOptions" :key="index">
+          <ElCheckbox :model-value="showAnswer && option.right"> {{ String.fromCharCode(65 + index) }}. {{ option.content }} </ElCheckbox>
         </div>
       </div>
     </template>
@@ -28,9 +28,11 @@ import { ElCard, ElCheckbox, ElDivider } from "element-plus";
 import { defineProps, ref } from "vue";
 import { k0s } from "../../../common";
 import type { PepecChoosing } from "../pepec.types";
+import _ from "lodash";
 let showAnswer = ref(false);
-defineProps<{
+const props = defineProps<{
   index: number;
   question: PepecChoosing;
 }>();
+const shuffledOptions = _.shuffle(props.question.options);
 </script>
