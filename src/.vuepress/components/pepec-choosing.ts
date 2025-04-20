@@ -1,4 +1,14 @@
-export const choosing10sPart1 = [
+export type PepecAudioUrl = `https://resource.feizhiyi.com/${string}`;
+
+export interface PepecChoosing {
+  _id: string;
+  content: string[];
+  content_trans: string[];
+  content_audios: PepecAudioUrl[];
+  [string: string]: any;
+}
+
+export const choosing10sPart1: PepecChoosing[] = [
   {
     _id: "5a74d7e740fecb40f44cfb98",
     eid: 110495,

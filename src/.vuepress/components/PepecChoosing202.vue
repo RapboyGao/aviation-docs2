@@ -1,5 +1,5 @@
 <template>
-  <PepecChoosing :choosing-questions="choosing10sPart1"></PepecChoosing>
+  <PepecChoosing :choosing-questions="choosing20sPart2"></PepecChoosing>
 </template>
 
 <script setup lang="ts">
