@@ -13,12 +13,11 @@
   </div>
 </template>
 <script setup lang="ts">
-import { ElDivider, ElLink, ElCheckbox } from "element-plus";
+import { ElCheckbox, ElDivider, ElLink } from "element-plus";
+import _ from "lodash";
 import { computed, defineProps, ref } from "vue";
 import type { PepecChoosing } from "../pepec.types";
 import PepecChoosingCard from "./PepecChoosingCard.vue";
-import _ from "lodash";
-import store from "store2";
 const props = defineProps<{
   choosingQuestions: PepecChoosing[];
 }>();
