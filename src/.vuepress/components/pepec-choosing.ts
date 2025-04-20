@@ -15259,7 +15259,7 @@ export const choosing10sPart1: PepecChoosing[] = [
   },
 ];
 
-export const choosing10sPart2 = [
+export const choosing10sPart2: PepecChoosing[] = [
   {
     _id: "5b51c80b40fecb4bc243ed47",
     eid: 116532,
@@ -22538,7 +22538,7 @@ export const choosing10sPart2 = [
   },
 ];
 
-export const choosing20sPart1 = [
+export const choosing20sPart1: PepecChoosing[] = [
   {
     _id: "5b51c80b40fecb4bc243ed42",
     eid: 116527,
@@ -29185,7 +29185,7 @@ export const choosing20sPart1 = [
   },
 ];
 
-export const choosing20sPart2 = [
+export const choosing20sPart2: PepecChoosing[] = [
   {
     _id: "5b51c80b40fecb4bc243ed4d",
     eid: 116538,

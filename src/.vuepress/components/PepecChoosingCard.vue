@@ -12,9 +12,7 @@
 
     <template #default>
       <Ques>
-        <div>
-          <span>@{{ question.content[0] }}@</span>
-        </div>
+        <div v-for="item in question.content" :key="item">@{{ item }}@</div>
       </Ques>
       <ElDivider />
       <div @click="showAnswer = !showAnswer">
@@ -29,15 +27,10 @@
 import { defineProps, ref } from "vue";
 import { ElCard, ElDivider, ElCheckbox } from "element-plus";
 import { k0s } from "../../common";
+import type { PepecChoosing } from "./pepec-choosing";
 let showAnswer = ref(false);
-defineProps({
-  question: {
-    type: Object,
-    required: true,
-  },
-  index: {
-    type: Number,
-    required: true,
-  },
-});
+defineProps<{
+  index: number;
+  question: PepecChoosing;
+}>();
 </script>
