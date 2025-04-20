@@ -1,5 +1,5 @@
 ---
-title: PEPEC 10s选择题第3部分
+title: PEPEC 20s选择题第3部分
 sidebar: true
 category: Notes
 tag:
