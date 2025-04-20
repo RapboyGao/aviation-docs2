@@ -39213,3 +39213,7 @@ export const choosing20sPart2: PepecChoosing[] = [
     user_evaluation: null,
   },
 ];
+
+export const choosingAllParts: PepecChoosing[] = choosing10sPart1.concat(choosing10sPart2).concat(choosing20sPart1).concat(choosing20sPart2);
+
+export default choosingAllParts;
