@@ -1,4 +1,4 @@
-import type { PepecChoosing } from "./pepec.types";
+import type { PepecChoosing } from "../pepec.types";
 
 export const choosing10sPart1: PepecChoosing[] = [
   {
