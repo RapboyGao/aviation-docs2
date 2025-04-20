@@ -12,7 +12,7 @@
 
     <template #default>
       <Ques>
-        <div v-for="item in question.content" :key="item">@{{ item }}@</div>
+        <div v-for="item in question.content" :key="item" class="flex-wrap">{{ item }}</div>
       </Ques>
       <ElDivider />
       <div @click="showAnswer = !showAnswer">
@@ -24,8 +24,8 @@
   </ElCard>
 </template>
 <script setup lang="ts">
+import { ElCard, ElCheckbox, ElDivider } from "element-plus";
 import { defineProps, ref } from "vue";
-import { ElCard, ElDivider, ElCheckbox } from "element-plus";
 import { k0s } from "../../common";
 import type { PepecChoosing } from "./pepec.types";
 let showAnswer = ref(false);
