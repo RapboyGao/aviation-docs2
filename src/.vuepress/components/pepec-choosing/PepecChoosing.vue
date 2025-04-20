@@ -6,7 +6,8 @@
   </div>
   <ElDivider></ElDivider>
   <div class="flex center">
-    <el-checkbox v-model="useShuffle" label="打乱顺序" size="large" />
+    <el-checkbox v-model="useShuffle" label="Shuffled" size="large" class="margin-left-right" />
+    <el-checkbox v-model="showFavoriteOnly" label="Favorites Only" size="large" class="margin-left-right" />
   </div>
   <ElDivider></ElDivider>
   <div v-for="(item, index) in shownQuestions" :key="item._id" class="mt-50" :id="`pepec-${index}`">
@@ -19,13 +20,23 @@ import { computed, defineProps, ref } from "vue";
 import type { PepecChoosing } from "../pepec.types";
 import PepecChoosingCard from "./PepecChoosingCard.vue";
 import _ from "lodash";
+import store from "store2";
 const props = defineProps<{
   choosingQuestions: PepecChoosing[];
 }>();
-let totalLength = props.choosingQuestions;
-let pages = Math.ceil(totalLength.length / 50 - 1);
+
 let useShuffle = ref(false);
-let shownQuestions = computed(() => {
-  return useShuffle.value ? _.shuffle(totalLength) : totalLength;
+let showFavoriteOnly = ref(false);
+let favoriteQuestions = computed(() => {
+  return showFavoriteOnly.value
+    ? props.choosingQuestions.filter((item) => {
+        return store.get("favorite-" + item._id, false);
+      })
+    : props.choosingQuestions;
 });
+let shownQuestions = computed(() => {
+  return useShuffle.value ? _.shuffle(favoriteQuestions.value) : favoriteQuestions.value;
+});
+
+let pages = computed(() => Math.ceil(shownQuestions.value.length / 50 - 1));
 </script>
