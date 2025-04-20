@@ -1,12 +1,4 @@
-export type PepecAudioUrl = `https://resource.feizhiyi.com/${string}`;
-
-export interface PepecChoosing {
-  _id: string;
-  content: string[];
-  content_trans: string[];
-  content_audios: PepecAudioUrl[];
-  [string: string]: any;
-}
+import type { PepecChoosing } from "./pepec.types";
 
 export const choosing10sPart1: PepecChoosing[] = [
   {

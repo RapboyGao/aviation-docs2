@@ -27,7 +27,7 @@
 import { defineProps, ref } from "vue";
 import { ElCard, ElDivider, ElCheckbox } from "element-plus";
 import { k0s } from "../../common";
-import type { PepecChoosing } from "./pepec-choosing";
+import type { PepecChoosing } from "./pepec.types";
 let showAnswer = ref(false);
 defineProps<{
   index: number;

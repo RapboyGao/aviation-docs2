@@ -5,7 +5,7 @@
 </template>
 <script setup lang="ts">
 import { defineProps, ref } from "vue";
-import type { PepecChoosing } from "./pepec-choosing";
+import type { PepecChoosing } from "./pepec.types";
 import PepecChoosingCard from "./PepecChoosingCard.vue";
 let showAnswer = ref({});
 defineProps<{
