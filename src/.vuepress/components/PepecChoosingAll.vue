@@ -3,6 +3,6 @@
 </template>
 
 <script setup lang="ts">
-import PepecChoosing from "./PepecChoosing.vue";
+import PepecChoosing from "./pepec-choosing/PepecChoosing.vue";
 import allBasicsUnique from "./pepec-choosing";
 </script>
