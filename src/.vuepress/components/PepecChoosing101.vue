@@ -4,5 +4,5 @@
 
 <script setup lang="ts">
 import PepecChoosing from "./PepecChoosing.vue";
-import { choosing10sPart1 } from "./pepec-choosing";
+import { choosing10sPart1 } from "./pepec-choosing-secret";
 </script>
