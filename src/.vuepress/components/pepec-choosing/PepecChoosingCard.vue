@@ -1,12 +1,11 @@
 <template>
   <ElCard>
     <template #header>
-      <div>
-        <div class="flex space-between">
-          <h3>
-            {{ k0s(index, 3) }}
-          </h3>
-        </div>
+      <div class="flex space-between">
+        <h3>
+          {{ k0s(index, 3) }}
+        </h3>
+        <el-checkbox v-model="isFavoriteComputed" label="Favorite" size="large" />
       </div>
     </template>
 
@@ -25,14 +24,24 @@
 </template>
 <script setup lang="ts">
 import { ElCard, ElCheckbox, ElDivider } from "element-plus";
-import { defineProps, ref } from "vue";
+import _ from "lodash";
+import { computed, defineProps, Ref, ref } from "vue";
 import { k0s } from "../../../common";
 import type { PepecChoosing } from "../pepec.types";
-import _ from "lodash";
-let showAnswer = ref(false);
+import Ques from "../Ques.vue";
+import store2 from "store2";
 const props = defineProps<{
   index: number;
   question: PepecChoosing;
 }>();
+let showAnswer = ref(false);
+const isFavorite: Ref<boolean> = ref(store2.get("favorite-" + props.question._id, false));
+const isFavoriteComputed = computed({
+  get: () => isFavorite.value,
+  set: (value) => {
+    isFavorite.value = value;
+    store2.set("favorite-" + props.question._id, value);
+  },
+});
 const shuffledOptions = _.shuffle(props.question.options);
 </script>
