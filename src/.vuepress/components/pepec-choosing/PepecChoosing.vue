@@ -10,11 +10,10 @@
   </div>
 </template>
 <script setup lang="ts">
+import { ElDivider, ElLink } from "element-plus";
 import { defineProps } from "vue";
 import type { PepecChoosing } from "../pepec.types";
 import PepecChoosingCard from "./PepecChoosingCard.vue";
-import { ElLink, ElDivider } from "element-plus";
-import { k0s } from "../../../common";
 
 const props = defineProps<{
   choosingQuestions: PepecChoosing[];
