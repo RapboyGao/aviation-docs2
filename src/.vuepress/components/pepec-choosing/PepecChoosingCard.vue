@@ -15,7 +15,7 @@
         <div v-for="item in question.content" :key="item" class="flex-wrap">{{ item }}</div>
       </Ques>
       <ElDivider />
-      <div @click="showAnswer = !showAnswer">
+      <div :id="'choosing-' + index" @click="showAnswer = !showAnswer">
         <div v-for="(option, index) in question.options" :key="index">
           <ElCheckbox :model-value="showAnswer && option.right"> {{ option.index }}. {{ option.content }} </ElCheckbox>
         </div>
