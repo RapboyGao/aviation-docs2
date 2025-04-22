@@ -816,26 +816,31 @@ export const contents: ContentProtocol[] = [
   {
     index: 130,
     content: "Follow the greens to holding point Runway 05R.",
+    specialReading: "Follow the greens to holding point Runway zero five right.",
     size: 59442,
   },
   {
     index: 131,
     content: "Cross red stop-bar at A1, we understand stop-bar unserviceable.",
+    specialReading: "Cross red stop-bar at Alpha one, we understand stop-bar unserviceable.",
     size: 92470,
   },
   {
     index: 132,
     content: "After landing Airbus320, cross Runway 24, report vacated.",
+    specialReading: "After landing Airbus three two zero, cross Runway two four, report vacated.",
     size: 92748,
   },
   {
     index: 133,
     content: "Taxi to holding point C3, Runway 36.",
+    specialReading: "Taxi to holding point Charlie tree, Runway three six.",
     size: 74851,
   },
   {
     index: 134,
     content: "Behind Boeing 747 passing left to right, taxi to holding point A1 Runway 24.",
+    specialReading: "Behind Boeing seven four seven passing left to right, taxi to holding point Alpha one Runway two four.",
     size: 106211,
   },
   {
@@ -846,6 +851,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 136,
     content: "After departure, climb straight ahead until 3000 feet.",
+    specialReading: "After departure, climb straight ahead until tree tousand feet.",
     size: 59934,
   },
   {
@@ -856,6 +862,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 138,
     content: "Lining up Runway 01C.",
+    specialReading: "Lining up Runway zero one Center.",
     size: 44292,
   },
   {
@@ -871,16 +878,19 @@ export const contents: ContentProtocol[] = [
   {
     index: 141,
     content: "Runway 06, cleared for takeoff. Report airborne.",
+    specialReading: "Runway zero six, cleared for takeoff. Report airborne.",
     size: 68488,
   },
   {
     index: 142,
     content: "Cleared for takeoff, Runway 06, wilco.",
+    specialReading: "Cleared for takeoff, Runway zero six, wilco.",
     size: 54737,
   },
   {
     index: 143,
     content: "Airborne, passing 500 feet for 4000 feet.",
+    specialReading: "Airborne, passing five hundred feet for four tousand feet.",
     size: 52167,
   },
   {
@@ -896,6 +906,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 146,
     content: "After departure, turn left heading 190, Runway 24R, cleared for takeoff.",
+    specialReading: "After departure, turn left heading one niner zero, Runway two four right, cleared for takeoff.",
     size: 99965,
   },
   {
@@ -946,51 +957,61 @@ export const contents: ContentProtocol[] = [
   {
     index: 156,
     content: "Affirm. We can accept intersection departure from C2.",
+    specialReading: "Affirm. We can accept intersection departure from Charlie two.",
     size: 68414,
   },
   {
     index: 157,
     content: "Request intersection departure from C2.",
+    specialReading: "Request intersection departure from Charlie two.",
     size: 50552,
   },
   {
     index: 158,
     content: "Request Takeoff Runway Available (TORA) from intersection C2.",
+    specialReading: "Request Takeoff Runway Available (TORA) from intersection Charlie two.",
     size: 67497,
   },
   {
     index: 159,
     content: "Request Accelerate-Stop Distance Available (ASDA) from intersection D1.",
+    specialReading: "Request Accelerate-Stop Distance Available (ASDA) from intersection Delta one.",
     size: 77292,
   },
   {
     index: 160,
     content: "Request Takeoff Distance Available (TODA) from intersection E3.",
+    specialReading: "Request Takeoff Distance Available (TODA) from intersection Echo three.",
     size: 66350,
   },
   {
     index: 161,
     content: "Line up and wait. Understand one aircraft to depart from A2.",
+    specialReading: "Line up and wait. Understand one aircraft to depart from Alpha two.",
     size: 65979,
   },
   {
     index: 162,
     content: "Taxi via A2, backtrack and line-up Runway 18.",
+    specialReading: "Taxi via Alpha two, backtrack and line-up Runway one eight.",
     size: 72306,
   },
   {
     index: 163,
     content: "Airbus 330 heavy, 8000 feet, Information X.",
+    specialReading: "Airbus three three zero heavy, eight tousand feet, Information X-ray.",
     size: 80269,
   },
   {
     index: 164,
     content: "Join right-hand downwind, Runway 34.",
+    specialReading: "Join right-hand downwind, Runway tree four.",
     size: 45260,
   },
   {
     index: 165,
     content: "Number Two, follow airbus 330 on base.",
+    specialReading: "Number Two, follow Airbus three three zero on base.",
     size: 57322,
   },
   {
@@ -1001,11 +1022,13 @@ export const contents: ContentProtocol[] = [
   {
     index: 167,
     content: "Straight-in visual approach, Runway 34.",
+    specialReading: "Straight-in visual approach, Runway tree four.",
     size: 44909,
   },
   {
     index: 168,
     content: "Extend downwind, Number Two, airbus 320 in sight.",
+    specialReading: "Extend downwind, Number Two, Airbus three two zero in sight.",
     size: 75897,
   },
   {
@@ -1016,6 +1039,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 170,
     content: "Number Two, follow airbus 320 ahead.",
+    specialReading: "Number Two, follow Airbus three two zero ahead.",
     size: 46667,
   },
   {
@@ -1031,11 +1055,13 @@ export const contents: ContentProtocol[] = [
   {
     index: 173,
     content: "Continue approach Runway 25.",
+    specialReading: "Continue approach Runway two five.",
     size: 36998,
   },
   {
     index: 174,
     content: "Runway 27, cleared to land.",
+    specialReading: "Runway two seven, cleared to land.",
     size: 33377,
   },
   {
@@ -1051,6 +1077,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 177,
     content: "Low pass approved Runway 27, not below 500 feet.",
+    specialReading: "Low pass approved Runway two seven, not below five hundred feet.",
     size: 65070,
   },
   {
@@ -1061,6 +1088,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 179,
     content: "Behind the Boeing 737, cleared to land.",
+    specialReading: "Behind the Boeing seven tree seven, cleared to land.",
     size: 50844,
   },
   {
@@ -1091,21 +1119,25 @@ export const contents: ContentProtocol[] = [
   {
     index: 185,
     content: "Follow the standard missed approach procedure, climbing to 3000 feet.",
+    specialReading: "Follow the standard missed approach procedure, climbing to tree tousand feet.",
     size: 66227,
   },
   {
     index: 186,
     content: "Take first right. When vacated, contact Ground 118.35.",
+    specialReading: "Take first right. When vacated, contact Ground one one eight decimal tree five.",
     size: 83218,
   },
   {
     index: 187,
     content: "After vacated contact Ground 121.6.",
+    specialReading: "After vacated contact Ground one two one decimal six.",
     size: 57752,
   },
   {
     index: 188,
     content: "Taxi to Stand 27 via Taxiway A.",
+    specialReading: "Taxi to Stand two seven via Taxiway Alpha.",
     size: 57029,
   },
   {
@@ -1116,6 +1148,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 190,
     content: "Confirm construction work adjacent to Gate 37.",
+    specialReading: "Confirm construction work adjacent to Gate tree seven.",
     size: 73121,
   },
   {
@@ -1136,7 +1169,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 194,
     content: "Flock of birds 3 miles final.",
-    mismatch: "Flock of birds 3 mile final.",
+    specialReading: "Flock of birds tree miles final.",
     size: 44692,
   },
   {
@@ -1162,11 +1195,13 @@ export const contents: ContentProtocol[] = [
   {
     index: 199,
     content: "Confirm current RVR less than 400 meters.",
+    specialReading: "Confirm current RVR less than four hundred meters.",
     size: 60847,
   },
   {
     index: 200,
     content: "Confirm visibility more than 1000 meters.",
+    specialReading: "Confirm visibility more than one tousand meters.",
     size: 57667,
   },
   {
@@ -1177,11 +1212,13 @@ export const contents: ContentProtocol[] = [
   {
     index: 202,
     content: "Confirm RVR Runway 27.",
+    specialReading: "Confirm RVR Runway two seven.",
     size: 44830,
   },
   {
     index: 203,
     content: "RVR Runway 27 is 600 meters.",
+    specialReading: "RVR Runway two seven is six hundred meters.",
     size: 55443,
   },
   {
@@ -1205,6 +1242,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 207,
     content: "Confirm threshold Runway 27 displaced.",
+    specialReading: "Confirm threshold Runway two seven displaced.",
     size: 52980,
   },
   {
@@ -1230,6 +1268,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 212,
     content: "Tow approved via A to remote apron.",
+    specialReading: "Tow approved via Alpha to remote apron.",
     size: 44574,
   },
   {
@@ -1265,6 +1304,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 219,
     content: "Unable BK-1A Departure due performance. Request BK-1B.",
+    specialReading: "Unable Bravo Kilo one Alpha Departure due performance. Request Bravo Kilo one Bravo.",
     size: 108858,
   },
   {
@@ -1275,11 +1315,13 @@ export const contents: ContentProtocol[] = [
   {
     index: 221,
     content: "When airborne, track extended center-line, cleared for takeoff, Runway 18.",
+    specialReading: "When airborne, track extended center-line, cleared for takeoff, Runway one eight.",
     size: 68696,
   },
   {
     index: 222,
     content: "Contact Arrival 118.050.",
+    specialReading: "Contact Arrival one one eight decimal zero five zero.",
     size: 59370,
   },
   {
@@ -1295,6 +1337,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 225,
     content: "Resume own navigation to BK.",
+    specialReading: "Resume own navigation to Bravo Kilo.",
     size: 43722,
   },
   {
@@ -1305,11 +1348,13 @@ export const contents: ContentProtocol[] = [
   {
     index: 227,
     content: "Identified, position 50 miles east of BK.",
+    specialReading: "Identified, position five zero miles east of Bravo Kilo.",
     size: 61130,
   },
   {
     index: 228,
     content: "30 miles from touchdown, contact Approach 118.1.",
+    specialReading: "30 miles from touchdown, contact Approach one one eight decimal one.",
     size: 66618,
   },
   {
@@ -1345,11 +1390,13 @@ export const contents: ContentProtocol[] = [
   {
     index: 235,
     content: "Squawk 7563.",
+    specialReading: "Squawk seven five six tree.",
     size: 40795,
   },
   {
     index: 236,
     content: "Reset squawk 5101.",
+    specialReading: "Reset squawk five one zero one.",
     size: 43755,
   },
   {
@@ -1365,6 +1412,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 239,
     content: "Squawk Charlie and code 5120.",
+    specialReading: "Squawk Charlie and code five one two zero.",
     size: 49521,
   },
   {
@@ -1375,11 +1423,13 @@ export const contents: ContentProtocol[] = [
   {
     index: 241,
     content: "Affirm squawk 7500.",
+    specialReading: "Affirm squawk seven five zero zero.",
     size: 45506,
   },
   {
     index: 242,
     content: "Altimeter 1003 8000ft.",
+    specialReading: "Altimeter one zero zero tree eight tousand feet.",
     size: 64066,
   },
   {
@@ -1390,37 +1440,43 @@ export const contents: ContentProtocol[] = [
   {
     index: 244,
     content: "Turn right heading 340.",
+    specialReading: "Turn right heading three four zero.",
     size: 51367,
   },
   {
     index: 245,
     content: "Turn right 20 degrees.",
+    specialReading: "Turn right two zero degrees.",
     size: 41346,
   },
   {
     index: 246,
     content: "Leave BK heading 190.",
+    specialReading: "Leave Bravo Kilo heading one niner zero.",
     size: 49114,
   },
   {
     index: 247,
     content: "Fly heading 285.",
+    specialReading: "Fly heading two eight five.",
     size: 34561,
   },
   {
     index: 248,
     content: "Stop turn heading 070.",
-    mismatch: "Stop turning heading 070.",
+    specialReading: "Stop turn heading zero seven zero.",
     size: 54030,
   },
   {
     index: 249,
     content: "Request heading 180 due weather.",
+    specialReading: "Request heading one eight zero due weather.",
     size: 45860,
   },
   {
     index: 250,
     content: "Confirm danger area 113 active.",
+    specialReading: "Confirm danger area one one tree active.",
     size: 55966,
   },
   {
@@ -1431,62 +1487,73 @@ export const contents: ContentProtocol[] = [
   {
     index: 252,
     content: "50 miles right of track approved, when able, proceed direct TB.",
+    specialReading: "50 miles right of track approved, when able, proceed direct Tango Bravo.",
     size: 81160,
   },
   {
     index: 253,
     content: "Indicated speed 270 knots.",
+    specialReading: "Indicated speed two seven zero knots.",
     size: 46187,
   },
   {
     index: 254,
     content: "Maintain 300 knots or less.",
+    specialReading: "Maintain tree hundred knots or less.",
     size: 51260,
   },
   {
     index: 255,
     content: "Maintain 180 knots until 8 miles from touchdown.",
+    specialReading: "Maintain one eight zero knots until eight miles from touchdown.",
     size: 59296,
   },
   {
     index: 256,
     content: "Maintain Mach decimal 82, transition speed 310 knots.",
+    specialReading: "Maintain Mach decimal eight two, transition speed tree one zero knots.",
     size: 80557,
   },
   {
     index: 257,
     content: "Maintain speed 280 knots or greater for separation.",
+    specialReading: "Maintain speed two eight zero knots or greater for separation.",
     size: 59731,
   },
   {
     index: 258,
     content: "Cross CK at 35 or later.",
+    specialReading: "Cross Charlie Kilo at tree five or later.",
     size: 55131,
   },
   {
     index: 259,
     content: "Cross DG at 24 or earlier.",
+    specialReading: "Cross Delta Golf at two four or earlier.",
     size: 51157,
   },
   {
     index: 260,
     content: "Do not exceed 280 knots.",
+    specialReading: "Do not exceed two eight zero knots.",
     size: 43175,
   },
   {
     index: 261,
     content: "Reduce speed to 240 knots.",
+    specialReading: "Reduce speed to two four zero knots.",
     size: 42949,
   },
   {
     index: 262,
     content: "Increase speed to 300 knots or greater.",
+    specialReading: "Increase speed to tree zero zero knots or greater.",
     size: 59419,
   },
   {
     index: 263,
     content: "Increase speed by 10 knots.",
-    specialReading: "Increase speed by ten knots.",
+    specialReading: "Increase speed by one zero knots.",
     size: 40062,
   },
   {
@@ -1502,21 +1569,25 @@ export const contents: ContentProtocol[] = [
   {
     index: 266,
     content: "Request speed 200 knots due configuration.",
+    specialReading: "Request speed two zero zero knots due configuration.",
     size: 57231,
   },
   {
     index: 267,
     content: "Request speed 250 knots due turbulence.",
+    specialReading: "Request speed two five zero knots due turbulence.",
     size: 53554,
   },
   {
     index: 268,
     content: "Omit position reports until LN.",
+    specialReading: "Omit position reports until Lima November.",
     size: 48569,
   },
   {
     index: 269,
     content: "Next report at IP.",
+    specialReading: "Next report at India Papa.",
     size: 36055,
   },
   {
@@ -1527,12 +1598,14 @@ export const contents: ContentProtocol[] = [
   {
     index: 271,
     content: "We have traffic at our 12 o’clock, 5 miles, 500 feet below, climbing.",
+    specialReading: "We have traffic at our twelve’clock, five miles, five hundred feet below, climbing.",
     size: 75964,
     notes: "12、1、10点(只有10点的tornado)有our, 其他没有",
   },
   {
     index: 272,
     content: "Traffic indication at our 1 o’clock, 4 miles, same altitude, converging.",
+    specialReading: "Traffic indication at our one o’clock, four miles, same altitude, converging.",
     size: 78872,
     notes: "12、1、10点(只有10点的tornado)有our, 其他没有",
   },
@@ -1549,26 +1622,31 @@ export const contents: ContentProtocol[] = [
   {
     index: 275,
     content: "Request 15 miles final.",
+    specialReading: "Request one five miles final.",
     size: 34255,
   },
   {
     index: 276,
     content: "Maintain 3000 feet until glide path interception.",
+    specialReading: "Maintain tree tousand feet until glide path interception.",
     size: 65611,
   },
   {
     index: 277,
     content: "NOTAM says glide slope for Runway 15 is unserviceable, confirm.",
+    specialReading: "NOTAM says glide slope for Runway one five is unserviceable, confirm.",
     size: 77429,
   },
   {
     index: 278,
     content: "Confirm ILS frequency for Runway 17L.",
+    specialReading: "Confirm ILS frequency for Runway one seven left.",
     size: 60830,
   },
   {
     index: 279,
     content: "In case of going around, turn left heading 210.",
+    specialReading: "In case of going around, turn left heading two one zero.",
     size: 56625,
   },
   {
@@ -1589,13 +1667,13 @@ export const contents: ContentProtocol[] = [
   {
     index: 283,
     content: "ADS-B transmitter 1090 (ten-ninety) data link.",
-    specialReading: "ADS-B transmitter one zero nine zero data link.",
+    specialReading: "ADS-B transmitter one zero niner zero data link.",
     size: 76704,
   },
   {
     index: 284,
     content: "ADS-B receiver 1090 (ten-ninety) data link.",
-    specialReading: "ADS-B receiver one zero nine zero data link.",
+    specialReading: "ADS-B receiver one zero niner zero data link.",
     size: 55314,
   },
   {
@@ -1631,11 +1709,13 @@ export const contents: ContentProtocol[] = [
   {
     index: 291,
     content: "Right heading 120, my own terrain clearance.",
+    specialReading: "Right heading one two zero, my own terrain clearance.",
     size: 52943,
   },
   {
     index: 292,
     content: "Heading 120, correction, 140.",
+    specialReading: "Heading one two zero, correction, one four zero.",
     size: 53853,
   },
   {
@@ -1651,32 +1731,37 @@ export const contents: ContentProtocol[] = [
   {
     index: 295,
     content: "Right heading 040 until passing FL70 then direct to BK.",
-    mismatch: "Right heading 040 until passing FL70 then track direct to BK.",
+    specialReading: "Right heading zero four zero until passing FL70 then direct to Bravo Kilo.",
     size: 126133,
   },
   {
     index: 296,
     content: "Direct to JO, descend to FL50.",
+    specialReading: "Direct to Juliet Oscar, descend to FL50.",
     size: 86015,
   },
   {
     index: 297,
     content: "Passing FL70.",
+    specialReading: "Passing FL70.",
     size: 45605,
   },
   {
     index: 298,
     content: "Descending to 4000 feet QNH 1005, expect ILS approach Runway 24.",
+    specialReading: "Descending to four tousand feet QNH one zero zero five, expect ILS approach Runway two four.",
     size: 126112,
   },
   {
     index: 299,
     content: "Request straight-in ILS approach Runway 24.",
+    specialReading: "Request straight-in ILS approach Runway two four.",
     size: 64277,
   },
   {
     index: 300,
     content: "Cleared straight-in ILS approach Runway 24, descend to 3000 feet, QNH1011.",
+    specialReading: "Cleared straight-in ILS approach Runway two four, descend to tree tousand feet, QNH one zero one one.",
     size: 130477,
   },
   {
@@ -1697,11 +1782,13 @@ export const contents: ContentProtocol[] = [
   {
     index: 304,
     content: "Fully established Runway 24.",
+    specialReading: "Fully established Runway two four.",
     size: 48808,
   },
   {
     index: 305,
     content: "Cleared VOR-DME approach Runway 24, descending to 3000 feet QNH1007.",
+    specialReading: "Cleared VOR-DME approach Runway two four, descending to tree tousand feet QNH one zero zero seven.",
     size: 126645,
   },
   {
@@ -1712,6 +1799,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 307,
     content: "Number One, contact Tower 118.7.",
+    specialReading: "Number One, contact Tower one one eight decimal seven.",
     size: 61099,
   },
   {
@@ -1722,6 +1810,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 309,
     content: "Report MQR outbound.",
+    specialReading: "Report Mike Quebec Romeo outbound.",
     size: 46513,
   },
   {
@@ -1737,6 +1826,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 312,
     content: "Cleared visual approach Runway 24.",
+    specialReading: "Cleared visual approach Runway two four.",
     size: 43079,
   },
   {
@@ -1747,6 +1837,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 314,
     content: "Hold over BKM VOR at FL100, inbound track 280 degrees, left hand pattern, outbound time 1 minute.",
+    specialReading: "Hold over Bravo Kilo Mike VOR at FL100, inbound track two eight zero degrees, left hand pattern, outbound time one minute.",
     size: 162934,
     hasLotOfInfo: true,
   },
@@ -1758,28 +1849,34 @@ export const contents: ContentProtocol[] = [
   {
     index: 316,
     content: "Hold on the 265 radial of BKM VOR between 25 and 30 miles DME, FL100, inbound track 085, right hand pattern, expected approach time 1022.",
+    specialReading:
+      "Hold on the two six five radial of Bravo Kilo Mike VOR between two five and three zero miles DME, FL100, inbound track zero eight five, right hand pattern, expected approach time one zero two two.",
     size: 290419,
     hasLotOfInfo: true,
   },
   {
     index: 317,
     content: "Hold at 20 DME of ST VOR, FL100, inbound track 260 degrees, left turns, limiting outbound distance 24 DME.",
+    specialReading: "Hold at two zero DME of Sierra Tango VOR, flight level one zero zero, inbound track two six zero degrees, left turns, limiting outbound distance two four DME.",
     size: 231047,
     hasLotOfInfo: true,
   },
   {
     index: 318,
     content: "Overhead YV, maintaining 3000 feet, entering hold.",
+    specialReading: "Overhead Yankee Victor, maintaining tree tousand feet, entering hold.",
     size: 85282,
   },
   {
     index: 319,
     content: "Leaving BKM VOR heading 110.",
+    specialReading: "Leaving Bravo Kilo Mike VOR heading one one zero.",
     size: 61044,
   },
   {
     index: 320,
     content: "Leaving FL60, descending to 2500 feet, QNH1008.",
+    specialReading: "Leaving FL60, descending to two tousand five hundred feet, QNH one zero zero eight.",
     size: 124014,
   },
   {
@@ -2461,7 +2558,6 @@ export const contents: ContentProtocol[] = [
   {
     index: 454,
     content: "Our cabin altitude at one time had reached 16000 feet. Some passengers have symptoms of hypoxia.",
-    specialReading: "Our cabin altitude at one time had reached sixteen thousand feet. Some passengers have symptoms of hypoxia.",
     size: 108969,
   },
   {
@@ -2842,7 +2938,6 @@ export const contents: ContentProtocol[] = [
   {
     index: 528,
     content: "Request descent to 10000 feet to ventilate the aircraft due smoke.",
-    specialReading: "Request descent to ten thousand feet to ventilate the aircraft due smoke.",
     size: 47101,
   },
   {
@@ -4292,7 +4387,6 @@ export const contents: ContentProtocol[] = [
   {
     index: 806,
     content: "We have a passenger with severe hyperventilation. He has received first aid but his condition is not improving. Request ambulance on arrival.",
-    specialReading: "We have a passenger with severe hyperventilation. He has received first aid but his condition isn't improving. Request ambulance on arrival.",
     size: 126403,
   },
   {
@@ -4368,7 +4462,6 @@ export const contents: ContentProtocol[] = [
   {
     index: 821,
     content: "One of the terrorists is about forty-year old. He is about 180 cm tall, wearing a brown shirt and dark pants.",
-    specialReading: "One of the terrorists is about fortyyears old. He is about a hundred and eighty centimeters tall, wearing a brown shirt and dark pants.",
     size: 99854,
   },
   {
