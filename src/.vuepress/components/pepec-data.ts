@@ -491,7 +491,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 75,
     content: "Cleared to the 180 radial of PER VOR at 15 DME. Hold south, left hand pattern, outbound time 2 minutes, expect approach clearance at 37.",
-    specialReading: "Cleared to the one eight zero radial of Papa Echo Romeo VOR at one five DME. Hold south, left hand pattern, outbound time two minutes, expect approach clearance at three seven.",
+    specialReading: "Cleared to the one eight zero radial of Papa Echo Romeo VOR at one five DME. Hold south, left hand pattern, outbound time two minutes, expect approach clearance at tree seven.",
     size: 213124,
     hasLotOfInfo: true,
   },
@@ -556,7 +556,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 84,
     content: "Recleared to destination via B213, WHA, R343, rest of route [raʊt] unchanged.",
-    specialReading: "Recleared to destination via Bravo one tree, Whiskey Hotel Alpha, Romeo three four three, rest of route [raʊt] unchanged.",
+    specialReading: "Recleared to destination via Bravo one tree, Whiskey Hotel Alpha, Romeo tree four tree, rest of route [raʊt] unchanged.",
     size: 159564,
     hasLotOfInfo: true,
   },
@@ -577,7 +577,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 87,
     content: "Cleared to destination, BK02 RNAV Departure, initially 3000 feet, departure frequency 125.4, squawk 3311.",
-    specialReading: "Cleared to destination, Bravo Kilo zero two RNAV Departure, initially tree tousand feet, departure frequency one two five decimal four, squawk three three one one.",
+    specialReading: "Cleared to destination, Bravo Kilo zero two RNAV Departure, initially tree tousand feet, departure frequency one two five decimal four, squawk tree tree one one.",
     size: 202547,
     hasLotOfInfo: true,
   },
@@ -828,13 +828,13 @@ export const contents: ContentProtocol[] = [
   {
     index: 132,
     content: "After landing Airbus320, cross Runway 24, report vacated.",
-    specialReading: "After landing Airbus three two zero, cross Runway two four, report vacated.",
+    specialReading: "After landing Airbus tree two zero, cross Runway two four, report vacated.",
     size: 92748,
   },
   {
     index: 133,
     content: "Taxi to holding point C3, Runway 36.",
-    specialReading: "Taxi to holding point Charlie tree, Runway three six.",
+    specialReading: "Taxi to holding point Charlie tree, Runway tree six.",
     size: 74851,
   },
   {
@@ -981,7 +981,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 160,
     content: "Request Takeoff Distance Available (TODA) from intersection E3.",
-    specialReading: "Request Takeoff Distance Available (TODA) from intersection Echo three.",
+    specialReading: "Request Takeoff Distance Available (TODA) from intersection Echo tree.",
     size: 66350,
   },
   {
@@ -999,7 +999,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 163,
     content: "Airbus 330 heavy, 8000 feet, Information X.",
-    specialReading: "Airbus three three zero heavy, eight tousand feet, Information X-ray.",
+    specialReading: "Airbus tree tree zero heavy, eight tousand feet, Information X-ray.",
     size: 80269,
   },
   {
@@ -1011,7 +1011,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 165,
     content: "Number Two, follow airbus 330 on base.",
-    specialReading: "Number Two, follow Airbus three three zero on base.",
+    specialReading: "Number Two, follow Airbus tree tree zero on base.",
     size: 57322,
   },
   {
@@ -1028,7 +1028,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 168,
     content: "Extend downwind, Number Two, airbus 320 in sight.",
-    specialReading: "Extend downwind, Number Two, Airbus three two zero in sight.",
+    specialReading: "Extend downwind, Number Two, Airbus tree two zero in sight.",
     size: 75897,
   },
   {
@@ -1039,7 +1039,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 170,
     content: "Number Two, follow airbus 320 ahead.",
-    specialReading: "Number Two, follow Airbus three two zero ahead.",
+    specialReading: "Number Two, follow Airbus tree two zero ahead.",
     size: 46667,
   },
   {
@@ -1440,7 +1440,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 244,
     content: "Turn right heading 340.",
-    specialReading: "Turn right heading three four zero.",
+    specialReading: "Turn right heading tree four zero.",
     size: 51367,
   },
   {
@@ -1894,7 +1894,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 323,
     content: "Reduce to minimum approach speed, turn right heading 230, cleared for ILS approach Runway 27.",
-    specialReading: "Reduce to minimum approach speed, turn right heading two three zero, cleared for ILS approach Runway two seven.",
+    specialReading: "Reduce to minimum approach speed, turn right heading two tree zero, cleared for ILS approach Runway two seven.",
     size: 123905,
     notes: "有两个approach",
   },
@@ -1947,7 +1947,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 332,
     content: "When ready, descend to FL200. Report leaving FL300.",
-    specialReading: "When ready, descend to flight level two zero zero. Report leaving flight level three zero zero.",
+    specialReading: "When ready, descend to flight level two zero zero. Report leaving flight level tree zero zero.",
     size: 111490,
   },
   {
@@ -1999,7 +1999,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 341,
     content: "Passing altitude 2300 feet, climbing to FL80.",
-    specialReading: "Passing altitude two tousand three hundred feet, climbing to flight level eight zero.",
+    specialReading: "Passing altitude two tousand tree hundred feet, climbing to flight level eight zero.",
     size: 97264,
   },
   {
@@ -2023,7 +2023,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 345,
     content: "Unable FL390 by boundary, request FL330.",
-    specialReading: "Unable flight level tree niner zero by boundary, request flight level three tree zero.",
+    specialReading: "Unable flight level tree niner zero by boundary, request flight level tree tree zero.",
     size: 109263,
   },
   {
@@ -2065,7 +2065,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 352,
     content: "Continue approach Runway 36R, maintain visual separation with preceding traffic.",
-    specialReading: "Continue approach Runway three six right, maintain visual separation with preceding traffic.",
+    specialReading: "Continue approach Runway tree six right, maintain visual separation with preceding traffic.",
     size: 112219,
   },
   {
@@ -2099,7 +2099,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 358,
     content: "Cleared VOR approach Runway 36, followed by circling to Runway 18.",
-    specialReading: "Cleared VOR approach Runway three six, followed by circling to Runway one eight.",
+    specialReading: "Cleared VOR approach Runway tree six, followed by circling to Runway one eight.",
     size: 89579,
   },
   {
@@ -2169,7 +2169,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 371,
     content: "Hold at BKM VOR FL250, right hand pattern, expect further clearance at 23, landing delay at destination airport 30 minutes.",
-    specialReading: "Hold at Bravo Kilo Mike VOR flight level two five zero, right hand pattern, expect further clearance at two three, landing delay at destination airport three zero minutes.",
+    specialReading: "Hold at Bravo Kilo Mike VOR flight level two five zero, right hand pattern, expect further clearance at two tree, landing delay at destination airport tree zero minutes.",
     size: 204017,
     hasLotOfInfo: true,
   },
@@ -2230,7 +2230,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 382,
     content: "Maintaining FL350, expect descent after BKM VOR.",
-    specialReading: "Maintaining flight level three five zero, expect descent after Bravo Kilo Mike VOR.",
+    specialReading: "Maintaining flight level tree five zero, expect descent after Bravo Kilo Mike VOR.",
     size: 123422,
   },
   {
@@ -2248,19 +2248,19 @@ export const contents: ContentProtocol[] = [
   {
     index: 385,
     content: "Continue climb to FL 290, cross BKM VOR not above FL 230.",
-    specialReading: "Continue climb to flight level two niner zero, cross Bravo Kilo Mike VOR not above flight level two three zero.",
+    specialReading: "Continue climb to flight level two niner zero, cross Bravo Kilo Mike VOR not above flight level two tree zero.",
     size: 115377,
   },
   {
     index: 386,
     content: "Negative, unable cross BKM VOR at or above FL230 due performance.",
-    specialReading: "Negative, unable cross Bravo Kilo Mike VOR at or above flight level two three zero due performance.",
+    specialReading: "Negative, unable cross Bravo Kilo Mike VOR at or above flight level two tree zero due performance.",
     size: 110214,
   },
   {
     index: 387,
     content: "Maintaining FL310 until advised.",
-    specialReading: "Maintaining flight level three one zero until advised.",
+    specialReading: "Maintaining flight level tree one zero until advised.",
     size: 63637,
   },
   {
@@ -2290,7 +2290,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 392,
     content: "Negative, unable to cross BKM VOR at 43 or later.",
-    specialReading: "Negative, unable to cross Bravo Kilo Mike VOR at four three or later.",
+    specialReading: "Negative, unable to cross Bravo Kilo Mike VOR at four tree or later.",
     size: 73876,
   },
   {
