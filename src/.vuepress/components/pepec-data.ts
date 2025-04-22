@@ -1876,28 +1876,32 @@ export const contents: ContentProtocol[] = [
   {
     index: 320,
     content: "Leaving FL60, descending to 2500 feet, QNH1008.",
-    specialReading: "Leaving FL60, descending to two tousand five hundred feet, QNH one zero zero eight.",
+    specialReading: "Leaving flight level six zero, descending to two tousand five hundred feet, QNH one zero zero eight.",
     size: 124014,
   },
   {
     index: 321,
     content: "Position 10 miles north east of LN.",
+    specialReading: "Position one zero miles north east of Lima November.",
     size: 76763,
   },
   {
     index: 322,
     content: "Turn right heading 180 for base leg.",
+    specialReading: "Turn right heading one eight zero for base leg.",
     size: 57690,
   },
   {
     index: 323,
     content: "Reduce to minimum approach speed, turn right heading 230, cleared for ILS approach Runway 27.",
+    specialReading: "Reduce to minimum approach speed, turn right heading two three zero, cleared for ILS approach Runway two seven.",
     size: 123905,
     notes: "有两个approach",
   },
   {
     index: 324,
     content: "No ATC speed restrictions. Contact Tower 118.9.",
+    specialReading: "No ATC speed restrictions. Contact Tower one one eight decimal niner.",
     size: 99877,
   },
   {
@@ -1913,56 +1917,67 @@ export const contents: ContentProtocol[] = [
   {
     index: 327,
     content: "Surveillance radar approach Runway 27, maintaining 2200 feet.",
+    specialReading: "Surveillance radar approach Runway two seven, maintaining two tousand two hundred feet.",
     size: 90361,
   },
   {
     index: 328,
     content: "QNH1003, threshold elevation 196 feet.",
+    specialReading: "QNH one zero zero tree, threshold elevation one niner six feet.",
     size: 101471,
   },
   {
     index: 329,
     content: "Precision radar approach Runway 27 heading 260, descending to 2500 feet, QNH1014.",
+    specialReading: "Precision radar approach Runway two seven heading two six zero, descending to two tousand five hundred feet, QNH one zero one four.",
     size: 144175,
   },
   {
     index: 330,
     content: "Cleared to JEMMY via BK 1A Arrival.",
+    specialReading: "Cleared to JEMMY via Bravo Kilo one Alpha Arrival.",
     size: 65818,
   },
   {
     index: 331,
     content: "Descend to reach 5000 feet by BK.",
+    specialReading: "Descend to reach five tousand feet by Bravo Kilo.",
     size: 70283,
   },
   {
     index: 332,
     content: "When ready, descend to FL200. Report leaving FL300.",
+    specialReading: "When ready, descend to flight level two zero zero. Report leaving flight level three zero zero.",
     size: 111490,
   },
   {
     index: 333,
     content: "Descend immediately FL250.",
+    specialReading: "Descend immediately flight level two five zero.",
     size: 65522,
   },
   {
     index: 334,
     content: "Descend to altitude 12000 feet QNH 1000.",
+    specialReading: "Descend to altitude one two tousand feet QNH one zero zero zero.",
     size: 113445,
   },
   {
     index: 335,
     content: "Descend to height 2000 feet QFE 997 hectopascals.",
+    specialReading: "Descend to height two tousand feet QFE nine niner seven hectopascals.",
     size: 108670,
   },
   {
     index: 336,
     content: "Descend to 8000 feet at 1000 feet per minute or greater.",
+    specialReading: "Descend to eight tousand feet at one tousand feet per minute or greater.",
     size: 87357,
   },
   {
     index: 337,
     content: "Maintain own separation and VMC, descend to FL50.",
+    specialReading: "Maintain own separation and VMC, descend to flight level five zero.",
     size: 99213,
   },
   {
@@ -1978,71 +1993,85 @@ export const contents: ContentProtocol[] = [
   {
     index: 340,
     content: "Climb to 6000 feet, follow KODAP 01 Departure.",
+    specialReading: "Climb to six tousand feet, follow KODAP zero one Departure.",
     size: 87421,
   },
   {
     index: 341,
     content: "Passing altitude 2300 feet, climbing to FL80.",
+    specialReading: "Passing altitude two tousand three hundred feet, climbing to flight level eight zero.",
     size: 97264,
   },
   {
     index: 342,
     content: "Climb to FL210, level restrictions of KODAP 01 Departure canceled.",
+    specialReading: "Climb to flight level two one zero, level restrictions of KODAP zero one Departure canceled.",
     size: 104033,
   },
   {
     index: 343,
     content: "Climb to FL 210, cross AU at FL100 or below.",
+    specialReading: "Climb to flight level two one zero, cross Alpha Uniform at flight level one zero zero or below.",
     size: 113885,
   },
   {
     index: 344,
     content: "Climb to FL290, level at time 55.",
+    specialReading: "Climb to flight level two niner zero, level at time five five.",
     size: 82837,
   },
   {
     index: 345,
     content: "Unable FL390 by boundary, request FL330.",
+    specialReading: "Unable flight level tree niner zero by boundary, request flight level three tree zero.",
     size: 109263,
   },
   {
     index: 346,
     content: "Descend to FL100, cross YU FL150 or above.",
+    specialReading: "Descend to flight level one zero zero, cross Yankee Uniform flight level one five zero or above.",
     size: 116009,
   },
   {
     index: 347,
     content: "After passing North Cross, descend to FL150.",
+    specialReading: "After passing North Cross, descend to flight level one five zero.",
     size: 89784,
   },
   {
     index: 348,
     content: "We are far above profile. Request holding.",
+    specialReading: "We are far above profile. Request holding.",
     size: 64838,
   },
   {
     index: 349,
     content: "Stop descent at 5000 feet.",
+    specialReading: "Stop descent at five tousand feet.",
     size: 53462,
   },
   {
     index: 350,
     content: "Expedite descent until passing FL80.",
+    specialReading: "Expedite descent until passing flight level eight zero.",
     size: 76206,
   },
   {
     index: 351,
     content: "Expect descent after AK.",
+    specialReading: "Expect descent after Alpha Kilo.",
     size: 59708,
   },
   {
     index: 352,
     content: "Continue approach Runway 36R, maintain visual separation with preceding traffic.",
+    specialReading: "Continue approach Runway three six right, maintain visual separation with preceding traffic.",
     size: 112219,
   },
   {
     index: 353,
     content: "Contact Control 80 miles after BK.",
+    specialReading: "Contact Control eight zero miles after Bravo Kilo.",
     size: 78544,
   },
   {
@@ -2053,6 +2082,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 355,
     content: "Monitor Tower 118.1.",
+    specialReading: "Monitor Tower one one eight decimal one.",
     size: 54091,
   },
   {
@@ -2063,16 +2093,19 @@ export const contents: ContentProtocol[] = [
   {
     index: 357,
     content: "We can see the approach lights at 200 feet.",
+    specialReading: "We can see the approach lights at two hundred feet.",
     size: 55067,
   },
   {
     index: 358,
     content: "Cleared VOR approach Runway 36, followed by circling to Runway 18.",
+    specialReading: "Cleared VOR approach Runway three six, followed by circling to Runway one eight.",
     size: 89579,
   },
   {
     index: 359,
     content: "Expect commencing approach at time 50.",
+    specialReading: "Expect commencing approach at time five zero.",
     size: 69765,
   },
   {
@@ -2093,6 +2126,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 363,
     content: "Cleared for LDA approach Runway 24.",
+    specialReading: "Cleared for LDA approach Runway two four.",
     size: 63291,
   },
   {
@@ -2123,6 +2157,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 369,
     content: "Proceed to AK, hold as published, expect approach clearance at 30.",
+    specialReading: "Proceed to Alpha Kilo, hold as published, expect approach clearance at tree zero.",
     size: 129297,
     hasLotOfInfo: true,
   },
@@ -2134,12 +2169,14 @@ export const contents: ContentProtocol[] = [
   {
     index: 371,
     content: "Hold at BKM VOR FL250, right hand pattern, expect further clearance at 23, landing delay at destination airport 30 minutes.",
+    specialReading: "Hold at Bravo Kilo Mike VOR flight level two five zero, right hand pattern, expect further clearance at two three, landing delay at destination airport three zero minutes.",
     size: 204017,
     hasLotOfInfo: true,
   },
   {
     index: 372,
     content: "Holding northwest of W VOR FL120, what is the delay for approach?",
+    specialReading: "Holding north west of Whiskey VOR flight level one two zero, what is the delay for approach?",
     size: 111286,
     hasLotOfInfo: true,
   },
@@ -2156,11 +2193,13 @@ export const contents: ContentProtocol[] = [
   {
     index: 375,
     content: "Cleared for CAT II ILS approach Runway 24.",
+    specialReading: "Cleared for category two ILS approach Runway two four.",
     size: 65431,
   },
   {
     index: 376,
     content: "Join right hand downwind, visual approach Runway 24.",
+    specialReading: "Join right hand downwind, visual approach Runway two four.",
     size: 66650,
   },
   {
@@ -2191,56 +2230,67 @@ export const contents: ContentProtocol[] = [
   {
     index: 382,
     content: "Maintaining FL350, expect descent after BKM VOR.",
+    specialReading: "Maintaining flight level three five zero, expect descent after Bravo Kilo Mike VOR.",
     size: 123422,
   },
   {
     index: 383,
     content: "Climb to and maintain FL310. Maintain Mach number decimal 81 or greater until BKM VOR.",
+    specialReading: "Climb to and maintain flight level tree one zero. Maintain Mach number decimal eight one or greater until Bravo Kilo Mike VOR.",
     size: 133816,
   },
   {
     index: 384,
     content: "Descend to and maintain FL 270. Do not exceed Mach number decimal 79.",
+    specialReading: "Descend to and maintain flight level two seven zero. Do not exceed Mach number decimal seven niner.",
     size: 102655,
   },
   {
     index: 385,
     content: "Continue climb to FL 290, cross BKM VOR not above FL 230.",
+    specialReading: "Continue climb to flight level two niner zero, cross Bravo Kilo Mike VOR not above flight level two three zero.",
     size: 115377,
   },
   {
     index: 386,
     content: "Negative, unable cross BKM VOR at or above FL230 due performance.",
+    specialReading: "Negative, unable cross Bravo Kilo Mike VOR at or above flight level two three zero due performance.",
     size: 110214,
   },
   {
     index: 387,
     content: "Maintaining FL310 until advised.",
+    specialReading: "Maintaining flight level three one zero until advised.",
     size: 63637,
   },
   {
     index: 388,
     content: "Descend to FL170, cross BKM VOR at or above FL210.",
+    specialReading: "Descend to flight level one seven zero, cross Bravo Kilo Mike VOR at or above flight level two one zero.",
     size: 116916,
   },
   {
     index: 389,
     content: "Affirm, cross BKM VOR at or above FL190",
+    specialReading: "Affirm, cross Bravo Kilo Mike VOR at or above flight level one niner zero.",
     size: 81707,
   },
   {
     index: 390,
     content: "Negative, unable to cross BKM VOR below FL170.",
+    specialReading: "Negative, unable to cross Bravo Kilo Mike VOR below flight level one seven zero.",
     size: 88829,
   },
   {
     index: 391,
     content: "Affirm, cross BKM VOR at or before 55",
+    specialReading: "Affirm, cross Bravo Kilo Mike VOR at or before five five.",
     size: 77105,
   },
   {
     index: 392,
     content: "Negative, unable to cross BKM VOR at 43 or later.",
+    specialReading: "Negative, unable to cross Bravo Kilo Mike VOR at four three or later.",
     size: 73876,
   },
   {
@@ -2261,21 +2311,25 @@ export const contents: ContentProtocol[] = [
   {
     index: 396,
     content: "Request parallel offset from current airway for 30 minutes due icing condition.",
+    specialReading: "Request parallel offset from current airway for tree zero minutes due icing condition.",
     size: 93117,
   },
   {
     index: 397,
     content: "Proceed offset 10 miles right of track until abeam BKM VOR.",
+    specialReading: "Proceed offset one zero miles right of track until abeam Bravo Kilo Mike VOR.",
     size: 95240,
   },
   {
     index: 398,
     content: "Cleared offset 25 miles left of track for 30 minutes.",
+    specialReading: "Cleared offset two five miles left of track for tree zero minutes.",
     size: 79832,
   },
   {
     index: 399,
     content: "Offset canceled, turn right to rejoin the A1 before BKM VOR.",
+    specialReading: "Offset canceled, turn right to rejoin the Amber one before Bravo Kilo Mike VOR.",
     size: 97541,
   },
   {
@@ -2286,6 +2340,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 401,
     content: "Climb to and maintain FL290, re-cleared to track direct to BKM VOR, the rest unchanged.",
+    specialReading: "Climb to and maintain flight level two niner zero, re-cleared to track direct to Bravo Kilo Mike VOR, the rest unchanged.",
     size: 127088,
     hasLotOfInfo: true,
   },
@@ -4795,7 +4850,7 @@ export const contents: ContentProtocol[] = [
   },
   {
     index: 887,
-    content: "Unable to reduce speed below mach decimal 74. You can vector us if you’d like.",
+    content: "Unable to reduce speed below Mach decimal 74. You can vector us if you’d like.",
     size: 69994,
   },
   {
