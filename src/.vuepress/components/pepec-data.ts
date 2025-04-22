@@ -56,36 +56,43 @@ export const contents: ContentProtocol[] = [
   {
     index: 1,
     content: "Maintaining FL310.",
+    specialReading: "Maintaining flight level tree one zero.",
     size: 49018,
   },
   {
     index: 2,
     content: "Descending to FL290.",
+    specialReading: "Descending to flight level two niner zero.",
     size: 49387,
   },
   {
     index: 3,
     content: "Reaching FL190.",
+    specialReading: "Reaching flight level one niner zero.",
     size: 41882,
   },
   {
     index: 4,
     content: "Maintaining FL90 over WXJ.",
+    specialReading: "Maintaining flight level niner zero over Whiskey X-ray Juliet.",
     size: 73395,
   },
   {
     index: 5,
     content: "Continue descent to 3000 feet, QNH 1012.",
+    specialReading: "Continue descent to tree tousand feet, QNH one zero one two.",
     size: 80139,
   },
   {
     index: 6,
     content: "Passing FL180 for FL310.",
+    specialReading: "Passing flight level one eight zero for flight level tree one zero.",
     size: 74009,
   },
   {
     index: 7,
     content: "Cleared to enter controlled airspace not above FL100.",
+    specialReading: "Cleared to enter controlled airspace not above flight level one zero zero.",
     size: 78979,
   },
   {
@@ -96,71 +103,85 @@ export const contents: ContentProtocol[] = [
   {
     index: 9,
     content: "Fly direct to SHA, not below FL180.",
+    specialReading: "Fly direct to Sierra Hotel Alpha, not below flight level one eight zero.",
     size: 92249,
   },
   {
     index: 10,
     content: "After passing CGO descend to FL80.",
+    specialReading: "After passing Charlie Golf Oscar descend to flight level eight zero.",
     size: 80011,
   },
   {
     index: 11,
     content: "Stop descent at FL210.",
+    specialReading: "Stop descent at flight level two one zero.",
     size: 62509,
   },
   {
     index: 12,
     content: "Descending to reach FL150 by WXI.",
+    specialReading: "Descending to reach flight level one five zero by Whiskey X-ray India.",
     size: 78205,
   },
   {
     index: 13,
     content: "Unable to reach FL150 by ZHO due performance.",
+    specialReading: "Unable to reach flight level one five zero by Zulu Hotel Oscar due performance.",
     size: 95967,
   },
   {
     index: 14,
     content: "Climbing to FL290, to be level by 55.",
+    specialReading: "Climbing to flight level two niner zero, to be level by five five.",
     size: 70190,
   },
   {
     index: 15,
     content: "Descend at 2000 feet per minute.",
+    specialReading: "Descend at two tousand feet per minute.",
     size: 41215,
   },
   {
     index: 16,
     content: "Climbing at 1000 feet per minute or greater.",
+    specialReading: "Climbing at one tousand feet per minute or greater.",
     size: 53251,
   },
   {
     index: 17,
     content: "When ready, descend to FL210, level at PLT.",
+    specialReading: "When ready, descend to flight level two one zero, level at Papa Lima Tango.",
     size: 77381,
   },
   {
     index: 18,
     content: "Right heading 330, descending to 3000 feet, cleared for ILS approach Runway 36R.",
+    specialReading: "Right heading tree tree zero, descending to tree tousand feet, cleared for ILS approach Runway tree six right.",
     size: 126430,
   },
   {
     index: 19,
     content: "Descend to 3000 feet, information P is current.",
+    specialReading: "Descend to tree tousand feet, information Papa is current.",
     size: 73029,
   },
   {
     index: 20,
     content: "Expedite descent to FL180.",
+    specialReading: "Expedite descent to flight level one eight zero.",
     size: 49867,
   },
   {
     index: 21,
     content: "Expedite climb to FL190.",
+    specialReading: "Expedite climb to flight level one niner zero.",
     size: 51204,
   },
   {
     index: 22,
     content: "Climb to FL280 expedite until passing FL180.",
+    specialReading: "Climb to flight level two eight zero expedite until passing flight level one eight zero.",
     size: 86211,
   },
   {
@@ -171,43 +192,49 @@ export const contents: ContentProtocol[] = [
   {
     index: 24,
     content: "Descending immediately to FL200 due traffic.",
+    specialReading: "Descending immediately to flight level two zero zero due traffic.",
     size: 67307,
   },
   {
     index: 25,
     content: "When ready, climb to FL280, report leaving FL200.",
+    specialReading: "When ready, climb to flight level two eight zero, report leaving flight level two zero zero.",
     size: 74567,
   },
   {
     index: 26,
     content: "Leaving FL200, climbing to FL280.",
+    specialReading: "Leaving flight level two zero zero, climbing to flight level two eight zero.",
     size: 82421,
   },
   {
     index: 27,
     content: "Maintaining own separation and VMC, descending to FL80.",
+    specialReading: "Maintaining own separation and VMC, descending to flight level eight zero.",
     size: 85273,
   },
   {
     index: 28,
     content: "Reaching 8000 feet, request further climb.",
+    specialReading: "Reaching eight tousand feet, request further climb.",
     size: 55429,
   },
   {
     index: 29,
     content: "Cancel SID, track direct to LLK, climb to and maintain FL110.",
+    specialReading: "Cancel SID, track direct to Lima Lima Kilo, climb to and maintain flight level one one zero.",
     size: 105185,
   },
   {
     index: 30,
     content: "Experiencing icing condition. Request further descent.",
-    mismatch: "Experiencing icing conditions. Request further descent.",
+    // mismatch: "Experiencing icing conditions. Request further descent.",
     size: 65373,
   },
   {
     index: 31,
     content: "Icing condition encountered. Request further climb.",
-    mismatch: "Icing conditions encountered. Request further climb.",
+    // mismatch: "Icing conditions encountered. Request further climb.",
     size: 58614,
   },
   {
@@ -218,16 +245,19 @@ export const contents: ContentProtocol[] = [
   {
     index: 33,
     content: "Reduce speed to Mach decimal 76.",
+    specialReading: "Reduce speed to Mach decimal seven six.",
     size: 60765,
   },
   {
     index: 34,
     content: "Maintain Mach point 84 or greater.",
+    specialReading: "Maintain Mach point eight four or greater.",
     size: 47864,
   },
   {
     index: 35,
     content: "Maintain Mach point 80 or less.",
+    specialReading: "Maintain Mach point eight zero or less.",
     size: 41856,
   },
   {
@@ -238,6 +268,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 37,
     content: "Maintain 250 knots or greater.",
+    specialReading: "Maintain two five zero knots or greater.",
     size: 46499,
   },
   {
@@ -253,50 +284,58 @@ export const contents: ContentProtocol[] = [
   {
     index: 40,
     content: "Maintain 160 knots until 4 miles final.",
-    mismatch: "Maintain 160 knots until 4 mile final.",
+    specialReading: "Maintain one six zero knots until four miles final.",
+    // mismatch: "Maintain 160 knots until 4 mile final.",
     size: 58547,
   },
   {
     index: 41,
     content: "Maintain 160 knots until outer marker.",
+    specialReading: "Maintain one six zero knots until outer marker.",
     size: 53292,
   },
   {
     index: 42,
     content: "Descend to FL120, on speed conversion, 250 knots.",
+    specialReading: "Descend to flight level one two zero, on speed conversion, two five zero knots.",
     size: 81187,
   },
   {
     index: 43,
     content: "Cancel speed restriction, continue descent to 7000 feet.",
+    specialReading: "Cancel speed restriction, continue descent to seven tousand feet.",
     size: 70135,
   },
   {
     index: 44,
     content: "LMN-02 Departure, passing 2500 feet climbing to 9000 feet.",
-    specialReading: "LMN-02 Departure, passing 2500 feet climbing to nine thousand feet.",
+    specialReading: "Lima Mike November zero two Departure, passing two tousand five hundred feet climbing to niner tousand feet.",
     size: 94187,
     hasLotOfInfo: true,
   },
   {
     index: 45,
     content: "Maintaining FL350, cleared to destination, flight planned route [raʊt].",
+    specialReading: "Maintaining flight level tree five zero, cleared to destination, flight planned route [raʊt].",
     hasLotOfInfo: true,
     size: 81536,
   },
   {
     index: 46,
     content: "Request radar vectors for visual approach Runway 22.",
+    specialReading: "Request radar vectors for visual approach Runway two two.",
     size: 58798,
   },
   {
     index: 47,
     content: "Request join downwind Runway 31.",
+    specialReading: "Request join downwind Runway tree one.",
     size: 47844,
   },
   {
     index: 48,
     content: "Request taxi to holding point Runway 13.",
+    specialReading: "Request taxi to holding point Runway one tree.",
     size: 50172,
   },
   {
@@ -307,27 +346,31 @@ export const contents: ContentProtocol[] = [
   {
     index: 50,
     content: "Request frequency change.",
+
     size: 38083,
   },
   {
     index: 51,
     content: "15NM to HRB, FL290, tracking to JMU, squawking 6543.",
-    specialReading: "Fifteen nautical miles to HRB, flight level two niner zero, tracking to JMU, squawking 6543.",
+    specialReading: "One five nautical miles to Hotel Romeo Bravo, flight level two niner zero, tracking to Juliet Mike Uniform, squawking six five four tree.",
     size: 170139,
   },
   {
     index: 52,
     content: "Contact Control on 118.9.",
+    specialReading: "Contact Control on one one eight decimal niner.",
     size: 49313,
   },
   {
     index: 53,
     content: "Position OBLIK at 0646, maintaining FL310, estimating ZF 0658, WUH next.",
+    specialReading: "Position OBLIK at zero six four six, maintaining flight level tree one zero, estimating Zulu Foxtrot zero six five eight, Whiskey Uniform Hotel next.",
     size: 198999,
   },
   {
     index: 54,
     content: "Next report at WXA.",
+    specialReading: "Next report at Whiskey X-ray Alpha.",
     size: 44835,
   },
   {
@@ -363,21 +406,25 @@ export const contents: ContentProtocol[] = [
   {
     index: 61,
     content: "Revised slot time at 56.",
+    specialReading: "Revised slot time at five six.",
     size: 51413,
   },
   {
     index: 62,
     content: "Expect hold at HUR VOR for 10 minutes due traffic.",
+    specialReading: "Expect hold at Hotel Uniform Romeo VOR for one zero minutes due traffic.",
     size: 76284,
   },
   {
     index: 63,
     content: "Expected approach time 44.",
+    specialReading: "Expected approach time four four.",
     size: 41848,
   },
   {
     index: 64,
     content: "Revised expected approach time 54.",
+    specialReading: "Revised expected approach time five four.",
     size: 51367,
   },
   {
@@ -393,13 +440,14 @@ export const contents: ContentProtocol[] = [
   {
     index: 67,
     content: "Cleared to exit the hold, fly direct to ML. Contact Approach on 128.35.",
-    specialReading: "Cleared to exit the hold, fly direct to ML. Contact Approach on one two eight tree fife.",
+    specialReading: "Cleared to exit the hold, fly direct to Mike Lima. Contact Approach on one two eight decimal tree five.",
     size: 96768,
     hasLotOfInfo: true,
   },
   {
     index: 68,
     content: "Approach clearance canceled, turn left direct to DA, climb to 4000 feet, hold as published, expect further clearance at time 50.",
+    specialReading: "Approach clearance canceled, turn left direct to Delta Alpha, climb to four tousand feet, hold as published, expect further clearance at time five zero.",
     size: 151712,
     hasLotOfInfo: true,
   },
@@ -416,6 +464,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 71,
     content: "After passing SY VOR, leave the hold on heading 250, cleared for VOR approach Runway 06.",
+    specialReading: "After passing Sierra Yankee VOR, leave the hold on heading two five zero, cleared for VOR approach Runway zero six.",
     size: 142740,
     hasLotOfInfo: true,
   },
@@ -427,93 +476,115 @@ export const contents: ContentProtocol[] = [
   {
     index: 73,
     content: "Cleared to LHR, hold at LHR as published. Maintain 8000 feet. Expect further clearance at 18.",
+    specialReading: "Cleared to Lima Hotel Romeo, hold at Lima Hotel Romeo as published. Maintain eight tousand feet. Expect further clearance at one eight.",
     size: 167884,
     hasLotOfInfo: true,
   },
   {
     index: 74,
     content: "Hold south of AMS VOR at 9000 feet, inbound track 270 degrees, left hand pattern, outbound time 1 minute. Expect further clearance at 46.",
+    specialReading:
+      "Hold south of Alpha Mike Sierra VOR at niner tousand feet, inbound track two seven zero degrees, left hand pattern, outbound time one minute. Expect further clearance at four six.",
     size: 227035,
     hasLotOfInfo: true,
   },
   {
     index: 75,
     content: "Cleared to the 180 radial of PER VOR at 15 DME. Hold south, left hand pattern, outbound time 2 minutes, expect approach clearance at 37.",
+    specialReading: "Cleared to the one eight zero radial of Papa Echo Romeo VOR at one five DME. Hold south, left hand pattern, outbound time two minutes, expect approach clearance at three seven.",
     size: 213124,
     hasLotOfInfo: true,
   },
   {
     index: 76,
     content: "Information P received, stand 03, ready to copy ATC clearance.",
+    specialReading: "Information Papa received, stand zero tree, ready to copy ATC clearance.",
     size: 103036,
   },
   {
     index: 77,
     content: "Gate 26, request clearance to London with information F.",
+    specialReading: "Gate two six, request clearance to London with information Foxtrot.",
     size: 83622,
   },
   {
     index: 78,
     content: "Cleared to destination, flight planned route [raʊt], cruising level 330, departure Runway 04, initial altitude 7000 feet. HZ01 Departure, squawk 2563, departure frequency 124.35.",
+    specialReading:
+      "Cleared to destination, flight planned route [raʊt], cruising level tree tree zero, departure Runway zero four, initial altitude seven tousand feet. Hotel Zulu zero one Departure, squawk two five six tree, departure frequency one two four decimal tree five.",
     size: 329166,
     hasLotOfInfo: true,
   },
   {
     index: 79,
     content: "Cleared to destination via ZAM, flight planned route [raʊt], D03 Departure, cruising level 230, squawk 3763.",
+    specialReading: "Cleared to destination via Zulu Alpha Mike, flight planned route [raʊt], Delta zero tree Departure, cruising level two tree zero, squawk tree seven six tree.",
     size: 209985,
     hasLotOfInfo: true,
   },
   {
     index: 80,
     content: "Cleared to destination via flight planned route [raʊt], Runway 36R, LKO-01 Departure, initially climb to 4500 feet, cruising level 310, when airborne contact 119.7, squawk 2515.",
+    specialReading:
+      "Cleared to destination via flight planned route [raʊt], Runway tree six right, Lima Kilo Oscar zero one Departure, initially climb to four five zero zero feet, cruising level tree one zero, when airborne contact one one niner decimal seven, squawk two five one five.",
     size: 331539,
     hasLotOfInfo: true,
   },
   {
     index: 81,
     content: "Cleared via ZF-01 Departure, initial altitude 5000 feet. Departure frequency 125.9. Cruising level 290, departure Runway 04. Squawk 6563.",
+    specialReading:
+      "Cleared via Zulu Foxtrot zero one Departure, initial altitude five tousand feet. Departure frequency one two five decimal niner. Cruising level two niner zero, departure Runway zero four. Squawk six five six tree.",
     size: 258282,
     hasLotOfInfo: true,
   },
   {
     index: 82,
     content: "Cleared to destination via flight plan route [raʊt]. Departure Runway 36L. HZ-01D Departure. Initial altitude 5000 feet. Cruising level 330. Departure frequency 119.45, squawk 5667.",
+    specialReading:
+      "Cleared to destination via flight plan route [raʊt]. Departure Runway tree six left. Hotel Zulu zero one Delta Departure. Initial altitude five tousand feet. Cruising level tree tree zero. Departure frequency one one niner decimal four five, squawk five six six seven.",
     size: 305610,
     hasLotOfInfo: true,
   },
   {
     index: 83,
     content: "Recleared to destination via ZF01 Departure, Runway 36R, rest of clearance unchanged.",
+    specialReading: "Recleared to destination via Zulu Foxtrot zero one Departure, Runway tree six right, rest of clearance unchanged.",
     size: 149068,
     hasLotOfInfo: true,
   },
   {
     index: 84,
     content: "Recleared to destination via B213, WHA, R343, rest of route [raʊt] unchanged.",
+    specialReading: "Recleared to destination via Bravo one tree, Whiskey Hotel Alpha, Romeo three four three, rest of route [raʊt] unchanged.",
     size: 159564,
     hasLotOfInfo: true,
   },
   {
     index: 85,
     content: "Cleared to destination via flight planned route [raʊt], initial climb to 2700 feet, request level change en-route, departure frequency 120.3, squawk 0722.",
+    specialReading:
+      "Cleared to destination via flight planned route [raʊt], initial climb to two tousand seven hundred feet, request level change en-route, departure frequency one two zero decimal tree, squawk zero seven two two.",
     size: 217318,
     hasLotOfInfo: true,
   },
   {
     index: 86,
     content: "Gate15, information C, ready to copy ATC clearance.",
+    specialReading: "Gate one five, information Charlie, ready to copy ATC clearance.",
     size: 77428,
   },
   {
     index: 87,
     content: "Cleared to destination, BK02 RNAV Departure, initially 3000 feet, departure frequency 125.4, squawk 3311.",
+    specialReading: "Cleared to destination, Bravo Kilo zero two RNAV Departure, initially tree tousand feet, departure frequency one two five decimal four, squawk three three one one.",
     size: 202547,
     hasLotOfInfo: true,
   },
   {
     index: 88,
     content: "Say again all after 3000 feet.",
+    specialReading: "Say again all after tree tousand feet.",
     size: 49885,
   },
   {
@@ -529,6 +600,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 91,
     content: "Unable to cross LX FL150 due weight, maintaining FL130.",
+    specialReading: "Unable to cross Lima X-ray flight level one five zero due weight, maintaining flight level one tree zero.",
     size: 115447,
   },
   {
@@ -539,41 +611,49 @@ export const contents: ContentProtocol[] = [
   {
     index: 93,
     content: "Bay 24, request start-up.",
+    specialReading: "Bay two four, request start-up.",
     size: 35169,
   },
   {
     index: 94,
     content: "Start up approved, QNH 2991.",
+    specialReading: "Start up approved, QNH two niner niner one.",
     size: 68724,
   },
   {
     index: 95,
     content: "Start up approved, altimeter setting 2991.",
+    specialReading: "Start up approved, altimeter setting two niner niner one.",
     size: 57307,
   },
   {
     index: 96,
     content: "Start up at 35, QNH 997.",
+    specialReading: "Start up at tree five, QNH nine niner seven.",
     size: 64144,
   },
   {
     index: 97,
     content: "Expect start up at 35, QNH 1030.",
+    specialReading: "Expect start up at tree five, QNH one zero tree zero.",
     size: 82900,
   },
   {
     index: 98,
     content: "Expect departure at 49, start up at own discretion, QNH 1004.",
+    specialReading: "Expect departure at four niner, start up at own discretion, QNH one zero zero four.",
     size: 99928,
   },
   {
     index: 99,
     content: "Radio check on 118.3.",
+    specialReading: "Radio check on one one eight decimal tree.",
     size: 62460,
   },
   {
     index: 100,
     content: "I read you 5.",
+    specialReading: "I read you five.",
     size: 33697,
   },
   {
@@ -594,16 +674,19 @@ export const contents: ContentProtocol[] = [
   {
     index: 104,
     content: "QNH 997, I say again, QNH 997.",
+    specialReading: "QNH nine niner seven, I say again, QNH nine niner seven.",
     size: 83346,
   },
   {
     index: 105,
     content: "Stand 27, request pushback.",
+    specialReading: "Stand two seven, request pushback.",
     size: 44795,
   },
   {
     index: 106,
     content: "Pushback approved, Runway 31.",
+    specialReading: "Pushback approved, Runway tree one.",
     size: 45878,
   },
   {
@@ -664,11 +747,13 @@ export const contents: ContentProtocol[] = [
   {
     index: 118,
     content: "Taxi via taxiway C to holding point Runway 24.",
+    specialReading: "Taxi via taxiway Charlie to holding point Runway two four.",
     size: 63669,
   },
   {
     index: 119,
     content: "Taxi to holding point Runway 24, traffic in sight.",
+    specialReading: "Taxi to holding point Runway two four, traffic in sight.",
     size: 58105,
   },
   {
@@ -679,17 +764,19 @@ export const contents: ContentProtocol[] = [
   {
     index: 121,
     content: "Negative. We need 10 minutes to cool the brakes.",
+    specialReading: "Negative. We need one zero minutes to cool the brakes.",
     size: 48455,
   },
   {
     index: 122,
     content: "Approaching holding point, request crossing Runway 24.",
-    mismatch: "Approach holding point, request crossing Runway 24.",
+    specialReading: "Approaching holding point, request crossing Runway two four.",
     size: 51627,
   },
   {
     index: 123,
     content: "Hold short of Runway 24.",
+    specialReading: "Hold short of Runway two four.",
     size: 32734,
   },
   {
@@ -700,16 +787,19 @@ export const contents: ContentProtocol[] = [
   {
     index: 125,
     content: "Cross Runway 24, report runway vacated.",
+    specialReading: "Cross Runway two four, report runway vacated.",
     size: 52357,
   },
   {
     index: 126,
     content: "Unable to vacate via A2, request full length of runway.",
+    specialReading: "Unable to vacate via Alpha two, request full length of runway.",
     size: 71802,
   },
   {
     index: 127,
     content: "Crossing Runway 24, WILCO.",
+    specialReading: "Crossing Runway two four, WILCO.",
     size: 37705,
   },
   {
@@ -720,6 +810,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 129,
     content: "Giving way to B747 passing from left to right.",
+    specialReading: "Giving way to Boeing seven four seven passing from left to right.",
     size: 66400,
   },
   {
@@ -1096,19 +1187,19 @@ export const contents: ContentProtocol[] = [
   {
     index: 204,
     content: "Confirm touchdown RVR greater than 350 meters.",
-    specialReading: "Confirm touchdown RVR greater than tree fife zero meters.",
+    specialReading: "Confirm touchdown RVR greater than tree five zero meters.",
     size: 73290,
   },
   {
     index: 205,
     content: "Confirm stop-end RVR 150 meters.",
-    specialReading: "Confirm stop-end RVR one fife zero meters.",
+    specialReading: "Confirm stop-end RVR one five zero meters.",
     size: 63188,
   },
   {
     index: 206,
     content: "Confirm midpoint RVR more than 550 meters.",
-    specialReading: "Confirm midpoint RVR more than fife fife zero meters.",
+    specialReading: "Confirm midpoint RVR more than five five zero meters.",
     size: 67813,
   },
   {
