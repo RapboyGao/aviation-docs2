@@ -181,7 +181,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 22,
     content: "Climb to FL280 expedite until passing FL180.",
-    specialReading: "Climb to flight-level two eight zero expedite until passing flight-level one eight zero.",
+    specialReading: "Climb to flight-level two eight zero, expedite until passing flight-level one eight zero.",
     size: 86211,
   },
   {
