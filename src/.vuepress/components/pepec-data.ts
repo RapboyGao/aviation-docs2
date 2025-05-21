@@ -80,7 +80,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 5,
     content: "Continue descent to 3000 feet, QNH 1012.",
-    specialReading: "Continue descent to tree tausand feet, QNH one zero one two.",
+    specialReading: "Continue descent to tree taosand feet, QNH one zero one two.",
     size: 80139,
   },
   {
@@ -139,13 +139,13 @@ export const contents: ContentProtocol[] = [
   {
     index: 15,
     content: "Descend at 2000 feet per minute.",
-    specialReading: "Descend at two tausand feet per minute.",
+    specialReading: "Descend at two taosand feet per minute.",
     size: 41215,
   },
   {
     index: 16,
     content: "Climbing at 1000 feet per minute or greater.",
-    specialReading: "Climbing at one tausand feet per minute or greater.",
+    specialReading: "Climbing at one taosand feet per minute or greater.",
     size: 53251,
   },
   {
@@ -157,13 +157,13 @@ export const contents: ContentProtocol[] = [
   {
     index: 18,
     content: "Right heading 330, descending to 3000 feet, cleared for ILS approach Runway 36R.",
-    specialReading: "Right heading tree tree zero, descending to tree tausand feet, cleared for ILS approach Runway tree six right.",
+    specialReading: "Right heading tree tree zero, descending to tree taosand feet, cleared for ILS approach Runway tree six right.",
     size: 126430,
   },
   {
     index: 19,
     content: "Descend to 3000 feet, information P is current.",
-    specialReading: "Descend to tree tausand feet, information Papa is current.",
+    specialReading: "Descend to tree taosand feet, information Papa is current.",
     size: 73029,
   },
   {
@@ -216,7 +216,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 28,
     content: "Reaching 8000 feet, request further climb.",
-    specialReading: "Reaching eight tausand feet, request further climb.",
+    specialReading: "Reaching eight taosand feet, request further climb.",
     size: 55429,
   },
   {
@@ -303,13 +303,13 @@ export const contents: ContentProtocol[] = [
   {
     index: 43,
     content: "Cancel speed restriction, continue descent to 7000 feet.",
-    specialReading: "Cancel speed restriction, continue descent to seven tausand feet.",
+    specialReading: "Cancel speed restriction, continue descent to seven taosand feet.",
     size: 70135,
   },
   {
     index: 44,
     content: "LMN-02 Departure, passing 2500 feet climbing to 9000 feet.",
-    specialReading: "Lima Mike November zero two Departure, passing two tausand five hundred feet climbing to niner tausand feet.",
+    specialReading: "Lima Mike November zero two Departure, passing two taosand five hundred feet climbing to niner taosand feet.",
     size: 94187,
     hasLotOfInfo: true,
   },
@@ -447,7 +447,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 68,
     content: "Approach clearance canceled, turn left direct to DA, climb to 4000 feet, hold as published, expect further clearance at time 50.",
-    specialReading: "Approach clearance canceled, turn left direct to Delta Alpha, climb to four tausand feet, hold as published, expect further clearance at time five zero.",
+    specialReading: "Approach clearance canceled, turn left direct to Delta Alpha, climb to four taosand feet, hold as published, expect further clearance at time five zero.",
     size: 151712,
     hasLotOfInfo: true,
   },
@@ -476,7 +476,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 73,
     content: "Cleared to LHR, hold at LHR as published. Maintain 8000 feet. Expect further clearance at 18.",
-    specialReading: "Cleared to Lima Hotel Romeo, hold at Lima Hotel Romeo as published. Maintain eight tausand feet. Expect further clearance at one eight.",
+    specialReading: "Cleared to Lima Hotel Romeo, hold at Lima Hotel Romeo as published. Maintain eight taosand feet. Expect further clearance at one eight.",
     size: 167884,
     hasLotOfInfo: true,
   },
@@ -484,7 +484,7 @@ export const contents: ContentProtocol[] = [
     index: 74,
     content: "Hold south of AMS VOR at 9000 feet, inbound track 270 degrees, left hand pattern, outbound time 1 minute. Expect further clearance at 46.",
     specialReading:
-      "Hold south of Alpha Mike Sierra VOR at niner tausand feet, inbound track two seven zero degrees, left hand pattern, outbound time one minute. Expect further clearance at four six.",
+      "Hold south of Alpha Mike Sierra VOR at niner taosand feet, inbound track two seven zero degrees, left hand pattern, outbound time one minute. Expect further clearance at four six.",
     size: 227035,
     hasLotOfInfo: true,
   },
@@ -511,7 +511,7 @@ export const contents: ContentProtocol[] = [
     index: 78,
     content: "Cleared to destination, flight planned route [raʊt], cruising level 330, departure Runway 04, initial altitude 7000 feet. HZ01 Departure, squawk 2563, departure frequency 124.35.",
     specialReading:
-      "Cleared to destination, flight planned route [raʊt], cruising level tree tree zero, departure Runway zero four, initial altitude seven tausand feet. Hotel Zulu zero one Departure, squawk two five six tree, departure frequency one two four decimal tree five.",
+      "Cleared to destination, flight planned route [raʊt], cruising level tree tree zero, departure Runway zero four, initial altitude seven taosand feet. Hotel Zulu zero one Departure, squawk two five six tree, departure frequency one two four decimal tree five.",
     size: 329166,
     hasLotOfInfo: true,
   },
@@ -534,7 +534,7 @@ export const contents: ContentProtocol[] = [
     index: 81,
     content: "Cleared via ZF-01 Departure, initial altitude 5000 feet. Departure frequency 125.9. Cruising level 290, departure Runway 04. Squawk 6563.",
     specialReading:
-      "Cleared via Zulu Foxtrot zero one Departure, initial altitude five tausand feet. Departure frequency one two five decimal niner. Cruising level two niner zero, departure Runway zero four. Squawk six five six tree.",
+      "Cleared via Zulu Foxtrot zero one Departure, initial altitude five taosand feet. Departure frequency one two five decimal niner. Cruising level two niner zero, departure Runway zero four. Squawk six five six tree.",
     size: 258282,
     hasLotOfInfo: true,
   },
@@ -542,7 +542,7 @@ export const contents: ContentProtocol[] = [
     index: 82,
     content: "Cleared to destination via flight plan route [raʊt]. Departure Runway 36L. HZ-01D Departure. Initial altitude 5000 feet. Cruising level 330. Departure frequency 119.45, squawk 5667.",
     specialReading:
-      "Cleared to destination via flight plan route [raʊt]. Departure Runway tree six left. Hotel Zulu zero one Delta Departure. Initial altitude five tausand feet. Cruising level tree tree zero. Departure frequency one one niner decimal four five, squawk five six six seven.",
+      "Cleared to destination via flight plan route [raʊt]. Departure Runway tree six left. Hotel Zulu zero one Delta Departure. Initial altitude five taosand feet. Cruising level tree tree zero. Departure frequency one one niner decimal four five, squawk five six six seven.",
     size: 305610,
     hasLotOfInfo: true,
   },
@@ -564,7 +564,7 @@ export const contents: ContentProtocol[] = [
     index: 85,
     content: "Cleared to destination via flight planned route [raʊt], initial climb to 2700 feet, request level change en-route, departure frequency 120.3, squawk 0722.",
     specialReading:
-      "Cleared to destination via flight planned route [raʊt], initial climb to two tausand seven hundred feet, request level change en-route, departure frequency one two zero decimal tree, squawk zero seven two two.",
+      "Cleared to destination via flight planned route [raʊt], initial climb to two taosand seven hundred feet, request level change en-route, departure frequency one two zero decimal tree, squawk zero seven two two.",
     size: 217318,
     hasLotOfInfo: true,
   },
@@ -577,14 +577,14 @@ export const contents: ContentProtocol[] = [
   {
     index: 87,
     content: "Cleared to destination, BK02 RNAV Departure, initially 3000 feet, departure frequency 125.4, squawk 3311.",
-    specialReading: "Cleared to destination, Bravo Kilo zero two RNAV Departure, initially tree tausand feet, departure frequency one two five decimal four, squawk tree tree one one.",
+    specialReading: "Cleared to destination, Bravo Kilo zero two RNAV Departure, initially tree taosand feet, departure frequency one two five decimal four, squawk tree tree one one.",
     size: 202547,
     hasLotOfInfo: true,
   },
   {
     index: 88,
     content: "Say again all after 3000 feet.",
-    specialReading: "Say again all after tree tausand feet.",
+    specialReading: "Say again all after tree taosand feet.",
     size: 49885,
   },
   {
@@ -851,7 +851,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 136,
     content: "After departure, climb straight ahead until 3000 feet.",
-    specialReading: "After departure, climb straight ahead until tree tausand feet.",
+    specialReading: "After departure, climb straight ahead until tree taosand feet.",
     size: 59934,
   },
   {
@@ -890,7 +890,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 143,
     content: "Airborne, passing 500 feet for 4000 feet.",
-    specialReading: "Airborne, passing five hundred feet for four tausand feet.",
+    specialReading: "Airborne, passing five hundred feet for four taosand feet.",
     size: 52167,
   },
   {
@@ -999,7 +999,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 163,
     content: "Airbus 330 heavy, 8000 feet, Information X.",
-    specialReading: "Airbus tree tree zero heavy, eight tausand feet, Information X-ray.",
+    specialReading: "Airbus tree tree zero heavy, eight taosand feet, Information X-ray.",
     size: 80269,
   },
   {
@@ -1119,7 +1119,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 185,
     content: "Follow the standard missed approach procedure, climbing to 3000 feet.",
-    specialReading: "Follow the standard missed approach procedure, climbing to tree tausand feet.",
+    specialReading: "Follow the standard missed approach procedure, climbing to tree taosand feet.",
     size: 66227,
   },
   {
@@ -1201,7 +1201,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 200,
     content: "Confirm visibility more than 1000 meters.",
-    specialReading: "Confirm visibility more than one tausand meters.",
+    specialReading: "Confirm visibility more than one taosand meters.",
     size: 57667,
   },
   {
@@ -1429,7 +1429,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 242,
     content: "Altimeter 1003 8000ft.",
-    specialReading: "Altimeter one zero zero tree eight tausand feet.",
+    specialReading: "Altimeter one zero zero tree eight taosand feet.",
     size: 64066,
   },
   {
@@ -1628,7 +1628,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 276,
     content: "Maintain 3000 feet until glide path interception.",
-    specialReading: "Maintain tree tausand feet until glide path interception.",
+    specialReading: "Maintain tree taosand feet until glide path interception.",
     size: 65611,
   },
   {
@@ -1749,7 +1749,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 298,
     content: "Descending to 4000 feet QNH 1005, expect ILS approach Runway 24.",
-    specialReading: "Descending to four tausand feet QNH one zero zero five, expect ILS approach Runway two four.",
+    specialReading: "Descending to four taosand feet QNH one zero zero five, expect ILS approach Runway two four.",
     size: 126112,
   },
   {
@@ -1761,7 +1761,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 300,
     content: "Cleared straight-in ILS approach Runway 24, descend to 3000 feet, QNH1011.",
-    specialReading: "Cleared straight-in ILS approach Runway two four, descend to tree tausand feet, QNH one zero one one.",
+    specialReading: "Cleared straight-in ILS approach Runway two four, descend to tree taosand feet, QNH one zero one one.",
     size: 130477,
   },
   {
@@ -1788,7 +1788,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 305,
     content: "Cleared VOR-DME approach Runway 24, descending to 3000 feet QNH1007.",
-    specialReading: "Cleared VOR-DME approach Runway two four, descending to tree tausand feet QNH one zero zero seven.",
+    specialReading: "Cleared VOR-DME approach Runway two four, descending to tree taosand feet QNH one zero zero seven.",
     size: 126645,
   },
   {
@@ -1864,7 +1864,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 318,
     content: "Overhead YV, maintaining 3000 feet, entering hold.",
-    specialReading: "Overhead Yankee Victor, maintaining tree tausand feet, entering hold.",
+    specialReading: "Overhead Yankee Victor, maintaining tree taosand feet, entering hold.",
     size: 85282,
   },
   {
@@ -1876,7 +1876,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 320,
     content: "Leaving FL60, descending to 2500 feet, QNH1008.",
-    specialReading: "Leaving flight-level six zero, descending to two tausand five hundred feet, QNH one zero zero eight.",
+    specialReading: "Leaving flight-level six zero, descending to two taosand five hundred feet, QNH one zero zero eight.",
     size: 124014,
   },
   {
@@ -1917,7 +1917,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 327,
     content: "Surveillance radar approach Runway 27, maintaining 2200 feet.",
-    specialReading: "Surveillance radar approach Runway two seven, maintaining two tausand two hundred feet.",
+    specialReading: "Surveillance radar approach Runway two seven, maintaining two taosand two hundred feet.",
     size: 90361,
   },
   {
@@ -1929,7 +1929,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 329,
     content: "Precision radar approach Runway 27 heading 260, descending to 2500 feet, QNH1014.",
-    specialReading: "Precision radar approach Runway two seven heading two six zero, descending to two tausand five hundred feet, QNH one zero one four.",
+    specialReading: "Precision radar approach Runway two seven heading two six zero, descending to two taosand five hundred feet, QNH one zero one four.",
     size: 144175,
   },
   {
@@ -1941,7 +1941,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 331,
     content: "Descend to reach 5000 feet by BK.",
-    specialReading: "Descend to reach five tausand feet by Bravo Kilo.",
+    specialReading: "Descend to reach five taosand feet by Bravo Kilo.",
     size: 70283,
   },
   {
@@ -1959,19 +1959,19 @@ export const contents: ContentProtocol[] = [
   {
     index: 334,
     content: "Descend to altitude 12000 feet QNH 1000.",
-    specialReading: "Descend to altitude one two tausand feet QNH one zero zero zero.",
+    specialReading: "Descend to altitude one two taosand feet QNH one zero zero zero.",
     size: 113445,
   },
   {
     index: 335,
     content: "Descend to height 2000 feet QFE 997 hectopascals.",
-    specialReading: "Descend to height two tausand feet QFE nine niner seven hectopascals.",
+    specialReading: "Descend to height two taosand feet QFE nine niner seven hectopascals.",
     size: 108670,
   },
   {
     index: 336,
     content: "Descend to 8000 feet at 1000 feet per minute or greater.",
-    specialReading: "Descend to eight tausand feet at one tausand feet per minute or greater.",
+    specialReading: "Descend to eight taosand feet at one taosand feet per minute or greater.",
     size: 87357,
   },
   {
@@ -1993,13 +1993,13 @@ export const contents: ContentProtocol[] = [
   {
     index: 340,
     content: "Climb to 6000 feet, follow KODAP 01 Departure.",
-    specialReading: "Climb to six tausand feet, follow KODAP zero one Departure.",
+    specialReading: "Climb to six taosand feet, follow KODAP zero one Departure.",
     size: 87421,
   },
   {
     index: 341,
     content: "Passing altitude 2300 feet, climbing to FL80.",
-    specialReading: "Passing altitude two tausand tree hundred feet, climbing to flight-level eight zero.",
+    specialReading: "Passing altitude two taosand tree hundred feet, climbing to flight-level eight zero.",
     size: 97264,
   },
   {
@@ -2047,7 +2047,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 349,
     content: "Stop descent at 5000 feet.",
-    specialReading: "Stop descent at five tausand feet.",
+    specialReading: "Stop descent at five taosand feet.",
     size: 53462,
   },
   {
