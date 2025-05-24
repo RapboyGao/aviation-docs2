@@ -471,6 +471,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 72,
     content: "Leave JFK VOR heading 210.",
+    specialReading: "Leave Juliet Foxtrot Kilo VOR heading two one zero.",
     size: 61541,
   },
   {
