@@ -2,6 +2,7 @@ export interface PepecStory {
   index: number;
   title: string;
   content: string;
+  narrative?: string;
   translation: string;
 }
 
@@ -12,6 +13,16 @@ export const stories: PepecStory[] = [
     content: `AFR123 crashed at Singapore Changi Airport during takeoff.
 The tower controller instructed the crew to takeoff on Runway 02L,
 but the crew lined up runway 02R and began their takeoff rolling.
+The aircraft overran the runway and crashed.
+Crew members and 110 passengers were killed,
+and the co-pilot was badly wounded.
+According to the investigation, there were three reasons for the accidents.
+First of all, the crew didn’t use effective methods to verify their position.
+Secondly, the crew forgot to check whether they were on the correct runway or not.
+Finally, the crew members' idle chatting during the taxi resulted the loss of situation awareness.`,
+    narrative: `Air france one two three crashed at Singapore Changi Airport during takeoff.
+The tower controller instructed the crew to takeoff on Runway zero two left,
+but the crew lined up runway zero two right and began their takeoff rolling.
 The aircraft overran the runway and crashed.
 Crew members and 110 passengers were killed,
 and the co-pilot was badly wounded.
@@ -42,6 +53,16 @@ Both captains reported the collision immediately.
 Because the Boeing aircraft was damaged seriously, fuel leakage was reported and fire services were required.
 Fortunately, the fuel leak didn’t develop into fire.
 The crew of the Boeing aircraft complained that they just parked stationary with the parking brakes when they were hit.`,
+    narrative: `An Airbus-three-twenty collided with a Boeing-seven-thirty-severn during taxi.
+The right ailerons of Boeing-seven-thirty-severn was severely damaged but Airbus-three-twenty only had minor damage on left wing.
+Luckily, there were no injuries.
+After receiving taxi instruction, the Airbus-three-twenty began to pass the Boeing-seven-thirty-severn from the right side.
+The captain of Airbus-three-twenty thought they had enough room.
+But unfortunately, two aircraft collided together.
+Both captains reported the collision immediately.
+Because the Boeing aircraft was damaged seriously, fuel leakage was reported and fire services were required.
+Fortunately, the fuel leak didn’t develop into fire.
+The crew of the Boeing aircraft complained that they just parked stationary with the parking brakes when they were hit.`,
     translation: `一架A320在滑行过程中与一架B737相撞。
 B737的右副翼严重受损，而A320的左副翼仅轻微受损。
 幸运的是，没有人受伤。
@@ -67,6 +88,16 @@ Then ACA702 requested a touch and go to jar the jammed gear.
 Unfortunately, the landing gear still couldn’t be extended.
 So, ACA702 had to make a belly landing on a foamed runway.
 There were no casualties except some minor injuries.`,
+    narrative: `A pilot of Air China airline told us an event with landing gear problem.
+After normal push-back, start-up and taxi, he requested takeoff.
+However, he was instructed to hold short of the runway in order to give way to Air-Canada-Seven-Zero-Two on final.
+Air-Canada-Seven-Zero-Two declared emergency because of landing gear problem.
+Air-Canada-Seven-Zero-Two asked for a low pass.
+The controller verified the landing gear was still in up position.
+Then Air-Canada-Seven-Zero-Two requested a touch and go to jar the jammed gear.
+Unfortunately, the landing gear still couldn’t be extended.
+So, Air-Canada-Seven-Zero-Two had to make a belly landing on a foamed runway.
+There were no casualties except some minor injuries.`,
     translation: `国航的一名飞行员告诉了我们一起关于起落架问题的事件。
 在正常的推出、开车和滑行后，他请求起飞。
 然而，他被指示在跑道外等待，以便给五边的ACA702让路。
@@ -89,6 +120,14 @@ There was no further reply from the pilot.
 The airplane impacted a building and crashed.
 According to the investigation, the poor visibility made the pilot nervous and he misunderstood the missed approach instructions and made a wrong turn.
     `,
+    narrative: `When the pilot initially contacted the tower controller, he was told the Runway Visual Range was 500 meters.
+The pilot executed a missed approach because of no contact at minima.
+Then, he was given radar vectors for a second ILS approach.
+In the second approach, the controller issued landing clearance at outer marker.
+One minute later, the controller observed the airplane was leaving the glide path on the radar display and issued missed approach instructions again.
+There was no further reply from the pilot.
+The airplane impacted a building and crashed.
+According to the investigation, the poor visibility made the pilot nervous and he misunderstood the missed approach instructions and made a wrong turn.`,
     translation: `当飞行员最初联系塔台管制员时，他被告知跑道视程为500米。
 由于最低高度跑道不可见，飞行员执行了复飞。
 之后，管制员雷达引导进行第二次盲降进近。
@@ -128,6 +167,11 @@ The captain reported to Shanghai Control immediately, but the controller respond
 The captain then instructed the crew to turn left and found the conflicting traffic closing to the flight path and a TCAS warning was initiated. 
 The crew then immediately turns right for avoidance, disengage the autopilot and descended to a lower altitude. 
 The crew reported to the controller about the conflict after the conflict had been cleared.`,
+    narrative: `The crew of flight five two three found a traffic 20 miles at flight-level two niner four right ahead of the airplane on T-kas at flight-level two niner zero near LAMEN. 
+The captain reported to Shanghai Control immediately, but the controller responded that there was no indication on his radar screen and there had not been any flight advisory. 
+The captain then instructed the crew to turn left and found the conflicting traffic closing to the flight path and a T-kas warning was initiated. 
+The crew then immediately turns right for avoidance, disengage the autopilot and descended to a lower altitude. 
+The crew reported to the controller about the conflict after the conflict had been cleared.`,
     translation: `523航班的机组人员，在FL294，他们在TCAS上发现飞机正前方20英里处有航空器冲突，该航空器在LAMEN附近的FL290上。
 机长立即向上海管制报告，但管制员回应称，他的雷达屏幕上没有显示任何迹象，也没有任何飞行警告。
 机长随后指示机组人员左转，发现冲突交通接近航线，并发出TCAS警告。
@@ -161,8 +205,18 @@ The broken panel struck the window of passenger row 19ABC and cracked only the o
 Pressurization was not lost. 
 The flight crew continued on to Blueyard. 
 Upon approach to Blueyard, ATC instructed the flight crew to expedite for separation. 
-the flight crew informed ATC that they could not increase their airspeed due to possible airframe damage. 
+The flight crew informed ATC that they could not increase their airspeed due to possible airframe damage. 
 The flight landed safely. 
+There were 174 passengers and 6 crew members with no reported injuries.`,
+    narrative: `A China Southern aircraft lost a left upper wing trailing edge panel during cruise at flight-level-two-seven-zero.
+Initially, ATC received a pilot report that the flight crew had experienced "light chop".
+The flight was en route from Greenyard to Blueyard Airport.
+The broken panel struck the window of passenger row 19ABC and cracked only the outer portion of the window.
+Pressurization was not lost.
+The flight crew continued on to Blueyard.
+Upon approach to Blueyard, ATC instructed the flight crew to expedite for separation.
+The flight crew informed ATC that they could not increase their airspeed due to possible airframe damage.
+The flight landed safely.
 There were 174 passengers and 6 crew members with no reported injuries.`,
     translation: `中国南方一架飞机在FL270巡航飞行时失去左上翼后缘面板。
 最初，空中交通管制中心收到飞行员报告，称机组人员当时经历了“轻度颠簸”。
@@ -180,6 +234,14 @@ There were 174 passengers and 6 crew members with no reported injuries.`,
     index: 9,
     title: "Collision during taxi",
     content: `An Airbus 320 collided with an ERJ 145 during taxi in the run-up area of runway 19. 
+The right aileron of the ERJ was seriously damaged; the left winglet of the Airbus had minor damage. 
+There were no injuries. 
+The captain of the Airbus reported that he was positioned to the right of the ERJ. 
+ATC cleared him for departure, which required him to taxi past the ERJ. 
+He stated that he checked the proximity of the ERJ, and it looked like he could clear it and then felt the impact. 
+The captain notified ATC of the collision. 
+Airport fire crews responded, but there was no fuel leak or fire.`,
+    narrative: `An Airbus three twenty collided with an ERJ one four five during taxi in the run-up area of runway one niner. 
 The right aileron of the ERJ was seriously damaged; the left winglet of the Airbus had minor damage. 
 There were no injuries. 
 The captain of the Airbus reported that he was positioned to the right of the ERJ. 
