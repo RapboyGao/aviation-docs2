@@ -527,7 +527,7 @@ export const contents: ContentProtocol[] = [
     index: 80,
     content: "Cleared to destination via flight planned route [raʊt], Runway 36R, LKO-01 Departure, initially climb to 4500 feet, cruising level 310, when airborne contact 119.7, squawk 2515.",
     specialReading:
-      "Cleared to destination via flight planned route [raʊt], Runway tree six right, Lima Kilo Oscar zero one Departure, initially climb to four five zero zero feet, cruising level tree one zero, when airborne contact one one niner decimal seven, squawk two five one five.",
+      "Cleared to destination via flight planned route [raʊt], Runway tree six right, Lima Kilo Oscar zero one Departure, initially climb to four taosand five hundred feet, cruising level tree one zero, when airborne contact one one niner decimal seven, squawk two five one five.",
     size: 331539,
     hasLotOfInfo: true,
   },
@@ -675,7 +675,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 104,
     content: "QNH 997, I say again, QNH 997.",
-    specialReading: "QNH nine niner seven, I say again, QNH nine niner seven.",
+    specialReading: "QNH niner niner seven, I say again, QNH niner niner seven.",
     size: 83346,
   },
   {
@@ -708,6 +708,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 110,
     content: "Pushback to taxiway A approved.",
+    specialReading: "Pushback to taxiway Alpha approved.",
     size: 38276,
   },
   {
