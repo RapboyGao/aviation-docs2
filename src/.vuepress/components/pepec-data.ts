@@ -1356,7 +1356,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 228,
     content: "30 miles from touchdown, contact Approach 118.1.",
-    specialReading: "30 miles from touchdown, contact Approach one one eight decimal one.",
+    specialReading: "Tree zero miles from touchdown, contact Approach one one eight decimal one.",
     size: 66618,
   },
   {
@@ -1489,7 +1489,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 252,
     content: "50 miles right of track approved, when able, proceed direct TB.",
-    specialReading: "50 miles right of track approved, when able, proceed direct Tango Bravo.",
+    specialReading: "Five zero miles right of track approved, when able, proceed direct Tango Bravo.",
     size: 81160,
   },
   {
