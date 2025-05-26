@@ -289,6 +289,12 @@ Communication recordings between ground control and both airplanes revealed that
 Later, the Bombardier was cleared to push back from gate 79. 
 The ground controller did not advise either aircraft of simultaneous adjacent pushback operations and did not forecast a traffic conflict. 
 (111 words)`,
+    narrative: `A Boeing seven five seven and a Bombardier were seriously damaged when the tails of both airplanes collided during the pushback.
+The flight crew of the Bombardier reported that they were in a stopped position and their ground crew was in the process of disconnecting the tug.
+Company maintenance personnel stated they were pushing the Boeing seven five seven back and did not see the Bombardier.
+Communication recordings between ground control and both airplanes revealed that the Boeing seven five seven was cleared for pushback from gate eight zero.
+Later, the Bombardier was cleared to push back from gate seven niner.
+The ground controller did not advise either aircraft of simultaneous adjacent pushback operations and did not forecast a traffic conflict.`,
     translation: `一架波音757和一架庞巴迪飞机的尾部在推出过程中相撞，严重受损。
 庞巴迪的机组人员报告说，当时地面人员正在断开拖车时，飞机处于停止状态。
 波音公司的维修人员表示，那时他们正在将757推出，并没有看到庞巴迪飞机。
@@ -306,6 +312,13 @@ Simultaneously, ATC cleared Air France 551 for takeoff on runway 15R.
 Air France 551 was on taxiway when the takeoff clearance was issued. 
 The pilots rotated at taxiway and over flew United 83 at the intersection of runways 10 and 15R. 
 United 83 exited runway 10 afterwards. 
+The main cause of this incident is local controller's failure of maintaining awareness of the situation and failing to provide the appropriate separation between the two aircraft on intersecting runways.`,
+    narrative: `Air France five five one departed runway one five right and over flew United eight three at Atlantic Airport.
+The tower controller had cleared United eight three to land on runway one zero when the aircraft was about six miles on final approach.
+Simultaneously, A-T-C cleared Air France five five one for takeoff on runway one five right.
+Air France five five one was on taxiway when the takeoff clearance was issued.
+The pilots rotated at taxiway and over flew United eight three at the intersection of runways one zero and one five right.
+United eight three exited runway one zero afterwards.
 The main cause of this incident is local controller's failure of maintaining awareness of the situation and failing to provide the appropriate separation between the two aircraft on intersecting runways.`,
     translation: `法航551号班机从15R跑道起飞，飞越了降落在大西洋国际机场10跑道上的美联航83。
 塔台管制员允许联合航空83在五边进近时降落在10号跑道上，当时飞机距离机场约6海里。
@@ -326,6 +339,7 @@ The controller noticed two VFR targets close to one another.
 Assuming the target on a southwest heading was a VFR helicopter when it was actually the Cessna. 
 The controller issued conflict traffic to the southbound aircraft, assuming it was the Cessna pilot when it was actually the Piper pilot, and the Cessna pilot acknowledged the traffic call. 
 Later, the Piper pilot informed the controller of the collision and declared an emergency.`,
+
     translation: `派珀飞机和塞斯纳飞机的飞行员降落在同一个机场。
 塞斯纳飞行员被指示进入左三边，然后向南飞行，然后转向西南。
 派珀飞行员也被指示进入左三边。
@@ -344,6 +358,12 @@ However, the flight crew did not contact ATC on the new frequency.
 Because the controllers in the receiving units were preparing for a shift change, they didn't know that flight 128 did not establish radio contact, 30 minutes later, the controller at the next sector identified SIA128 on the radar. 
 Although they attempted to establish contact with the airplane by calling the company dispatcher, they got no response from the pilots. 
 The controller finally regained contact with SIA128 on the emergency frequency 50 minutes later.`,
+    narrative: `When Singapore one two eight was approaching the airspace of Chicago center area control, the controller instructed the flight crew to change radio frequency for the next sector on one three two point one.
+The first officer acknowledged the frequency change and read back the correct frequency.
+However, the flight crew did not contact ATC on the new frequency.
+Because the controllers in the receiving units were preparing for a shift change, they didn't know that flight one two eight did not establish radio contact, thirty minutes later, the controller at the next sector identified Singapore one two eight on the radar.
+Although they attempted to establish contact with the airplane by calling the company dispatcher, they got no response from the pilots.
+The controller finally regained contact with Singapore one two eight on the emergency frequency fifty minutes later.`,
     translation: `当新航128接近芝加哥中心区管制空域时，管制员指示机组人员将无线电频率调到下一个扇区132.1。
 副驾驶确认了频率的变化，并把正确的频率复诵了出来。
 然而，机组人员并没有在新的频率上联系到管制员。
@@ -364,6 +384,16 @@ This made him believe that the B757 had a radio failure and had not received the
 So he issued takeoff clearance to A320 on runway 36R. 
 Suddenly, the controller noticed the B757’s lights came on and it began to move. 
 Realizing the risk of runway incursion, he canceled A320's takeoff clearance immediately.`,
+    narrative: `Landing light signal could provide useful information to controllers.
+One day, a Boeing seven five seven vacated runway three six left via taxiway Alpha niner after landing.
+It was then cleared to cross runway three six right.
+But it stopped taxiing on taxiway Alpha niner between runway three six left and runway three six right.
+The tower controller attempted to contact the pilot but received no reply.
+He saw the aircraft landing lights were also off.
+This made him believe that the Boeing seven five seven had a radio failure and had not received the clearance to cross runway three six right.
+So he issued takeoff clearance to Airbus three two zero on runway three six right.
+Suddenly, the controller noticed the Boeing seven five seven’s lights came on and it began to move.
+Realizing the risk of runway incursion, he canceled Airbus three two zero's takeoff clearance immediately.`,
     translation: `着陆灯可以作为信号向管制员发送有用信息。
 一天，一架B757在降落后经由滑行道A9脱离36左跑道。
 随后飞机获准穿越36右跑道。
@@ -388,6 +418,15 @@ At the same time, the Tower controller cleared Flight 626 for takeoff.
 When the Flight 626 was rolling on the runway, the Cessna crossed the runway holding sign and entered the active runway 36R. 
 Unfortunately, the two aircraft collided, all people on board died. 
 `,
+    narrative: `It was a foggy day, Flight six two six was cleared to taxi to runway three six right.
+Later, the ground controller gave start-up clearance to a Cessna pilot.
+Then he requested Flight six two six to contact Tower controller.
+From then on, those two aircraft were on two different frequencies.
+The Cessna started to taxi, but the pilot entered wrong taxiway.
+The ground controller did not realize it and cleared the Cessna to continue taxi.
+At the same time, the Tower controller cleared Flight six two six for takeoff.
+When the Flight six two six was rolling on the runway, the Cessna crossed the runway holding sign and entered the active runway three six right.
+Unfortunately, the two aircraft collided, all people on board died.`,
     translation: `那天有雾，626航班获准滑到36R跑道。
 后来，地面管制员给了塞斯纳飞行员开车许可。
 然后他要求626航班联系塔台管制员。
@@ -412,6 +451,16 @@ So Flight 101 made an early liftoff and flew over Flight 145.
 The two aircraft missed colliding by only 50 feet. 
 There were no injuries or damage to either aircraft. 
 But it was regarded as the most serious incident of this kind.`,
+    narrative: `The tower controller cleared Flight one four five to land on runway two two.
+But he forgot the arriving aircraft when he cleared Flight one zero one to take off from the intersecting runway one six.
+After Flight one four five touched down, the ground radar system alerted.
+The controller tried to instruct Flight one four five to stop short of runway one six.
+However, the aircraft just managed to stop in the middle of the intersection.
+It was impossible for Flight one zero one to abort takeoff.
+So Flight one zero one made an early liftoff and flew over Flight one four five.
+The two aircraft missed colliding by only fifty feet.
+There were no injuries or damage to either aircraft.
+But it was regarded as the most serious incident of this kind.`,
     translation: `塔台管制员允许145航班降落在22号跑道上。
 但是当他允许101航班从16号交叉跑道起飞时，他忘记了即将进场的飞机。
 145航班着陆后，地面雷达系统发出警报。
@@ -434,6 +483,13 @@ The runway was wet and the braking action was not good.
 During landing, the aircraft skidded to the right side of the runway. 
 The fuselage was broken into three pieces, the right engine and right main gear were separated from the aircraft. 
 No one was killed, but many passengers suffered from serious injuries.`,
+    narrative: `When an Flight eight one five was approaching the terminal area of its destination, the flight crew contacted the Approach and requested ILS approach for runway one two.
+Because of the tailwind conditions, the controller advised the pilot to make a circling approach for runway three zero.
+But the flight crew insisted to land on runway one two and the controller cleared them to land on that runway.
+The runway was wet and the braking action was not good.
+During landing, the aircraft skidded to the right side of the runway.
+The fuselage was broken into three pieces, the right engine and right main gear were separated from the aircraft.
+No one was killed, but many passengers suffered from serious injuries.`,
     translation: `当815航班接近目的地终端区时，机组人员联系进近，要求盲降进近12号跑道。
 由于顺风，管制员建议飞行员在30号跑道作盘旋进近。
 但是机组人员坚持降落在12号跑道上，管制员允许他们降落在那条跑道上。
@@ -452,6 +508,13 @@ During the holding, the pilot was informed that the local weather was deteriorat
 So the controller vectored the crew to land at runway 34R. 
 Unfortunately, the pilot couldn’t stabilize on the localizers due wind shear. 
 The aircraft went around and made a second approach. 
+Later, it crashed into a hillside due to fuel shortage.`,
+    narrative: `Flight four five six with one hundred fifty two passengers and nine crews was flying to land at Tokyo Airport.
+When it was transferred from Tokyo Control to Tokyo Approach, the pilot was instructed to proceed to Delta Alpha to hold because of traffic congestion.
+During the holding, the pilot was informed that the local weather was deteriorating and the controller suggested the crew to divert to the alternate, but the pilot reported that their fuel was not enough.
+So the controller vectored the crew to land at runway three four right.
+Unfortunately, the pilot couldn’t stabilize on the localizers due wind shear.
+The aircraft went around and made a second approach.
 Later, it crashed into a hillside due to fuel shortage.`,
     translation: `载有152名乘客和9名机组人员的456航班正飞往东京机场降落。
 当飞机从东京管制中心转到东京进近时，由于交通拥堵，飞行员被指示转到DA等待。
@@ -473,6 +536,14 @@ About 20 years ago, the plane landed heavily and damaged the skin on its tail.
 Instead of replacing the whole skin in accordance with the maintenance guidelines, the airlines only covered the area with a piece of aluminum plate and painted it. 
 This cause a buildup of metal fatigue in the area. 
 For the following 22 years, maintenance crews had not noticed anything unusual.`,
+    narrative: `A Boeing seven fourty seven performed the flight from Taiwan to Hongkong carrying two hundred six passengers and nineteen crew members on board. 
+It broke up and crashed, killing all those on board.
+It is the deadliest air disaster in Taiwan.
+After careful investigation, scientists found the full story of the crash.
+About twenty years ago, the plane landed heavily and damaged the skin on its tail.
+Instead of replacing the whole skin in accordance with the maintenance guidelines, the airlines only covered the area with a piece of aluminum plate and painted it.
+This cause a buildup of metal fatigue in the area.
+For the following twenty two years, maintenance crews had not noticed anything unusual.`,
     translation: `一架波音747从台湾飞往香港，机上载有206名乘客和19名机组人员。
 飞机解体坠毁，机上人员全部遇难。
 这是台湾最严重的空难。
@@ -510,6 +581,13 @@ And all occupants of the aircraft perished in the crash.
 The investigation into the crash showed that the accident was caused by technical factors and was not caused by human error. 
 The flight crew faced an very complex technical error, that had never occurred before. 
 Due to maintenance irregularities, a turbine blade fractured causing further damage, that made it impossible to control the aircraft.`,
+    narrative: `A Pakistan flight reported the failure of the left hand engine.
+The crew shut the engine down and continued descending, some time later, they declared Mayday and shortly afterwards radio and radar contact was lost.
+The aircraft was unable to maintain heading and turned left before impact with the ground.
+And all occupants of the aircraft perished in the crash.
+The investigation into the crash showed that the accident was caused by technical factors and was not caused by human error.
+The flight crew faced an very complex technical error, that had never occurred before.
+Due to maintenance irregularities, a turbine blade fractured causing further damage, that made it impossible to control the aircraft.`,
     translation: `一架巴基斯坦的航班报告了左发故障。
 机组人员关闭左发继续下降，一段时间后，他们宣布了遇险，不久之后无线电和雷达失去了联系。
 飞机无法保持航向，左转后撞向地面。
@@ -527,6 +605,11 @@ After the aircraft went around from very low height, it did not climb out to saf
 The cause of the accident was the missing control of the crew over the aircraft position in relation to the glide slope during the automatic approach. 
 The flight was conducted at night in the weather conditions, which is suitable for ICAO CAT II landing. 
 And as a result, the go-around was not taken in due time and the aircraft had a significant deviation from the established approach chart, which led to the controlled flight into terrain.`,
+    narrative: `A Boeing seven forty seven was on final approach to runway two six.
+After the aircraft went around from very low height, it did not climb out to safety altitude and impacted terrain about one thousand one hundred meters past the runway.
+The cause of the accident was the missing control of the crew over the aircraft position in relation to the glide slope during the automatic approach.
+The flight was conducted at night in the weather conditions, which is suitable for ICAO category two landing.
+And as a result, the go-around was not taken in due time and the aircraft had a significant deviation from the established approach chart, which led to the controlled flight into terrain.`,
     translation: `一架波音747飞机五边进近26号跑道。
 在飞机从非常低的高度复飞后，它没有爬升到安全高度，并在距跑道1100米左右的地方撞地。
 事故的原因是在自动进近过程中，机组人员对飞机与下滑道有关的位置失去了控制。
@@ -543,6 +626,13 @@ Several observers on the ground reported the aircraft had just lifted off and wa
 The aircraft appeared to have stalled and came down. 
 According to a listener on frequency, the crew reported the aircraft stalled due to a possible load shift. 
 The NTSB determined that the probable cause of this accident was inadequate procedures for restraining special cargo loads. 
+The cargo moved after and damaged hydraulic systems and horizontal stabilizer components.`,
+    narrative: `A Cargo Boeing seven forty seven with seven crew and cargo of military vehicles, has crashed shortly after takeoff.
+Afghan Authorities immediately denied claims that the crash was the result of enemy activities.
+Several observers on the ground reported the aircraft had just lifted off and was climbing through approximately one thousand two hundred feet when it's nose sharply rose.
+The aircraft appeared to have stalled and came down.
+According to a listener on frequency, the crew reported the aircraft stalled due to a possible load shift.
+The National Transportation Safety Board determined that the probable cause of this accident was inadequate procedures for restraining special cargo loads.
 The cargo moved after and damaged hydraulic systems and horizontal stabilizer components.`,
     translation: `一架载有7名机组人员和军用车辆的波音747货运飞机在起飞后不久坠毁。
 阿富汗当局立即否认了飞机坠毁是敌人活动造成的说法。
@@ -563,6 +653,13 @@ The flight attendants were conducting their final cabin safety checks then, so 7
 The aircraft continued for a landing on Dallas without further incident. 
 The flight crew requested paramedics to meet the airplane at the gate. 
 Finally, the passenger was transported to the hospital.`,
+    narrative: `Flight six zero encountered moderate turbulence at nine thousand feet during descending to Dallas.
+According to NTSB, as the flight began its descent, the captain illuminated the seat belt sign and made a public address reminding passengers to buckle up.
+Then the airplane entered a band of small cumulus clouds and experienced ten to fifteen seconds of moderate turbulence.
+The flight attendants were conducting their final cabin safety checks then, so seven flight attendants received minor injuries, one passenger, who ignored the seat-belt sign and instructions, injured his left ankle.
+The aircraft continued for a landing on Dallas without further incident.
+The flight crew requested paramedics to meet the airplane at the gate.
+Finally, the passenger was transported to the hospital.`,
     translation: `60次航班在下降到达拉斯时在9000英尺处遇到中度颠簸。
 据NTSB称，当飞机开始下降时，机长点亮了安全带指示灯，并做了机长广播，提醒乘客系好安全带。
 随后，飞机进入了一个小积云带，经历了10-15秒的中度颠簸。
@@ -582,6 +679,13 @@ The crew declared an emergency, then the captain elected to hand over pilot flyi
 Both pilots put on their oxygen masks, and begun the descent and preparations to evacuate the aircraft on the runway. 
 Finally the aircraft landed safely. 
 6 injured passengers received medical assistance after landing.`,
+    narrative: `A flight with ninety eight passengers, encountered smoke in cockpit shortly after departure.
+The aircraft was cleared to flight level three four zero and was about to contact Area Control when the smell of smoke was detected by the cockpit crew.
+After some discussion, they decided to return to Departure airport.
+The crew declared an emergency, then the captain elected to hand over pilot flying duties to the first officer in order to give his attention to the overall management of the situation.
+Both pilots put on their oxygen masks, and begun the descent and preparations to evacuate the aircraft on the runway.
+Finally the aircraft landed safely.
+Six injured passengers received medical assistance after landing.`,
     translation: `一架载有98名乘客的航班在起飞后不久，驾驶舱出现烟雾。
 这架飞机被允许飞往高度层340，正要与区域管制中心联系时，驾驶舱机组人员闻到了烟味。
 经过一番讨论，他们决定返回出发机场。
@@ -600,6 +704,13 @@ The 27 injured were taken to a hospital.
 Passengers reported those not belted into their seats were lifted against the ceiling and then slammed down again. 
 A number of cabin ceiling panels received cracks. 
 A replacement A320 was dispatched and reached the final destination with a delay of 7.5 hours. 
+According to NTSB, probable cause of the occurrence was an inadvertent encounter with convective turbulence while in cruise flight.`,
+    narrative: `An Airbus with one hundred forty six passengers and five crew, encountered turbulence during climbing from flight level three two zero to flight level three four zero, causing injuries to twenty four passengers and three cabin crew.
+The aircraft diverted for a safe landing on runway three two about twenty five minutes after stopping the climb at flight level three three four.
+The twenty seven injured were taken to a hospital.
+Passengers reported those not belted into their seats were lifted against the ceiling and then slammed down again.
+A number of cabin ceiling panels received cracks.
+A replacement A-three-twenty was dispatched and reached the final destination with a delay of seven point five hours.
 According to NTSB, probable cause of the occurrence was an inadvertent encounter with convective turbulence while in cruise flight.`,
     translation: `一架载有146名乘客和5名机组人员的空客飞机在从高度层320上升到高度层340时遇到颠簸，造成24名乘客和3名机组人员受伤。
 飞机在高度层334停止爬升后大约25分钟转向32号跑道安全降落。
@@ -624,6 +735,17 @@ Then ATC instructed flight 08 to descend back to FL220 immediately.
 The aircraft already climbed through FL236. 
 The separation reduced to 0 feet vertically and 2.6nm horizontally and the aircraft continued to climb reaching FL250, and re-establishing vertical separation. 
 ATC thus instructed 08 to continue the climb to FL260.`,
+    narrative: `Flight zero eight was cleared to climb to and maintain flight level two two zero.
+At the same time, another flight two niner was en-route at flight level two four zero.
+ATC instructed flight zero eight to turn left heading two seven zero.
+The crew however, read back "Climb! flight level two seven zero", which was not picked up by ATC.
+The crew selected flight level two seven zero into their Selected Altitude.
+The aircraft began to climb.
+Later, the radar issued an alert between these two aircraft.
+Then ATC instructed flight zero eight to descend back to flight level two two zero immediately.
+The aircraft already climbed through flight level two three six.
+The separation reduced to zero feet vertically and two point six nautical miles horizontally and the aircraft continued to climb reaching flight level two five zero, and re-establishing vertical separation.
+ATC thus instructed zero eight to continue the climb to flight level two six zero.`,
     translation: `08航班被许可爬升并保持高度层220。
 与此同时，另一架29号航班在高度层240巡航。
 空中交通管制中心指示08航班左转航向270。
@@ -646,6 +768,13 @@ The crew initiated a go-around and the aircraft climbed to safe altitude.
 Then the crew positioned for another approach and landed safely on runway 28 after aborting the first approach. 
 According to the investigation, the incident occurred while the aircraft performed an NDB approach without DME, probably without external visual references. 
 Meanwhile, the first preparation of the approach was probably incomplete or imprecise.`,
+    narrative: `A flight was on NDB approach to runway two eight in instrument meteorological conditions.
+The aircraft descended below minimum safe altitude when it was handed off to tower.
+The approach controller received a Minimum Safe Altitude Warning and the aircraft's EGPWS issued a warning, too.
+The crew initiated a go-around and the aircraft climbed to safe altitude.
+Then the crew positioned for another approach and landed safely on runway two eight after aborting the first approach.
+According to the investigation, the incident occurred while the aircraft performed an NDB approach without DME, probably without external visual references.
+Meanwhile, the first preparation of the approach was probably incomplete or imprecise.`,
     translation: `在仪表气象条件下，一架飞机在NDB进近28号跑道。
 当飞机被移交给塔台时，它下降到最低安全高度以下。
 进场管制员收到了最低安全高度警告，飞机的EGPWS也发出了警告。
@@ -663,6 +792,12 @@ At that time, the left engine dropped two bonnets.
 In the absence of any abnormal indications and unaware of the separation, the crew continued the flight for a safe landing. 
 Although a part of the engine cowling became stuck in the left main gear, the gear retracted normally after takeoff and extended without problems. 
 The aircraft received minor damage at the left main gear and the left side of the fuselage, however all persons on board disembarked normally, no medical attention was needed. 
+The investigation has determined that the incident was caused by flying the airplane without closing and properly latching the cowls on the airplane’s left engine.`,
+    narrative: `An Airbus-three-twenty with one hundred fourteen passengers and six crew, departed from the runway.
+At that time, the left engine dropped two bonnets.
+In the absence of any abnormal indications and unaware of the separation, the crew continued the flight for a safe landing.
+Although a part of the engine cowling became stuck in the left main gear, the gear retracted normally after takeoff and extended without problems.
+The aircraft received minor damage at the left main gear and the left side of the fuselage, however all persons on board disembarked normally, no medical attention was needed.
 The investigation has determined that the incident was caused by flying the airplane without closing and properly latching the cowls on the airplane’s left engine.`,
     translation: `一架载有114名乘客和6名机组人员的A320飞机从跑道起飞。
 当时，左发动机掉了两个发动机盖。
@@ -682,6 +817,13 @@ Then QFA82 rejected takeoff and came to a stop.
 The aircraft vacated the runway and returned to the apron. 
 QFA82's wingtip passing about 15 meters from QFA67's nose at low speed. 
 The ATSB report that bad taxiway design, flight crew distraction and incorrect mental model is responsible for this runway incursion.`,
+    narrative: `Qantas six seven had safely landed on runway zero three, vacated the runway via taxiway but taxied past the holding point of runway zero six and crossed an illuminated stop bar without ATC clearance.
+Another Qantas eight two was accelerating for takeoff from runway zero six when Qantas six seven crossed the hold short line.
+Qantas six seven became aware of their position and stopped their aircraft just before crossing the edge of runway zero six.
+Then Qantas eight two rejected takeoff and came to a stop.
+The aircraft vacated the runway and returned to the apron.
+Qantas eight two's wingtip passing about fifteen meters from Qantas six seven's nose at low speed.
+The ATSB report that bad taxiway design, flight crew distraction and incorrect mental model is responsible for this runway incursion.`,
     translation: `QFA67安全降落在03号跑道，并通过滑行道离开跑道，但在没有获得空管许可的情况下滑过06号跑道的等待点，并越过有灯的停机线。
 另一架QFA82在从06跑道加速起飞，当时QFA67越过等待线。
 QFA67意识到他们的位置，在穿过06号跑道边缘之前停了下来。
@@ -699,6 +841,12 @@ The crew requested to vacate via taxiway D, the puzzled tower responded "stand b
 The crew believed they had landed on A Airport, the even more puzzled tower replied "confirm you landed at A Airport?". 
 Because the tower of A airport was closed at that time, the crew contacted A airport by UNICOM frequency. 
 After which, the crew realized that they have landed on the wrong airport. 
+In the meantime a ground person arrived at the aircraft and told the crew the local frequency.`,
+    narrative: `A Boeing seven forty seven performing freight with two crew, was on a GPS or R-nav approach to Alpha Airport runway one nine left, but unintentionally landed on runway one eight of Bravo Airport.
+The crew requested to vacate via taxiway Delta, the puzzled tower responded "stand by", then informed the crew that they were about eight nautical miles from the original airport.
+The crew believed they had landed on Alpha Airport, the even more puzzled tower replied "confirm you landed at Alhpa Airport?".
+Because the tower of Alpha airport was closed at that time, the crew contacted Alpha airport by uni-comm frequency.
+After which, the crew realized that they have landed on the wrong airport.
 In the meantime a ground person arrived at the aircraft and told the crew the local frequency.`,
     translation: `一架载有2名机组人员的B747飞机，GPS/RNAV进近下降着陆A机场的19L跑道，但无意中降落在B机场的18跑道上。
 机组人员请求从D滑行道脱离，塔台困惑地回答“稍等”，然后通知机组人员他们距离原机场约8海里。
@@ -718,6 +866,14 @@ Then the crew changed from automatic glideslope coupling to vertical speed and i
 Later, the crew queried about the target on their TCAS and the altitude of the ultralight aircraft. 
 When their distance reduced to 1 nautical mile horizontally and 200 feet vertically, the ERJ's TCAS issued a resolution advisory, and the crew initiated a go around. 
 The aircraft made another approach and landed safely.`,
+    narrative: `An ERJ was cleared self-positioning for an ILS approach.
+At the same time, an ultralight aircraft was operating VFR flight below the controlled airspace.
+The two aircraft were on different radio frequencies.
+While positioning to intercept the localizer, the ERJ automatically turned west and began to descend.
+Then the crew changed from automatic glideslope coupling to vertical speed and increased the rate of descent to re-capture the glideslope.
+Later, the crew queried about the target on their T-kas and the altitude of the ultralight aircraft.
+When their distance reduced to one nautical mile horizontally and two hundred feet vertically, the ERJ's TCAS issued a resolution advisory, and the crew initiated a go around.
+The aircraft made another approach and landed safely.`,
     translation: `一架ERJ被许可进行盲降进近。
 与此同时，另一架超轻型飞机在管制空域下方进行VFR飞行。
 两架飞机使用不同的无线电频率。
@@ -735,6 +891,11 @@ The aircraft made another approach and landed safely.`,
 The captain declared PANPAN and continued for a safe landing. 
 The probable cause of the incident was that the co-pilot experienced anxiety which developed into an anxiety attack during the approach. 
 The captain, ATC and cabin crew worked together effectively to achieve a safe single pilot landing and to get medical help for the co-pilot. 
+If the co-pilot reported that he is unfit for duty, and if there were more effective communication between the co-pilot and the captain, the opportunity for the incident might had been reduced.`,
+    narrative: `An Airbus three nineteen with one hundred forty eight passengers and six crew, was descending when the first officer, pilot flying, became unfit to fly, relinquished control to the captain and left the cockpit.
+The captain declared PANPAN and continued for a safe landing.
+The probable cause of the incident was that the co-pilot experienced anxiety which developed into an anxiety attack during the approach.
+The captain, ATC and cabin crew worked together effectively to achieve a safe single pilot landing and to get medical help for the co-pilot.
 If the co-pilot reported that he is unfit for duty, and if there were more effective communication between the co-pilot and the captain, the opportunity for the incident might had been reduced.`,
     translation: `一架载有148名乘客和6名机组人员的A319飞机在下降时，驾驶飞机的副驾驶感到不适合飞行，将控制权交给机长并离开了驾驶舱。
 机长做了紧急呼叫，继续安全着陆。
@@ -755,6 +916,16 @@ They were instructed to brace for landing.
  Australia's emergency services reported, they put their marine emergency services on standby for a possible water landing.
  The airline reported the aircraft returned to Perth due to a technical problem, but they didn’t confirm it is an engine issue. 
 Emergency services were called as precaution only as part of the standard operating procedures. 
+The passengers then rebooked onto other flights.`,
+    narrative: `An AirAsia Airbus three thirty three hundred, with three hundred fifty nine people on board, was en-route at flight level three eight zero about two hundred nautical mile southwest of Perth.
+Then the left hand engine suffered a blade fracture.
+the engine ingested the blade and caused severe damage in engine core and severe vibrations.
+The crew shut the engine down, and drifted the aircraft down to flight level two zero zero, and returned to Perth for a safe landing about two hours after the engine failure.
+Passengers reported they heard a large bang, followed by severe vibrations, and sounds like a spinning washing machine.
+They were instructed to brace for landing.
+Australia's emergency services reported, they put their marine emergency services on standby for a possible water landing.
+The airline reported the aircraft returned to Perth due to a technical problem, but they didn’t confirm it is an engine issue.
+Emergency services were called as precaution only as part of the standard operating procedures.
 The passengers then rebooked onto other flights.`,
     translation: `一架载有359人的亚航(AirAsia)空客330-300客机，当时正在珀斯西南约200海里的高度层380飞行。
 随即左发风扇叶片断裂。
@@ -780,6 +951,15 @@ Finally, the aircraft landed safely on runway 03L about 9 minutes after the go a
 JTSB reported that the aircraft didn’t land on the right runway as instructed by ATC. 
 In this serious incident, it is highly probable that because the captain of the aircraft misidentified the runway. 
 he made an approach for the different runway where an inspection vehicle was running on.`,
+    narrative: `An Eastar Jet Boeing seven thirty severn performing flight from Korea to Japan, was cleared for the approach to runway zero three left.
+however, the aircraft was aligned with runway zero three right.
+but the runway zero three right was occupied by a vehicle.
+The aircraft went around from very low height.
+Then it positioned for another approach to runway zero three left.
+Finally, the aircraft landed safely on runway zero three left about nine minutes after the go around.
+JTSB reported that the aircraft didn’t land on the right runway as instructed by ATC.
+In this serious incident, it is highly probable that because the captain of the aircraft misidentified the runway.
+he made an approach for the different runway where an inspection vehicle was running on.`,
     translation: `一架Eastar Jet B737从韩国飞往日本，允许进近03L跑道。
 然而，飞机与跑道03R对齐。
 但是03R跑道被一辆车占用了。
@@ -802,6 +982,14 @@ The crew advised they were able to vacate the runway.
 Finally, the aircraft taxied to the apron. 
 The aircraft was able to depart about 4 hours after landing, and reached Paris with a delay of 4.5 hours. 
 Maintenance identified a faulty display as source of the fumes and smoke.`,
+    narrative: `An Air France aircraft performs flight from London to Paris with one hundred thirty six people on board.
+When the aircraft was climbing through flight level two three zero, the crew donned their oxygen masks, declared Mayday and requested an immediate return to London.
+The crew advised they suspected a fire on board, and then, they reported they had smoke and fumes in the cockpit.
+The aircraft landed safely back on runway one three right about twenty three minutes after departure.
+The crew advised they were able to vacate the runway.
+Finally, the aircraft taxied to the apron.
+The aircraft was able to depart about four hours after landing, and reached Paris with a delay of four point five hours.
+Maintenance identified a faulty display as source of the fumes and smoke.`,
     translation: `一架法航飞机从伦敦飞往巴黎，机上有136人。
 当飞机爬升到高度层230时，机组人员戴上氧气面罩，宣布遇险，请求立即返回伦敦。
 机组人员说他们怀疑飞机上着火了，然后他们报告说驾驶舱里有烟雾。
@@ -821,6 +1009,12 @@ The aircraft continued to Singapore for a safe landing on runway 20C.
 The likely cause of the excessive cabin altitude was a corruption of LFE that is landing field elevation, in the CPC. 
 The CPC manufacturer believed that the corruption arose from a fatigue solder joint on the CPC circuit board. 
 There had been past occurrences of excessive cabin altitude, of which one was determined to have been caused by a fatigue solder joint, similar to this occurrence.`,
+    narrative: `A flight from Philippines to Singapore with one hundred twenty nine people on board, was descending towards Singapore when the flight crew donned their oxygen masks.
+declared PAN PAN, reporting excessive cabin altitude and initiated an emergency descent to nine thousand feet.
+The aircraft continued to Singapore for a safe landing on runway two zero Charlie.
+The likely cause of the excessive cabin altitude was a corruption of LFE that is landing field elevation, in the CPC.
+The CPC manufacturer believed that the corruption arose from a fatigue solder joint on the CPC circuit board.
+There had been past occurrences of excessive cabin altitude, of which one was determined to have been caused by a fatigue solder joint, similar to this occurrence.`,
     translation: `一架载有129人的航班从菲律宾飞往新加坡，正准备降落新加坡时，机组报告客舱高度过高，并戴上了氧气面罩。
 机组宣布“PAN PAN”，并将飞机紧急下降到9000英尺。
 这架飞机继续飞往新加坡，并在20中跑道安全着陆。
@@ -838,6 +1032,7 @@ After receiving taxi clearance from ATC, the aircraft started moving under its o
 Both the right engine of the aircraft and the tractor were damaged. 
 The investigation report stated, that the primary causal factor was the headset operator giving the “all clear” signal to the flight crew, before the tractor had been repositioned to a safe distance. 
 Contributory factors were the co-pilot failing to see the tractor and the tractor not driving away after the aircraft began to taxi.`,
+
     translation: `英国航空公司的一架飞机在伦敦希思罗机场使用无拖杆牵引车推出。
 但拖车与飞机并没有连接。
 在得到空管制中心的滑行许可后，飞机开始自行滑出，不久之后，与刚刚完成推出的拖车相撞。
@@ -856,6 +1051,13 @@ Some people with injuries were taken to a local hospital.
 The airline stated there were 99 passengers on board. 
 The aircraft had operated since 2014. 
 The local governor reported the aircraft was about to take off when it suffered an accident. 
+According to flight data recorder as well as cockpit voice recorder, the pilots did a good job to bring the plane down, which prevented things from worse to catastrophe.`,
+    narrative: `An ERJ-one-ninety from Durango to Mexico rejected takeoff from Durango's runway zero three because of adverse weather. 
+The aircraft overran the end of the runway and burst into flames and was destroyed, there were no fatalities, two people received serious injuries and eighty three people received minor injuries.
+Some people with injuries were taken to a local hospital.
+The airline stated there were ninety nine passengers on board.
+The aircraft had operated since two thousand fourteen.
+The local governor reported the aircraft was about to take off when it suffered an accident.
 According to flight data recorder as well as cockpit voice recorder, the pilots did a good job to bring the plane down, which prevented things from worse to catastrophe.`,
     translation: `一架从杜兰戈飞往墨西哥的ERJ190由于恶劣天气从杜兰戈03号跑道中断起飞。
 飞机冲出跑道，起火烧毁，没有人员死亡，2人受重伤，83人受轻伤。
@@ -876,6 +1078,14 @@ The aircraft continued to maintain FL380 in the meantime.
 Finally, the aircraft descended to FL290 and landed safely about 2 hours later. 
 Another aircraft was sent to fly the 96 passengers and cargo to Paris. 
 According to the investigation, the crew attempted to move the thrust lever back and forth when the engine started to vibrate, but this resulted in the engine stalling. 
+The crew thus declared emergency and diverted.`,
+    narrative: `A flight from New York to Paris was enroute at flight level three eight zero when the crew decided to divert, reporting with left hand engine failure.
+The crew requested to descend to flight level three two zero.
+The diversion was approved, however, the request to descent took more than fifteen minutes due to traffic.
+The aircraft continued to maintain flight level three eight zero in the meantime.
+Finally, the aircraft descended to flight level two nine zero and landed safely about two hours later.
+Another aircraft was sent to fly the ninety six passengers and cargo to Paris.
+According to the investigation, the crew attempted to move the thrust lever back and forth when the engine started to vibrate, but this resulted in the engine stalling.
 The crew thus declared emergency and diverted.`,
     translation: `一架从纽约飞往巴黎的航班在FL380飞行途中，机组人员决定备降，报告左发故障。
 机组要求下降到高度层320。
@@ -911,8 +1121,12 @@ This approach must be authorized and under ATC facility.`,
 20 minutes into the flight, a passenger reported an "acrid burning smell" from seat 12A, fearing the plane was on fire, and alerted crew members. 
 The crew conducted an immediate inspection of the seating area, but did not find any source of the burning smell. 
 Shortly after, the smoke in the cabin was getting thicker and some passengers were having difficulty breathing. 
-The captain had sent the "Pan-Pan" emergency signal to the control center, requesting an immediate diversion to the nearby airport! However, the smoke turned worse, the plane lost control and crashed 15 nm away from the alternate airport.`,
-    translation: ``,
+The captain had sent the "Pan-Pan" emergency signal to the control center, requesting an immediate diversion to the nearby airport! However, the smoke turned worse, the plane lost control and crashed 15 nautical miles away from the alternate airport.`,
+    translation: `一架英国航空公司的飞机从伦敦飞往巴黎。
+飞行 20 分钟后，一名乘客报告称 12A 座位处有 “刺鼻的燃烧气味”，担心飞机起火，并提醒了机组人员。
+机组人员立即对座位区域进行了检查，但未发现任何产生燃烧气味的来源。
+不久后，客舱内烟雾愈发浓烈，部分乘客出现呼吸困难。
+机长已向控制中心发出 “泛 - 泛”（Pan-Pan）紧急信号，请求立即备降至附近机场！然而，烟雾进一步恶化，飞机失去控制，在距离备降机场 15 海里处坠毁。`,
   },
   {
     index: 44,
@@ -923,6 +1137,13 @@ During the rotation the TAILSKID message illuminated, indicating that the aircra
 The captain applied full power and shortly afterwards the stick shaker activated briefly. 
 The aircraft continued to climb away. 
 According to the investigation, the zero fuel weight had been incorrectly entered into the operator's Computer Take Off Programme instead of the takeoff weight. 
+This generated significantly slower takeoff speeds than required for the actual weight of the aircraft.`,
+    narrative: `A Boeing seven sixty seven suffered tail strike during takeoff.
+During the takeoff roll, the V-one call was delayed by about ten to fifteen knots by the captain, as he thought the aircraft might be heavier than calculated.
+During the rotation the tail-skid message illuminated, indicating that the aircraft had suffered a tail strike.
+The captain applied full power and shortly afterwards the stick shaker activated briefly.
+The aircraft continued to climb away.
+According to the investigation, the zero fuel weight had been incorrectly entered into the operator's Computer Take Off Programme instead of the takeoff weight.
 This generated significantly slower takeoff speeds than required for the actual weight of the aircraft.`,
     translation: `一架B767在起飞时遭遇擦尾。
 在起飞过程中，V1呼叫被机长延迟了大约10-15节，因为他认为飞机可能比计算的要重。
