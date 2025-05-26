@@ -13,9 +13,9 @@
   "devDependencies": {
     "@types/lodash": "^4.17.16",
     "@types/node": "^22.14.0",
-    "@vuepress/bundler-vite": "2.0.0-rc.21",
-    "@vuepress/plugin-markdown-container": "2.0.0-rc.94",
-    "@vuepress/plugin-register-components": "2.0.0-rc.94",
+    "@vuepress/bundler-vite": "2.0.0-rc.23",
+    "@vuepress/plugin-markdown-container": "2.0.0-rc.103",
+    "@vuepress/plugin-register-components": "2.0.0-rc.103",
     "@vueuse/core": "^13.1.0",
     "@vueuse/shared": "^13.1.0",
     "axios": "^1.8.4",
@@ -25,8 +25,8 @@
     "nanoid": "^5.1.5",
     "sass-embedded": "^1.86.3",
     "store2": "^2.14.4",
-    "vue": "^3.5.13",
-    "vuepress": "2.0.0-rc.21"
+    "vue": "^3.5.14",
+    "vuepress": "2.0.0-rc.23"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
@@ -34,6 +34,6 @@
     ]
   },
   "dependencies": {
-    "vuepress-theme-hope": "2.0.0-rc.81"
+    "vuepress-theme-hope": "2.0.0-rc.88"
   }
 }
