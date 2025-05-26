@@ -4,7 +4,7 @@ title: Private Documents
 category:
   - Private
 # sidebar: structure
-toc.levels: 10
+tocLevels: 10
 navbar: true
 ---
 

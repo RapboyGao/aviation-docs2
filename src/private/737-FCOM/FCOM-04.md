@@ -2,7 +2,7 @@
 title: FCOM 第4章 - B737
 isOriginal: true
 sidebar: true
-toc.levels: 10
+tocLevels: 10
 prev: ./FCOM-03.md
 next: ./FCOM-05.md
 ---

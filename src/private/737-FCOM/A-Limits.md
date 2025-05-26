@@ -2,7 +2,7 @@
 title: FCOM 极限 - B737
 isOriginal: true
 sidebar: true
-toc.levels: 10
+tocLevels: 10
 prev: ./A-0.md
 next: ./FCOM-01.md
 ---
