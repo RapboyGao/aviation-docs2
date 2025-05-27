@@ -2507,6 +2507,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 428,
     content: "Radar control is resumed, track direct to BKM VOR and increase speed to Mach number decimal 84.",
+    specialReading: "Radar control is resumed, track direct to BravoKiloMike V-O-R and increase speed to Mach number decimal eight four.",
     size: 119076,
   },
   {
@@ -2537,17 +2538,21 @@ export const contents: ContentProtocol[] = [
   {
     index: 434,
     content: "Position 42N(North)165E (East) at 0800, FL390, estimating 44 N 180E at 0900 45N 170W next.",
+    specialReading:
+      "Position four two North ,one six five East at zero eight zero zero, flight-level tree niner zero.estimating four four North, one eight zero East at zero nine zero zero. four five North, one seven zero West next.",
     size: 307316,
     hasLotOfInfo: true,
   },
   {
     index: 435,
     content: "At 150W(west) contact San Francisco Radio, primary 3494, secondary 11342.",
+    specialReading: "At one five zero West contact San Francisco Radio, primary tree four niner four, secondary one one tree four two.",
     size: 154894,
   },
   {
     index: 436,
     content: "At 144E(east) squawk 2000.",
+    specialReading: "At one four four East squawk two zero zero zero.",
     size: 73032,
   },
   {
@@ -2563,6 +2568,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 439,
     content: "SELCAL CODE EFFG, request SELCAL check.",
+    specialReading: "SELCAL code Echo Foxtrot Foxtrot Golf, request SELCAL check.",
     size: 114012,
   },
   {
@@ -2578,12 +2584,12 @@ export const contents: ContentProtocol[] = [
   {
     index: 442,
     content: "We have only one air conditioning pack operational. Request a new cruising level below FL300.",
+    mismatch: "We have only one air conditioning pack operational. Request a new cruising level below flight-level tree zero zero.",
     size: 80065,
   },
   {
     index: 443,
     content: "All our air conditioning packs have malfunctioned. Request rapid descent to MEA.",
-    mismatch: "All our air conditioning packs has malfunctioned. Request rapid descent to MEA.",
     size: 59151,
   },
   {
@@ -2594,16 +2600,19 @@ export const contents: ContentProtocol[] = [
   {
     index: 445,
     content: "We have lost electrical power to the cabin air compressor. Request immediate descent to 10,000 feet.",
+    specialReading: "We have lost electrical power to the cabin air compressor. Request immediate descent to one zero taosand feet.",
     size: 98411,
   },
   {
     index: 446,
     content: "We just had a smoke emergency. We need to depressurize the airplane to let in fresh air. Request rapid descent to 8000 feet.",
+    specialReading: "We just had a smoke emergency. We need to depressurize the airplane to let in fresh air. Request rapid descent to eight taosand feet.",
     size: 129673,
   },
   {
     index: 447,
     content: "We have unusual smell from air conditioning packs. Request stop climb at 7000 feet.",
+    specialReading: "We have unusual smell from air conditioning packs. Request stop climb at seven taosand feet.",
     size: 86196,
   },
   {
@@ -2639,6 +2648,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 454,
     content: "Our cabin altitude at one time had reached 16000 feet. Some passengers have symptoms of hypoxia.",
+    specialReading: "Our cabin altitude at one time had reached sixteen taosand feet. Some passengers have symptoms of hypoxia.",
     size: 108969,
   },
   {
@@ -2719,6 +2729,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 470,
     content: "The Morse code for the VOR is different from the approach chart. Confirm the VOR is fully operational.",
+    specialReading: "The Morse code for the V-O-R is different from the approach chart. Confirm the V-O-R is fully operational.",
     size: 91944,
   },
   {
@@ -2730,6 +2741,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 472,
     content: "The approach lights for Runway 36L are a bit different from those shown on the airport diagram.",
+    specialReading: "The approach lights for Runway tree six left are a bit different from those shown on the airport diagram.",
     size: 94299,
   },
   {
@@ -2751,7 +2763,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 476,
     content: "The DME indication is not correct. Confirm the DME is still in service.",
-    mismatch: "The DME indication is not correct. Confirm the DME is still on service.",
+    specialReading: "The D-M-E indication is not correct. Confirm the D-M-E is still in service.",
     size: 86662,
   },
   {
@@ -2788,6 +2800,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 483,
     content: "Our Airline policy does not allow us to perform CAT IIIC approach.",
+    specialReading: "Our Airline policy does not allow us to perform category three-C approach.",
     size: 39052,
   },
   {
@@ -2808,11 +2821,13 @@ export const contents: ContentProtocol[] = [
   {
     index: 487,
     content: "We are not qualified for CAT IIIB approach and auto-land. Request diversion.",
+    specialReading: "We are not qualified for category three-B approach and auto-land. Request diversion.",
     size: 36501,
   },
   {
     index: 488,
     content: "Our VHF number One receiver has failed. We are no longer monitoring 121.5.",
+    mismatch: "Our VHF number one receiver has failed. We are no longer monitoring one two one decimal five.",
     size: 51251,
   },
   {
@@ -2833,16 +2848,19 @@ export const contents: ContentProtocol[] = [
   {
     index: 492,
     content: "We are receiving an ELT signal on 121.5.",
+    specialReading: "We are receiving an E-L-T signal on one two one decimal five.",
     size: 37581,
   },
   {
     index: 493,
     content: "We are picking up a broadcast signal on 121.5.",
+    specialReading: "We are picking up a broadcast signal on one two one decimal five.",
     size: 32191,
   },
   {
     index: 494,
     content: "Our satellite phone is unserviceable. We are unable to call company operations.",
+    specialReading: "Our satellite phone is unserviceable. We are unable to call company operations.",
     size: 47748,
   },
   {
@@ -2858,7 +2876,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 497,
     content: "My apologies, I wasn’t aware the boom mike was transmitting.",
-    mismatch: "My apologies, I wasn’t aware that the boom mike was transmitting",
+    specialReading: "My apologies, I wasn’t aware the boom mike was transmitting.",
     size: 37185,
   },
   {
@@ -2899,31 +2917,37 @@ export const contents: ContentProtocol[] = [
   {
     index: 505,
     content: "Electrical system has a serious malfunction. Request radar vectors to an airport that’s within 20 minutes of flight time.",
+    specialReading: "Electrical system has a serious malfunction. Request radar vectors to an airport that’s within two zero minutes of flight time.",
     size: 65187,
   },
   {
     index: 506,
     content: "We are operating with only the emergency generator. Request track direct to final, Runway 26.",
+    specialReading: "We are operating with only the emergency generator. Request track direct to final, Runway two six.",
     size: 57729,
   },
   {
     index: 507,
     content: "We are flying with batteries only. Is there any airport available within 25 minutes of flying?",
+    specialReading: "We are flying with batteries only. Is there any airport available within two five minutes of flying?",
     size: 50308,
   },
   {
     index: 508,
     content: "If there is no airport within 100 miles, we have to make a forced landing.",
+    specialReading: "If there is no airport within one zero zero miles, we have to make a forced landing.",
     size: 38517,
   },
   {
     index: 509,
     content: "We have less than 10 minutes of battery power left. We are preparing for ditching procedure.",
+    specialReading: "We have less than one zero minutes of battery power left. We are preparing for ditching procedure.",
     size: 48715,
   },
   {
     index: 510,
     content: "We have switched off most of our electrical systems for smoke procedure. Request vectors for a long final, Runway 15.",
+    specialReading: "We have switched off most of our electrical systems for smoke procedure. Request vectors for a long final, Runway one five.",
     size: 69866,
     notes: "没有radar",
   },
@@ -2946,7 +2970,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 514,
     content: "We have had a bird strike. Our windshield has cracked.",
-    mismatch: "We have had a bird strike. Our windshield is cracked.",
+    specialReading: "We have had a bird strike. Our windshield has cracked.",
     size: 35031,
   },
   {
@@ -2957,6 +2981,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 516,
     content: "The cockpit side window is not sealed properly. Request reduce to minimum speed and descend to 4000 feet.",
+    specialReading: "The cockpit side window is not sealed properly. Request reduce to minimum speed and descend to four taosand feet.",
     size: 74570,
   },
   {
@@ -3019,6 +3044,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 528,
     content: "Request descent to 10000 feet to ventilate the aircraft due smoke.",
+    specialReading: "Request descent to one zero taosand feet to ventilate the aircraft due smoke.",
     size: 47101,
   },
   {
@@ -3084,7 +3110,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 540,
     content: "Request return to FL250. We just had an air-upset situation and lost a lot of altitude.",
-    mismatch: "Request to return to FL250. We just had an air-upset situation and lost a lot of altitude.",
+    specialReading: "Request return to flight-level two five zero. We just had an air-upset situation and lost a lot of altitude.",
     size: 63176,
   },
   {
@@ -3184,11 +3210,13 @@ export const contents: ContentProtocol[] = [
   {
     index: 559,
     content: "We need about 18 minutes to jettison fuel before coming in for the approach.",
+    specialReading: "We need about one eight minutes to jettison fuel before coming in for the approach.",
     size: 36597,
   },
   {
     index: 560,
     content: "We cannot shut off the fuel dump valve. Request radar vectors for short final, Runway 17.",
+    specialReading: "We cannot shut off the fuel dump valve. Request radar vectors for short final, Runway one seven.",
     size: 50012,
   },
   {
@@ -3204,6 +3232,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 563,
     content: "We are near the freezing temperature of jet fuel. Request descent to FL 390.",
+    specialReading: "We are near the freezing temperature of jet fuel. Request descent to flight-level tree niner zero.",
     size: 62570,
   },
   {
@@ -3386,7 +3415,8 @@ export const contents: ContentProtocol[] = [
   },
   {
     index: 599,
-    content: "We have conflicting traffic at one o’clock, 6 miles, descending. Request heading 130 for avoidance.",
+    content: "We have conflicting traffic at one o’clock, 6 miles, descending. Request heading 130 for avoidance.", 
+    mismatch: "We have conflicting traffic at 1 o’clock, 6 miles, descending. Request heading one tree zero for avoidance.",
     size: 73687,
     notes: "12、1、10点(只有10点的tornado)有our, 其他没有",
   },
