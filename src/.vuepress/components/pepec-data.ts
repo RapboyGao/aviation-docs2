@@ -2124,6 +2124,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 362,
     content: "RNAV approach not available due FMS database. Request VOR approach.",
+    specialReading: "R-nav approach not available due F-M-S database. Request V-O-R approach.",
     size: 100572,
   },
   {
@@ -2135,11 +2136,13 @@ export const contents: ContentProtocol[] = [
   {
     index: 364,
     content: "Unable RNAV due equipment, request conventional arrival.",
+    specialReading: "Unable R-nav due equipment, request conventional arrival.",
     size: 73506,
   },
   {
     index: 365,
     content: "Unable RNAV, loss of RAIM, request NDB approach",
+    specialReading: "Unable R-nav, loss of RAIM, request N-D-B approach.",
     size: 84467,
   },
   {
@@ -2155,6 +2158,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 368,
     content: "Negative RNAV.",
+    specialReading: "Negative R-nav.",
     size: 28651,
   },
   {
@@ -2172,7 +2176,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 371,
     content: "Hold at BKM VOR FL250, right hand pattern, expect further clearance at 23, landing delay at destination airport 30 minutes.",
-    specialReading: "Hold at Bravo Kilo Mike VOR flight-level two five zero, right hand pattern, expect further clearance at two tree, landing delay at destination airport tree zero minutes.",
+    specialReading: "Hold at Bravo Kilo Mike V-O-R flight-level two five zero, right hand pattern, expect further clearance at two tree, landing delay at destination airport tree zero minutes.",
     size: 204017,
     hasLotOfInfo: true,
   },
@@ -2233,13 +2237,13 @@ export const contents: ContentProtocol[] = [
   {
     index: 382,
     content: "Maintaining FL350, expect descent after BKM VOR.",
-    specialReading: "Maintaining flight-level tree five zero, expect descent after Bravo Kilo Mike VOR.",
+    specialReading: "Maintaining flight-level tree five zero, expect descent after Bravo Kilo Mike V-O-R.",
     size: 123422,
   },
   {
     index: 383,
     content: "Climb to and maintain FL310. Maintain Mach number decimal 81 or greater until BKM VOR.",
-    specialReading: "Climb to and maintain flight-level tree one zero. Maintain Mach number decimal eight one or greater until Bravo Kilo Mike VOR.",
+    specialReading: "Climb to and maintain flight-level tree one zero. Maintain Mach number decimal eight one or greater until Bravo-Kilo-Mike V-O-R.",
     size: 133816,
   },
   {
@@ -2251,13 +2255,13 @@ export const contents: ContentProtocol[] = [
   {
     index: 385,
     content: "Continue climb to FL 290, cross BKM VOR not above FL 230.",
-    specialReading: "Continue climb to flight-level two niner zero, cross Bravo Kilo Mike VOR not above flight-level two tree zero.",
+    specialReading: "Continue climb to flight-level two niner zero, cross BravoKiloMike V-O-R not above flight-level two tree zero.",
     size: 115377,
   },
   {
     index: 386,
     content: "Negative, unable cross BKM VOR at or above FL230 due performance.",
-    specialReading: "Negative, unable cross Bravo Kilo Mike VOR at or above flight-level two tree zero due performance.",
+    specialReading: "Negative, unable cross BravoKiloMike V-O-R at or above flight-level two tree zero due performance.",
     size: 110214,
   },
   {
@@ -2269,31 +2273,31 @@ export const contents: ContentProtocol[] = [
   {
     index: 388,
     content: "Descend to FL170, cross BKM VOR at or above FL210.",
-    specialReading: "Descend to flight-level one seven zero, cross Bravo Kilo Mike VOR at or above flight-level two one zero.",
+    specialReading: "Descend to flight-level one seven zero, cross BravoKiloMike V-O-R at or above flight-level two one zero.",
     size: 116916,
   },
   {
     index: 389,
     content: "Affirm, cross BKM VOR at or above FL190",
-    specialReading: "Affirm, cross Bravo Kilo Mike VOR at or above flight-level one niner zero.",
+    specialReading: "Affirm, cross BravoKiloMike V-O-R at or above flight-level one niner zero.",
     size: 81707,
   },
   {
     index: 390,
     content: "Negative, unable to cross BKM VOR below FL170.",
-    specialReading: "Negative, unable to cross Bravo Kilo Mike VOR below flight-level one seven zero.",
+    specialReading: "Negative, unable to cross BravoKiloMike V-O-R below flight-level one seven zero.",
     size: 88829,
   },
   {
     index: 391,
     content: "Affirm, cross BKM VOR at or before 55",
-    specialReading: "Affirm, cross Bravo Kilo Mike VOR at or before five five.",
+    specialReading: "Affirm, cross BravoKiloMike V-O-R at or before five five.",
     size: 77105,
   },
   {
     index: 392,
     content: "Negative, unable to cross BKM VOR at 43 or later.",
-    specialReading: "Negative, unable to cross Bravo Kilo Mike VOR at four tree or later.",
+    specialReading: "Negative, unable to cross BravoKiloMike V-O-R at four tree or later.",
     size: 73876,
   },
   {
@@ -2320,7 +2324,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 397,
     content: "Proceed offset 10 miles right of track until abeam BKM VOR.",
-    specialReading: "Proceed offset one zero miles right of track until abeam Bravo Kilo Mike VOR.",
+    specialReading: "Proceed offset one zero miles right of track until abeam BravoKiloMike V-O-R.",
     size: 95240,
   },
   {
@@ -2332,81 +2336,91 @@ export const contents: ContentProtocol[] = [
   {
     index: 399,
     content: "Offset canceled, turn right to rejoin the A1 before BKM VOR.",
-    specialReading: "Offset canceled, turn right to rejoin the Amber one before Bravo Kilo Mike VOR.",
+    specialReading: "Offset canceled, turn right to rejoin the Amber one before BravoKiloMike V-O-R.",
     size: 97541,
   },
   {
     index: 400,
-    content: "Clear of weather, request to resume flight route [raʊt].",
+    content: "Clear of weather, request to resume flight route.",
     size: 57044,
   },
   {
     index: 401,
     content: "Climb to and maintain FL290, re-cleared to track direct to BKM VOR, the rest unchanged.",
-    specialReading: "Climb to and maintain flight-level two niner zero, re-cleared to track direct to Bravo Kilo Mike VOR, the rest unchanged.",
+    specialReading: "Climb to and maintain flight-level two niner zero, re-cleared to track direct to BravoKiloMike V-O-R, the rest unchanged.",
     size: 127088,
     hasLotOfInfo: true,
   },
   {
     index: 402,
     content: "Estimating crossing LV NDB 1123.",
+    specialReading: "Estimating crossing Leema Victor N-D-B one one two tree.",
     size: 75378,
   },
   {
     index: 403,
     content: "Passing POU at 43, maintaining FL310, estimating MLT at 55, next NLD.",
+    specialReading: "Passing Papa Oscar Uniform at four tree, maintaining flight-level tree one zero, estimating Mike Lima Tango at five five, next November-Lima-Delta.",
     size: 168874,
   },
   {
     index: 404,
     content: "BKM 47, FL170 descending to FL120, abeam NLD VOR at 55.",
+    specialReading: "BravoKiloMike four seven, flight-level one seven zero descending to flight-level one two zero, abeam November-Lima-Delta V-O-R at five five.",
     size: 154653,
   },
   {
     index: 405,
     content: "Report 25 miles from BKM VOR.",
+    specialReading: "Report two five miles from BravoKiloMike V-O-R.",
     size: 62860,
   },
   {
     index: 406,
     content: "Report 34 miles from Top of Descent.",
+    specialReading: "Report tree four miles from Top of Descent.",
     size: 45903,
   },
   {
     index: 407,
     content: "Report crossing 270 radial BKM VOR.",
-    specialReading: "Report crossing two seven zero radial BKM VOR.",
+    specialReading: "Report crossing two seven zero radial BravoKiloMike V-O-R.",
     size: 79637,
   },
   {
     index: 408,
     content: "Report 28 miles DME 210 radial BKM VOR.",
-    mismatch: "Report 28 miles DME two one zero degree radial BKM VOR",
+    specialReading: "Report two eight miles DME, two one zero radial BravoKiloMike V-O-R.",
     size: 98237,
   },
   {
     index: 409,
     content: "Climb to FL220, report passing FL170.",
+    specialReading: "Climb to flight-level two two zero, report passing flight-level one seven zero.",
     size: 82620,
   },
   {
     index: 410,
     content: "Descending immediately to FL190.",
+    specialReading: "Descending immediately to flight-level one niner zero.",
     size: 57079,
   },
   {
     index: 411,
     content: "Leaving FL220 for FL190.",
+    specialReading: "Leaving flight-level two two zero for flight-level one niner zero.",
     size: 65971,
   },
   {
     index: 412,
     content: "Request clearance to enter controlled airspace northeast of BKM VOR at FL240 at time 43.",
+    specialReading: "Request clearance to enter controlled airspace north east of BravoKiloMike V-O-R at flight-level two four zero at time four tree.",
     size: 156440,
   },
   {
     index: 413,
     content: "Remain outside controlled airspace, expect joining clearance at time 55.",
+    specialReading: "Remain outside controlled airspace, expect joining clearance at time five five.",
     size: 100112,
     notes: "没有of",
   },
@@ -2423,42 +2437,50 @@ export const contents: ContentProtocol[] = [
   {
     index: 416,
     content: "Descending to 5000 feet QNH 1014, report passing 7000 feet.",
+    specialReading: "Descending to five taosand feet QNH one zero one four, report passing seven taosand feet.",
     size: 100906,
   },
   {
     index: 417,
     content: "Request VMC descent to FL60.",
+    specialReading: "Request V-M-C descent to flight-level six zero.",
     size: 70692,
   },
   {
     index: 418,
     content: "Descending to FL60, maintain VMC FL90 to FL70, report traffic in sight at FL80.",
+    specialReading: "Descending to flight-level six zero, maintain V-M-C flight-level niner zero to flight-level seven zero, report traffic in sight at flight-level eight zero.",
     size: 173855,
   },
   {
     index: 419,
     content: "Request join airway A1 at DAPRO.",
+    specialReading: "Request join airway Amber one at DaaPRO.",
     size: 54967,
   },
   {
     index: 420,
     content: "Cleared to destination airport via DAPRO, flight planned route, FL240, join A1 at FL240.",
+    specialReading: "Cleared to destination airport via DaaPro, flight planned route, flight-level two four zero, join Amber one at flight-level two four zero.",
     size: 135530,
   },
   {
     index: 421,
     content: "Remain outside controlled airspace, expect further clearance at 55.",
+    specialReading: "Remain outside controlled airspace, expect further clearance at five five.",
     size: 90424,
     notes: "没有of",
   },
   {
     index: 422,
     content: "If FL240 not available, we accept FL220.",
+    specialReading: "If flight-level two four zero not available, we accept flight-level two two zero.",
     size: 89008,
   },
   {
     index: 423,
     content: "Cleared to leave A1 via BKM VOR, maintain FL230 while in controlled airspace.",
+    specialReading: "Cleared to leave Amber one via BravoKiloMike V-O-R, maintain flight-level two tree zero while in controlled airspace.",
     size: 124010,
   },
   {
@@ -2474,6 +2496,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 426,
     content: "Radar service is terminated due technical failure. Maintain Mach number decimal 81 or less for separation.",
+    specialReading: "Radar service is terminated due technical failure. Maintain Mach number decimal eight one or less for separation.",
     size: 122831,
   },
   {
