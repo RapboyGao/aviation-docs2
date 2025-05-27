@@ -124,9 +124,9 @@ const filterNotes = ref(false);
 
 const sorted = computed(() => {
   if (sortBySize.value) {
-    return pepec.sort(($0, $1) => getActualLength($1) - getActualLength($0));
+    return pepec.sort(($0, $1) => $1.size - $0.size);
   } else {
-    return pepec.sort(($0, $1) => $0.index - $1.index);
+    return pepec;
   }
 });
 
