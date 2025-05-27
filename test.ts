@@ -21,6 +21,6 @@ for (const item of s900) {
   item.size = fileSize;
 }
 
-FS.writeJSONSync("./src/.vuepress/components/pepec-data.json", s900, {
+FS.writeJSONSync("./pepec-data.json", s900, {
   spaces: 2,
 });

@@ -49,7 +49,7 @@ export const numberDictionary: { [index: number]: string } = {
   6: "six",
   7: "seven",
   8: "eight",
-  9: "nine",
+  9: "niner",
 };
 
 export const contents: ContentProtocol[] = [
@@ -482,7 +482,7 @@ export const contents: ContentProtocol[] = [
     content: "Hold south of AMS VOR at 9000 feet, inbound track 270 degrees, left hand pattern, outbound time 1 minute. Expect further clearance at 46.",
     specialReading:
       "Hold south of Alpha Mike Sierra VOR at niner taosand feet, inbound track two seven zero degrees, left hand pattern, outbound time one minute. Expect further clearance at four six.",
-    size: 90741,
+    size: 90532,
     hasLotOfInfo: true,
   },
   {
@@ -626,8 +626,8 @@ export const contents: ContentProtocol[] = [
   {
     index: 96,
     content: "Start up at 35, QNH 997.",
-    specialReading: "Start up at tree five, QNH nine niner seven.",
-    size: 20524,
+    specialReading: "Start up at tree five, QNH niner niner seven.",
+    size: 21359,
   },
   {
     index: 97,
@@ -1497,8 +1497,8 @@ export const contents: ContentProtocol[] = [
   {
     index: 254,
     content: "Maintain 300 knots or less.",
-    specialReading: "Maintain tree hundred knots or less.",
-    size: 13836,
+    specialReading: "Maintain tree zero zero knots or less.",
+    size: 16135,
   },
   {
     index: 255,
@@ -2535,8 +2535,8 @@ export const contents: ContentProtocol[] = [
     index: 434,
     content: "Position 42N(North)165E (East) at 0800, FL390, estimating 44 N 180E at 0900 45N 170W next.",
     specialReading:
-      "Position four two North ,one six five East at zero eight zero zero, flight-level tree niner zero.estimating four four North, one eight zero East at zero nine zero zero. four five North, one seven zero West next.",
-    size: 104115,
+      "Position four two North, one six five East at zero eight zero zero, flight-level tree niner zero.estimating four four North, one eight zero East at zero niner zero zero. four five North, one seven zero West next.",
+    size: 119162,
     hasLotOfInfo: true,
   },
   {
