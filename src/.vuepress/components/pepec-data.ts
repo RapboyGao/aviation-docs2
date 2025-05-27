@@ -557,7 +557,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 84,
     content: "Recleared to destination via B213, WHA, R343, rest of route [raʊt] unchanged.",
-    specialReading: "Recleared to destination via Bravo one tree, Whiskey Hotel Alpha, Romeo tree four tree, rest of route [raʊt] unchanged.",
+    specialReading: "Recleared to destination via Bravo two one tree, Whiskey Hotel Alpha, Romeo tree four tree, rest of route [raʊt] unchanged.",
     size: 159564,
     hasLotOfInfo: true,
   },
@@ -3415,7 +3415,7 @@ export const contents: ContentProtocol[] = [
   },
   {
     index: 599,
-    content: "We have conflicting traffic at one o’clock, 6 miles, descending. Request heading 130 for avoidance.", 
+    content: "We have conflicting traffic at one o’clock, 6 miles, descending. Request heading 130 for avoidance.",
     mismatch: "We have conflicting traffic at 1 o’clock, 6 miles, descending. Request heading one tree zero for avoidance.",
     size: 73687,
     notes: "12、1、10点(只有10点的tornado)有our, 其他没有",
@@ -3429,13 +3429,14 @@ export const contents: ContentProtocol[] = [
   {
     index: 601,
     content: "Traffic at our twelve o’clock, 10 miles, climbing. Should we expedite our descent to cross altitudes?",
-    mismatch: "Traffic at our twelve o’clock, 10 miles, climbing. Should we expedite or descent to cross altitudes?",
+    specialReading: "Traffic at our twelve o’clock, one zero miles, climbing. Should we expedite our descent to cross altitudes?",
     size: 77739,
     notes: "没有radar\n" + "12、1、10点(只有10点的tornado)有our, 其他没有",
   },
   {
     index: 602,
     content: "Unable, TCAS RA.",
+    specialReading: "Unable, T-kas R-A.",
     size: 27043,
   },
   {
@@ -3446,16 +3447,19 @@ export const contents: ContentProtocol[] = [
   {
     index: 604,
     content: "About twenty passengers and crew members were injured during the TCAS maneuver. Request diversion and medical assistance on arrival.",
+    specialReading: "About twenty passengers and crew members were injured during the T-kas maneuver. Request diversion and medical assistance on arrival.",
     size: 84164,
   },
   {
     index: 605,
     content: "We are having abnormal engine indications. Request to reduce speed to 250 knots.",
+    specialReading: "We are having abnormal engine indications. Request to reduce speed to two five zero knots.",
     size: 63622,
   },
   {
     index: 606,
     content: "Our engine parameters are unstable. Request stop climb at FL220.",
+    specialReading: "Our engine parameters are unstable. Request stop climb at flight-level two two zero.",
     size: 60095,
   },
   {
@@ -3492,12 +3496,12 @@ export const contents: ContentProtocol[] = [
   {
     index: 613,
     content: "Our instrument indicates abnormal cabin pressure differential.",
-    mismatch: "Our instruments indicating abnormal cabin pressure differential.",
     size: 44105,
   },
   {
     index: 614,
     content: "Our fuel endurance is 48 minutes. We must leave the hold otherwise we will be at minimum fuel.",
+    specialReading: "Our fuel endurance is four eight minutes. We must leave the hold otherwise we will be at minimum fuel.",
     size: 71857,
   },
   {
@@ -3656,7 +3660,7 @@ export const contents: ContentProtocol[] = [
   },
   {
     index: 645,
-    content: "We do not have that route [raʊt] in our database. Which heading should we maintain for now?",
+    content: "We do not have that route in our database. Which heading should we maintain for now?",
     size: 43357,
   },
   {
@@ -3672,7 +3676,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 648,
     content: "Our oxygen pressure is dropping rapidly. Request to fly heading 050 and descent to FL180 to escape from the mountainous area.",
-    mismatch: "Our oxygen pressure is dropping rapidly. Request to fly heading 050 and descent to FL180 to escape from the mountainous terrain.",
+    specialReading: "Our oxygen pressure is dropping rapidly. Request to fly heading zero five zero and descent to flight-level one eight zero to escape from the mountainous area.",
     size: 94484,
   },
   {
@@ -3683,6 +3687,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 650,
     content: "We have an engine failure. Following ETOPS procedure, request descent to FL200, maintain high speed and proceed direct to alternate airport.",
+    specialReading: "We have an engine failure. Following E-TOPS procedure, request descent to flight-level two zero zero, maintain high speed and proceed direct to alternate airport.",
     size: 100432,
   },
   {
@@ -3705,6 +3710,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 654,
     content: "The aircraft is depressurized. We are descending. Confirm 10,000 feet is enough to clear terrain until we reach our alternate.",
+    specialReading: "The aircraft is depressurized. We are descending. Confirm one zero taosand feet is enough to clear terrain until we reach our alternate.",
     size: 78548,
   },
   {
@@ -3731,17 +3737,20 @@ export const contents: ContentProtocol[] = [
   {
     index: 659,
     content: "Both engine bleed air systems have failed and we are relying on APU bleed for air conditioning. Request descent to 14, 000 feet.",
+    specialReading: "Both engine bleed air systems have failed and we are relying on APU bleed for air conditioning. Request descent to one-four-taosand feet.",
     size: 80989,
   },
   {
     index: 660,
     content: "We have no bleed air coming from either engines or APU. Request rapid descent to 10,000 feet.",
+    specialReading: "We have no bleed air coming from either engines or APU. Request rapid descent to one-zero-taosand feet.",
     size: 60731,
     notes: "有coming",
   },
   {
     index: 661,
     content: "We are leaking bleed air. Request turn right heading 095 to avoid the icing area.",
+    specialReading: "We are leaking bleed air. Request turn right heading zero niner five to avoid the icing area.",
     size: 66412,
   },
   {
@@ -3773,6 +3782,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 667,
     content: "We are at bay 15. We have an APU fire. Request fire services.",
+    specialReading: "We are at bay one five. We have an APU fire. Request fire services.",
     size: 55322,
   },
   {
@@ -3793,6 +3803,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 671,
     content: "We have an abnormal noise coming from one of our cabin doors. Request rapid descent to 5000 feet.",
+    specialReading: "We have an abnormal noise coming from one of our cabin doors. Request rapid descent to 5 taosand feet.",
     size: 63003,
     notes: "有coming",
   },
@@ -3822,6 +3833,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 676,
     content: "The cockpit windshield has cracked. Request descent to FL220.",
+    specialReading: "The cockpit windshield has cracked. Request descent to flight-level two two zero.",
     size: 51960,
   },
   {
@@ -3909,6 +3921,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 693,
     content: "The Number Two engine has been shut down. We are no longer able to maintain level flight. Request descent to FL200.",
+    specialReading: "The Number Two engine has been shut down. We are no longer able to maintain level flight. Request descent to flight-level two zero zero.",
     size: 71386,
     notes: "第一句有The，第二句是We",
   },
@@ -3950,6 +3963,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 701,
     content: "Ice is accumulating rapidly on the wings and fuselage. Request emergency descent to 6000 feet.",
+    specialReading: "Ice is accumulating rapidly on the wings and fuselage. Request emergency descent to six taosand feet.",
     size: 94431,
     notes: "这次积冰是紧急下降",
   },
@@ -3973,6 +3987,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 705,
     content: "We are encountering clear ice. Request immediate right turn to heading 130.",
+    specialReading: "We are encountering clear ice. Request immediate right turn to heading one tree zero.",
     size: 67664,
   },
   {
@@ -4014,6 +4029,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 713,
     content: "We had a rapid airspeed decay due turbulence. Request immediate descent to FL390.",
+    specialReading: "We had a rapid airspeed decay due turbulence. Request immediate descent to flight-level tree niner zero.",
     size: 81673,
   },
   {
@@ -4025,6 +4041,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 715,
     content: "The airplane began to buffet when climbing through FL380. We had to stop climb immediately to increase airspeed.",
+    specialReading: "The airplane began to buffet when climbing through flight-level tree eight zero. We had to stop climb immediately to increase airspeed.",
     size: 93170,
   },
   {
@@ -4045,11 +4062,13 @@ export const contents: ContentProtocol[] = [
   {
     index: 719,
     content: "We won’t have to deviate if you allow us to climb to FL430.",
+    specialReading: "We won’t have to deviate if you allow us to climb to flight-level four tree zero.",
     size: 49664,
   },
   {
     index: 720,
     content: "The thunderstorms will last for about 40 minutes according to the weather update. Request diversion.",
+    specialReading: "The thunderstorms will last for about four zero minutes according to the weather update. Request diversion.",
     size: 69225,
   },
   {
@@ -4060,11 +4079,13 @@ export const contents: ContentProtocol[] = [
   {
     index: 722,
     content: "Request a general heading of 050 due to multiple cells ahead.",
+    specialReading: "Request a general heading of zero five zero due to multiple cells ahead.",
     size: 56214,
   },
   {
     index: 723,
     content: "We have stopped on Runway 23 and will remain on the runway due heavy fog. I say again, we are still on the runway.",
+    specialReading: "We have stopped on Runway two tree and will remain on the runway due heavy fog. I say again, we are still on the runway.",
     size: 85137,
   },
   {
@@ -4075,6 +4096,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 725,
     content: "Frontal weather is quickly moving in from the west. If the holding is more than 10 minutes, we will have to divert.",
+    specialReading: "Frontal weather is quickly moving in from the west. If the holding is more than one zero minutes, we will have to divert.",
     size: 74894,
   },
   {
@@ -4085,6 +4107,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 727,
     content: "There was temperature inversion when we descended through 3000 feet. Our airspeed dropped suddenly by 25 knots.",
+    specialReading: "There was temperature inversion when we descended through tree taosand feet. Our airspeed dropped suddenly by two five knots.",
     size: 87360,
   },
   {
@@ -4102,6 +4125,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 730,
     content: "We can’t find any gaps for at least 100 miles in the squall line covering our arrival route. Request diversion.",
+    specialReading: "We can’t find any gaps for at least one zero zero miles in the squall line covering our arrival route. Request diversion.",
     size: 84138,
   },
   {
@@ -4122,6 +4146,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 734,
     content: "We had to make a quick heading change due ice pellets. You didn’t answer our request so we squawked 7700 and made the heading change.",
+    specialReading: "We had to make a quick heading change due ice pellets. You didn’t answer our request so we squawked seven seven zero zero and made the heading change.",
     size: 102404,
   },
   {
@@ -4162,6 +4187,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 742,
     content: "We have received reports of freezing rain ranging from ground up to 5000 feet. Request diversion.",
+    specialReading: "We have received reports of freezing rain ranging from ground up to five taosand feet. Request diversion.",
     size: 87290,
     notes: "除了frontal weather and freezing rain这句话，其他都是reports of freezing rain没有单独用的",
   },
@@ -4173,11 +4199,13 @@ export const contents: ContentProtocol[] = [
   {
     index: 744,
     content: "A sandstorm is forecast to reach the airport within 20 minutes. We won’t get airborne by then. Request cancel startup and tow back to the gate.",
+    specialReading: "A sandstorm is forecast to reach the airport within two zero minutes. We won’t get airborne by then. Request cancel startup and tow back to the gate.",
     size: 124209,
   },
   {
     index: 745,
     content: "Heavy blowing snow is expected to last for another 30 minutes. Request to terminate approach and holding instructions.",
+    specialReading: "Heavy blowing snow is expected to last for another tree zero minutes. Request to terminate approach and holding instructions.",
     size: 108633,
   },
   {
@@ -4188,11 +4216,13 @@ export const contents: ContentProtocol[] = [
   {
     index: 747,
     content: "Ice patches are covering the runway mostly along the runway edge. Uncontaminated runway width is about 30 meters.",
+    specialReading: "Ice patches are covering the runway mostly along the runway edge. Uncontaminated runway width is about tree zero meters.",
     size: 102449,
   },
   {
     index: 748,
     content: "A dissipating thunderstorm is ahead of us. We are near the zero-degree isotherm. Request deviate an additional 10 miles to the right.",
+    specialReading: "A dissipating thunderstorm is ahead of us. We are near the zero-degree isotherm. Request deviate an additional one zero miles to the right.",
     size: 113654,
   },
   {
@@ -4225,6 +4255,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 754,
     content: "We have entered volcanic ash. Our radios and engines are not working properly, now heading 235, and descending to FL 220, squawking 7700.",
+    specialReading: "We have entered volcanic ash. Our radios and engines are not working properly, now heading two-tree-five, and descending to flight-level two two zero, squawking seven seven zero zero.",
     size: 165035,
     notes: "只有这句话的descending有and",
   },
@@ -4236,6 +4267,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 756,
     content: "Lining up Runway 35. Runway lights are too bright. Request to dim the runway lights.",
+    specialReading: "Lining up Runway tree five. Runway lights are too bright. Request to dim the runway lights.",
     size: 75308,
   },
   {
@@ -4256,6 +4288,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 760,
     content: "The follow-me vehicle is leading us to taxiway L3. Our wings will not clear the other airplanes on this narrow taxiway. We are stopping.",
+    specialReading: "The follow-me vehicle is leading us to taxiway Leema tree. Our wings will not clear the other airplanes on this narrow taxiway. We are stopping.",
     size: 117722,
   },
   {
@@ -4351,6 +4384,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 778,
     content: "We have had a tail strike. Request to stop climb at 3000 feet and return for landing.",
+    specialReading: "We have had a tail strike. Request to stop climb at tree taosand feet and return for landing.",
     size: 86462,
   },
   {
@@ -4451,11 +4485,13 @@ export const contents: ContentProtocol[] = [
   {
     index: 797,
     content: "Request offset 10 miles left to avoid the reported strong downdraft.",
+    specialReading: "Request offset one zero miles left to avoid the reported strong downdraft.",
     size: 67509,
   },
   {
     index: 798,
     content: "Request diversion. The latest weather at our destination suggests snow storm will last for 5 hours.",
+    specialReading: "Request diversion. The latest weather at our destination suggests snow storm will last for five hours.",
     size: 104312,
     notes: "frontal是the latest weather，snow storm是the latest weather at out destination suggests",
   },
@@ -4572,7 +4608,8 @@ export const contents: ContentProtocol[] = [
   },
   {
     index: 821,
-    content: "One of the terrorists is about forty-year old. He is about 180 cm tall, wearing a brown shirt and dark pants.",
+    content: "One of the terrorists is about forty years old. He is about 180 cm tall, wearing a brown shirt and dark pants.",
+    specialReading: "One of the terrorists is about forty years old. He is about one hundred eighty centimeters tall, wearing a brown shirt and dark pants.",
     size: 99854,
   },
   {
@@ -4658,11 +4695,13 @@ export const contents: ContentProtocol[] = [
   {
     index: 838,
     content: "We only have standby magnetic compass due instrument failure. Now heading 245. Request navigation assistance.",
+    specialReading: "We only have standby magnetic compass due instrument failure. Now heading two four five. Request navigation assistance.",
     size: 110476,
   },
   {
     index: 839,
     content: "We are unsure of our position due FMS failure. Last known position five miles north of FUPAD, now heading 165 for weather avoidance.",
+    specialReading: "We are unsure of our position due FMS failure. Last known position five miles north of FUPAD, now heading one six five for weather avoidance.",
     size: 136721,
   },
   {
@@ -4719,6 +4758,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 850,
     content: "We have traffic indication at 2 o’clock, 300 feet above our level.",
+    specialReading: "We have traffic indication at two o’clock, tree hundred feet above our level.",
     size: 50664,
     notes: "12、1、10点(只有10点的tornado)有our, 其他没有",
   },
@@ -4787,6 +4827,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 863,
     content: "We veered off the runway. We are evacuating near the runway and rapid exit J5.",
+    specialReading: "We veered off the runway. We are evacuating near the runway and rapid exit Juliet Five.",
     size: 71826,
   },
   {
@@ -4797,16 +4838,19 @@ export const contents: ContentProtocol[] = [
   {
     index: 865,
     content: "We are declaring minimum fuel. We will have less than 30 minutes endurance by the time we get to our destination.",
+    specialReading: "We are declaring minimum fuel. We will have less than tree zero minutes endurance by the time we get to our destination.",
     size: 84153,
   },
   {
     index: 866,
     content: "We are declaring fuel emergency. Our endurance is 1 hour 58 minutes. We are 1 hour 30 minutes from the closest alternate airport.",
+    specialReading: "We are declaring fuel emergency. Our endurance is one hour five eight minutes. We are one hour tree zero minutes from the closest alternate airport.",
     size: 116907,
   },
   {
     index: 867,
     content: "We are declaring fuel emergency. Request priority landing Runway 03R.",
+    specialReading: "We are declaring fuel emergency. Request priority landing Runway zero tree Right.",
     size: 66958,
   },
   {
@@ -4817,6 +4861,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 869,
     content: "I’m trying to identify the type and nationality of the military aircraft. So far, no response on 121.5.",
+    specialReading: "I’m trying to identify the type and nationality of the military aircraft. So far, no response on one two one decimal five.",
     size: 96050,
   },
   {
@@ -4837,6 +4882,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 873,
     content: "We are heading 085. This heading allows us to quickly exit the prohibited airspace.",
+    specialReading: "We are heading zero eight five. This heading allows us to quickly exit the prohibited airspace.",
     size: 84621,
   },
   {
@@ -4902,11 +4948,13 @@ export const contents: ContentProtocol[] = [
   {
     index: 886,
     content: "Unable speed 180 knots. We need to maintain a good speed in clean configuration due icing.",
+    specialReading: "Unable speed one eight zero knots. We need to maintain a good speed in clean configuration due icing.",
     size: 91698,
   },
   {
     index: 887,
     content: "Unable to reduce speed below Mach decimal 74. You can vector us if you’d like.",
+    specialReading: "Unable to reduce speed below Mach decimal seven four. You can vector us if you’d like.",
     size: 69994,
   },
   {
@@ -4947,6 +4995,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 895,
     content: "Unable CAT II approach due crew qualification.",
+    specialReading: "Unable category two approach due crew qualification.",
     size: 44443,
   },
   {
