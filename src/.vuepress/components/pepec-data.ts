@@ -1669,13 +1669,13 @@ export const contents: ContentProtocol[] = [
   {
     index: 283,
     content: "ADS-B transmitter 1090 (ten-ninety) data link.",
-    specialReading: "ADS-B transmitter one zero niner zero data link.",
+    specialReading: "ADS-B transmitter ten ninety data link.",
     size: 76704,
   },
   {
     index: 284,
     content: "ADS-B receiver 1090 (ten-ninety) data link.",
-    specialReading: "ADS-B receiver one zero niner zero data link.",
+    specialReading: "ADS-B receiver ten ninety data link.",
     size: 55314,
   },
   {
@@ -1733,19 +1733,19 @@ export const contents: ContentProtocol[] = [
   {
     index: 295,
     content: "Right heading 040 until passing FL70 then direct to BK.",
-    specialReading: "Right heading zero four zero until passing FL70 then direct to Bravo Kilo.",
+    specialReading: "Right heading zero four zero until passing flight-level seven zero then direct to Bravo Kilo.",
     size: 126133,
   },
   {
     index: 296,
     content: "Direct to JO, descend to FL50.",
-    specialReading: "Direct to Juliet Oscar, descend to FL50.",
+    specialReading: "Direct to Juliet Oscar, descend to flight-level five zero.",
     size: 86015,
   },
   {
     index: 297,
     content: "Passing FL70.",
-    specialReading: "Passing FL70.",
+    specialReading: "Passing flight-level seven zero.",
     size: 45605,
   },
   {
@@ -1790,7 +1790,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 305,
     content: "Cleared VOR-DME approach Runway 24, descending to 3000 feet QNH1007.",
-    specialReading: "Cleared VOR-DME approach Runway two four, descending to tree taosand feet QNH one zero zero seven.",
+    specialReading: "Cleared V-O-R-DME approach Runway two four, descending to tree taosand feet QNH one zero zero seven.",
     size: 126645,
   },
   {
@@ -1839,7 +1839,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 314,
     content: "Hold over BKM VOR at FL100, inbound track 280 degrees, left hand pattern, outbound time 1 minute.",
-    specialReading: "Hold over Bravo Kilo Mike VOR at FL100, inbound track two eight zero degrees, left hand pattern, outbound time one minute.",
+    specialReading: "Hold over Bravo Kilo Mike V-O-R at flight-level one zero zero, inbound track two eight zero degrees, left hand pattern, outbound time one minute.",
     size: 162934,
     hasLotOfInfo: true,
   },
@@ -1852,14 +1852,14 @@ export const contents: ContentProtocol[] = [
     index: 316,
     content: "Hold on the 265 radial of BKM VOR between 25 and 30 miles DME, FL100, inbound track 085, right hand pattern, expected approach time 1022.",
     specialReading:
-      "Hold on the two six five radial of Bravo Kilo Mike VOR between two five and three zero miles DME, FL100, inbound track zero eight five, right hand pattern, expected approach time one zero two two.",
+      "Hold on the two six five radial of BravoKiloMike V-O-R between two five and three zero miles DME, flight-level one zero zero, inbound track zero eight five, right hand pattern, expected approach time one zero two two.",
     size: 290419,
     hasLotOfInfo: true,
   },
   {
     index: 317,
     content: "Hold at 20 DME of ST VOR, FL100, inbound track 260 degrees, left turns, limiting outbound distance 24 DME.",
-    specialReading: "Hold at two zero DME of Sierra Tango VOR, flight-level one zero zero, inbound track two six zero degrees, left turns, limiting outbound distance two four DME.",
+    specialReading: "Hold at two zero DME of SierraTango V-O-R light-level one zero zero, inbound track two six zero degrees, left turns, limiting outbound distance two four DME.",
     size: 231047,
     hasLotOfInfo: true,
   },
@@ -1872,7 +1872,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 319,
     content: "Leaving BKM VOR heading 110.",
-    specialReading: "Leaving Bravo Kilo Mike VOR heading one one zero.",
+    specialReading: "Leaving BravoKiloMike V-O-R heading one one zero.",
     size: 61044,
   },
   {
@@ -1967,7 +1967,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 335,
     content: "Descend to height 2000 feet QFE 997 hectopascals.",
-    specialReading: "Descend to height two taosand feet QFE nine niner seven hectopascals.",
+    specialReading: "Descend to height two taosand feet QFE niner niner seven hectopascals.",
     size: 108670,
   },
   {
@@ -2101,7 +2101,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 358,
     content: "Cleared VOR approach Runway 36, followed by circling to Runway 18.",
-    specialReading: "Cleared VOR approach Runway tree six, followed by circling to Runway one eight.",
+    specialReading: "Cleared V-O-R approach Runway tree six, followed by circling to Runway one eight.",
     size: 89579,
   },
   {
@@ -2118,6 +2118,7 @@ export const contents: ContentProtocol[] = [
   {
     index: 361,
     content: "Request RNAV approach.",
+    specialReading: "Request R-nav approach.",
     size: 30236,
   },
   {
