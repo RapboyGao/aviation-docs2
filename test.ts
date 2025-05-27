@@ -24,3 +24,28 @@ for (const item of s900) {
 FS.writeJSONSync("./pepec-data.json", s900, {
   spaces: 2,
 });
+
+// PepecData(id: <#T##Int#>, content: <#T##String#>, specialReading: <#T##String?#>, size: <#T##Int#>, hasLotOfInfo: <#T##Bool?#>)
+
+let swiftScript = `import Foundation
+public extension PepecSentence {
+    static let allCases: [PepecSentence] = [
+
+`;
+
+s900.forEach((item) => {
+  swiftScript += `        PepecSentence(
+                              id: ${item.index},  
+                              content: "${item.content}", 
+                              specialReading: "${item.specialReading ?? ""}", 
+                              size: ${item.size}, 
+                              hasLotOfInfo: ${!!item.hasLotOfInfo}
+                          ),\n`;
+});
+
+swiftScript += `
+  ]
+}
+`;
+
+FS.writeFileSync("./PepecData.swift", swiftScript, "utf8");

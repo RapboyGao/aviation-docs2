@@ -9,3 +9,5 @@ package.json
 *.*/DS_Store
 src/Notes/.DS_Store
 pepec-data.json
+PepecData.swift
+src/.vuepress/public/music/.DS_Store
