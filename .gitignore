@@ -6,3 +6,5 @@ src/.vuepress/dist/
 pnpm-lock.yaml
 package.json
 *DS_Store
+*.*/DS_Store
+src/Notes/.DS_Store
