@@ -4,7 +4,7 @@ import sidebar from "./sidebar";
 import pwa from "./misc/pwa";
 
 export default hopeTheme({
-  hostname: "https://aviation-docs2.vercel.app",
+  hostname: "https://aviation-docs2.netlify.app",
 
   author: {
     name: "Albert Gao",
