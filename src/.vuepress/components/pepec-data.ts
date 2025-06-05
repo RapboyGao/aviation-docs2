@@ -146,7 +146,7 @@ export const contents: ContentProtocol[] = [
     index: 16,
     content: "Climbing at 1000 feet per minute or greater.",
     specialReading: "Climbing at one taosand feet per minute or greater.",
-    size: 20524,
+    size: 21777,
   },
   {
     index: 17,
@@ -333,7 +333,7 @@ export const contents: ContentProtocol[] = [
     index: 48,
     content: "Request taxi to holding point Runway 13.",
     specialReading: "Request taxi to holding point Runway one tree.",
-    size: 21777,
+    size: 19479,
   },
   {
     index: 49,
@@ -524,7 +524,7 @@ export const contents: ContentProtocol[] = [
     content: "Cleared to destination via flight planned route [raʊt], Runway 36R, LKO-01 Departure, initially climb to 4500 feet, cruising level 310, when airborne contact 119.7, squawk 2515.",
     specialReading:
       "Cleared to destination via flight planned route [raʊt], Runway tree six right, Lima Kilo Oscar zero one Departure, initially climb to four taosand five hundred feet, cruising level tree one zero, when airborne contact one one niner decimal seven, squawk two five one five.",
-    size: 126476,
+    size: 119789,
     hasLotOfInfo: true,
   },
   {
@@ -684,7 +684,7 @@ export const contents: ContentProtocol[] = [
     index: 106,
     content: "Pushback approved, Runway 31.",
     specialReading: "Pushback approved, Runway tree one.",
-    size: 18852,
+    size: 15508,
   },
   {
     index: 107,
@@ -980,7 +980,7 @@ export const contents: ContentProtocol[] = [
     index: 160,
     content: "Request Takeoff Distance Available (TODA) from intersection E3.",
     specialReading: "Request Takeoff Distance Available (TODA) from intersection Echo tree.",
-    size: 25748,
+    size: 26166,
   },
   {
     index: 161,
@@ -998,7 +998,7 @@ export const contents: ContentProtocol[] = [
     index: 163,
     content: "Airbus 330 heavy, 8000 feet, Information X.",
     specialReading: "Airbus tree tree zero heavy, eight taosand feet, Information X-ray.",
-    size: 27629,
+    size: 27002,
   },
   {
     index: 164,
@@ -1087,7 +1087,7 @@ export const contents: ContentProtocol[] = [
     index: 179,
     content: "Behind the Boeing 737, cleared to land.",
     specialReading: "Behind the Boeing seven tree seven, cleared to land.",
-    size: 19897,
+    size: 24285,
   },
   {
     index: 180,
@@ -1200,7 +1200,7 @@ export const contents: ContentProtocol[] = [
     index: 200,
     content: "Confirm visibility more than 1000 meters.",
     specialReading: "Confirm visibility more than one taosand meters.",
-    size: 20941,
+    size: 19479,
   },
   {
     index: 201,
@@ -1546,7 +1546,7 @@ export const contents: ContentProtocol[] = [
     index: 262,
     content: "Increase speed to 300 knots or greater.",
     specialReading: "Increase speed to tree zero zero knots or greater.",
-    size: 21777,
+    size: 21359,
   },
   {
     index: 263,
@@ -1928,7 +1928,7 @@ export const contents: ContentProtocol[] = [
     index: 329,
     content: "Precision radar approach Runway 27 heading 260, descending to 2500 feet, QNH1014.",
     specialReading: "Precision radar approach Runway two seven heading two six zero, descending to two taosand five hundred feet, QNH one zero one four.",
-    size: 63364,
+    size: 55841,
   },
   {
     index: 330,
@@ -2252,7 +2252,7 @@ export const contents: ContentProtocol[] = [
     index: 385,
     content: "Continue climb to FL 290, cross BKM VOR not above FL 230.",
     specialReading: "Continue climb to flight-level two niner zero, cross BravoKiloMike V-O-R not above flight-level two tree zero.",
-    size: 49572,
+    size: 48736,
   },
   {
     index: 386,
@@ -2645,7 +2645,7 @@ export const contents: ContentProtocol[] = [
     index: 454,
     content: "Our cabin altitude at one time had reached 16000 feet. Some passengers have symptoms of hypoxia.",
     specialReading: "Our cabin altitude at one time had reached sixteen taosand feet. Some passengers have symptoms of hypoxia.",
-    size: 48945,
+    size: 46228,
   },
   {
     index: 455,
@@ -3739,7 +3739,7 @@ export const contents: ContentProtocol[] = [
     index: 660,
     content: "We have no bleed air coming from either engines or APU. Request rapid descent to 10,000 feet.",
     specialReading: "We have no bleed air coming from either engines or APU. Request rapid descent to one-zero-taosand feet.",
-    size: 46228,
+    size: 49154,
     notes: "有coming",
   },
   {
