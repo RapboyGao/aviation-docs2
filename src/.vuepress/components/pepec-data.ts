@@ -509,7 +509,7 @@ export const contents: ContentProtocol[] = [
     content: "Cleared to destination, flight planned route [raʊt], cruising level 330, departure Runway 04, initial altitude 7000 feet. HZ01 Departure, squawk 2563, departure frequency 124.35.",
     specialReading:
       "Cleared to destination, flight planned route [raʊt], cruising level tree tree zero, departure Runway zero four, initial altitude seven taosand feet. Hotel Zulu zero one Departure, squawk two five six tree, departure frequency one two four decimal tree five.",
-    size: 129193,
+    size: 118326,
     hasLotOfInfo: true,
   },
   {
@@ -1849,7 +1849,7 @@ export const contents: ContentProtocol[] = [
     content: "Hold on the 265 radial of BKM VOR between 25 and 30 miles DME, FL100, inbound track 085, right hand pattern, expected approach time 1022.",
     specialReading:
       "Hold on the two six five radial of BravoKiloMike V-O-R between two five and three zero miles DME, flight-level one zero zero, inbound track zero eight five, right hand pattern, expected approach time one zero two two.",
-    size: 94084,
+    size: 113937,
     hasLotOfInfo: true,
   },
   {
@@ -4841,7 +4841,7 @@ export const contents: ContentProtocol[] = [
     index: 866,
     content: "We are declaring fuel emergency. Our endurance is 1 hour 58 minutes. We are 1 hour 30 minutes from the closest alternate airport.",
     specialReading: "We are declaring fuel emergency. Our endurance is one hour five eight minutes. We are one hour tree zero minutes from the closest alternate airport.",
-    size: 64409,
+    size: 60439,
   },
   {
     index: 867,
