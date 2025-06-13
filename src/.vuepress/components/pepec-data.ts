@@ -3733,7 +3733,7 @@ export const contents: ContentProtocol[] = [
     index: 659,
     content: "Both engine bleed air systems have failed and we are relying on APU bleed for air conditioning. Request descent to 14, 000 feet.",
     specialReading: "Both engine bleed air systems have failed and we are relying on APU bleed for air conditioning. Request descent to one-four-taosand feet.",
-    size: 58558,
+    size: 61901,
   },
   {
     index: 660,
