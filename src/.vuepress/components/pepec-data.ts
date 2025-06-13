@@ -524,7 +524,7 @@ export const contents: ContentProtocol[] = [
     content: "Cleared to destination via flight planned route [raʊt], Runway 36R, LKO-01 Departure, initially climb to 4500 feet, cruising level 310, when airborne contact 119.7, squawk 2515.",
     specialReading:
       "Cleared to destination via flight planned route [raʊt], Runway tree six right, Lima Kilo Oscar zero one Departure, initially climb to four taosand five hundred feet, cruising level tree one zero, when airborne contact one one niner decimal seven, squawk two five one five.",
-    size: 119789,
+    size: 125013,
     hasLotOfInfo: true,
   },
   {
