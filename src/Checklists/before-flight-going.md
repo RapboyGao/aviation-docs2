@@ -5,8 +5,8 @@ isOriginal: true
 tag:
   - Checklist
 category: Checklist
-prev: ../before-flight-day
-next: ../direct-preparing
+prev: ./before-flight-day
+next: ./direct-preparing
 ---
 
 ## 必要

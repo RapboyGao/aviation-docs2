@@ -2,7 +2,7 @@
 title: 地面运行检查单
 isOriginal: true
 tag:
-    - Checklist
+  - Checklist
 category: Checklist
 prev: ../direct-preparing
 # next: ../ground-operations
@@ -15,6 +15,7 @@ prev: ../direct-preparing
 <my-check> 雷达 </my-check>
 <my-check> TCAS </my-check>
 <my-check> 再现检查 </my-check>
+<my-check> 操纵检查 </my-check>
 <my-check> 耳机 </my-check>
 <my-check> 打印纸 </my-check>
 <my-check> 录音笔 </my-check>

@@ -5,7 +5,7 @@ isOriginal: true
 tag:
   - Checklist
 category: Checklist
-next: ../before-flight-going
+next: ./before-flight-going
 ---
 
 ## 中午
@@ -83,4 +83,5 @@ next: ../before-flight-going
 - 上一段时间条已打印
 - 护照在驾驶舱
 - 任务书
+- 应急设备
 ```
