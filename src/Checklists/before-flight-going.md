@@ -11,13 +11,7 @@ next: ../direct-preparing
 
 ## 必要
 
-#### 防疫
-
-<my-check> 口罩 </my-check>
-
 #### 物品
-
-<!-- <my-check> 通讯本</my-check> -->
 
 <my-check> IPAD </my-check>
 <my-check> 帽子 </my-check>
@@ -27,6 +21,8 @@ next: ../direct-preparing
 <my-check> 反光背心 </my-check>
 <my-check> 手电筒 </my-check>
 <my-check> 航空耳机 </my-check>
+<my-check> 录音笔 </my-check>
+<my-check> 登机牌 </my-check>
 
 #### 证照
 
@@ -35,21 +31,26 @@ next: ../direct-preparing
 <my-check> 应急 </my-check>
 <my-check> 危险品 </my-check>
 
-## 其他
+## 箱内按需
 
-<my-check> Airpods </my-check>
 <my-check> 热水杯 </my-check>
+<my-check> 耳塞 </my-check>
+<my-check> 唇膏 </my-check>
+<my-check> 加湿器 </my-check>
 <my-check> 眼罩 </my-check>
-<my-check> 录音笔 </my-check>
+
+## 长航线
+
+<my-check> 便装 </my-check>
+<my-check> U 形枕 </my-check>
 <my-check> 剃须刀/剃须 </my-check>
 
 ## 可能 / 过夜
 
+<my-check> 鞋 </my-check>
+<my-check> 短袜 </my-check>
 <my-check> 便装 </my-check>
-<my-check> 唇膏 </my-check>
-<my-check> 手机 </my-check>
 <my-check> 药 </my-check>
-<my-check> 充电宝 </my-check>
 <my-check> 驱蚊用品 </my-check>
 
 ## 着装
