@@ -18,11 +18,11 @@ export default navbar([
       },
       {
         text: "危险品",
-        children: ["/dangerous-goods/index.html"],
+        children: ["/dangerous-goods/README.md"],
       },
       {
         text: "FCTM",
-        children: ["/Notes/FCTM/index.html"],
+        children: ["/Notes/FCTM/README.md"],
       },
       {
         text: "Fleet",
@@ -32,6 +32,6 @@ export default navbar([
   },
   {
     text: "Checklists",
-    children: ["/Checklists/before-flight-day", "/Checklists/before-flight-going", "/Checklists/direct-preparing", "/Checklists/ground-operations"],
+    children: ["/Checklists/before-flight-day.md", "/Checklists/before-flight-going.md", "/Checklists/direct-preparing.md", "/Checklists/ground-operations.md"],
   },
 ]);

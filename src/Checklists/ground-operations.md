@@ -4,7 +4,7 @@ isOriginal: true
 tag:
   - Checklist
 category: Checklist
-prev: ../direct-preparing
+prev: ../direct-preparing.md
 # next: ../ground-operations
 ---
 

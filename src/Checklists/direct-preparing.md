@@ -5,8 +5,8 @@ isOriginal: true
 tag:
   - Checklist
 category: Checklist
-prev: ./before-flight-going
-next: ./ground-operations
+prev: ./before-flight-going.md
+next: ./ground-operations.md
 ---
 
 ## 航班

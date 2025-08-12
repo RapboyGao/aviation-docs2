@@ -5,7 +5,7 @@ title: Home
 heroImage: /logo.svg
 heroText: Gao's Blog
 heroFullScreen: true
-bgImage: /hero.jpg
+bgImage: /IMG_0576.JPG
 tagline: Documents and notes about aviation knowledge
 footer: false
 ---

@@ -12,24 +12,24 @@
   },
   "devDependencies": {
     "@types/fs-extra": "^11.0.4",
-    "@types/lodash": "^4.17.17",
-    "@types/node": "^22.15.21",
-    "@vuepress/bundler-vite": "2.0.0-rc.23",
-    "@vuepress/plugin-markdown-container": "2.0.0-rc.103",
-    "@vuepress/plugin-pwa": "2.0.0-rc.105",
-    "@vuepress/plugin-register-components": "2.0.0-rc.103",
-    "@vueuse/core": "^13.2.0",
-    "@vueuse/shared": "^13.2.0",
-    "axios": "^1.9.0",
-    "element-plus": "^2.9.11",
-    "fs-extra": "^11.3.0",
+    "@types/lodash": "^4.17.20",
+    "@types/node": "^22.17.1",
+    "@vuepress/bundler-vite": "2.0.0-rc.24",
+    "@vuepress/plugin-markdown-container": "2.0.0-rc.112",
+    "@vuepress/plugin-pwa": "2.0.0-rc.112",
+    "@vuepress/plugin-register-components": "2.0.0-rc.112",
+    "@vueuse/core": "^13.6.0",
+    "@vueuse/shared": "^13.6.0",
+    "axios": "^1.11.0",
+    "element-plus": "^2.10.6",
+    "fs-extra": "^11.3.1",
     "katex": "^0.16.22",
     "lodash": "^4.17.21",
     "nanoid": "^5.1.5",
-    "sass-embedded": "^1.89.0",
+    "sass-embedded": "^1.90.0",
     "store2": "^2.14.4",
-    "vue": "^3.5.14",
-    "vuepress": "2.0.0-rc.23"
+    "vue": "^3.5.18",
+    "vuepress": "2.0.0-rc.24"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
@@ -37,6 +37,6 @@
     ]
   },
   "dependencies": {
-    "vuepress-theme-hope": "2.0.0-rc.88"
+    "vuepress-theme-hope": "2.0.0-rc.94"
   }
 }
