@@ -7,4 +7,5 @@ export default navbar([
   },
   "contents/before-flight-day.md",
   "contents/before-flight-going.md",
+  "contents/first-leg.md",
 ]);

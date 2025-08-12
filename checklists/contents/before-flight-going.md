@@ -6,7 +6,7 @@ tag:
   - Checklist
 category: Checklist
 prev: ./before-flight-day.md
-next: ./direct-preparing.md
+next: ./first-leg.md
 ---
 
 ## 必要
