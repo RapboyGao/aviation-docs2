@@ -6,10 +6,10 @@ import pwa from "./misc/pwa";
 export default hopeTheme({
   hostname: "https://aviation-docs2.netlify.app",
 
-  author: {
-    name: "Albert Gao",
-    url: "https://gitee.com/AlbertGao",
-  },
+  // author: {
+  //   name: "Albert Gao",
+  //   url: "https://gitee.com/AlbertGao",
+  // },
 
   docsDir: "src",
 
