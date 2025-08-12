@@ -1,8 +1,5 @@
 
 node_modules/
-src/.vuepress/.cache/
-src/.vuepress/.temp/
-src/.vuepress/dist/
 pnpm-lock.yaml
 package.json
 *DS_Store
@@ -10,6 +7,17 @@ package.json
 src/Notes/.DS_Store
 pepec-data.json
 PepecData.swift
+
+src/.vuepress/.cache/
+src/.vuepress/.temp/
+src/.vuepress/dist/
 src/.vuepress/public/music/.DS_Store
 src/.vuepress/public/music/.DS_Store
 src/.vuepress/public/music/.DS_Store
+
+checklists/.vuepress/.cache/
+checklists/.vuepress/.temp/
+checklists/.vuepress/dist/
+checklists/.vuepress/public/music/.DS_Store
+checklists/.vuepress/public/music/.DS_Store
+checklists/.vuepress/public/music/.DS_Store

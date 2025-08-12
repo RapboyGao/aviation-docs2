@@ -8,6 +8,9 @@
     "docs:build": "vuepress-vite build src",
     "docs:clean-dev": "vuepress-vite dev src --clean-cache",
     "docs:dev": "vuepress-vite dev src",
+    "checklists:build": "vuepress-vite build checklists",
+    "checklists:dev": "vuepress-vite dev checklists",
+    "checklists:clean-dev": "vuepress-vite dev checklists --clean-cache",
     "docs:update-package": "pnpm dlx vp-update"
   },
   "devDependencies": {
