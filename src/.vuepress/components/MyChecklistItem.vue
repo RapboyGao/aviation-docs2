@@ -1,8 +1,7 @@
 <template>
   <div class="checklist-item" :data-item-id="itemID" @click="toggleChecked" @touchstart.prevent="toggleChecked" :class="{ checked: isChecked }">
-    <transition name="checkbox" mode="out-in">
+    <div class="checkbox-container">
       <input
-        key="checkbox-{{ itemID }}"
         type="checkbox"
         class="checklist-checkbox"
         :checked="isChecked"
@@ -10,7 +9,12 @@
         @click.prevent.stop
         @touchstart.prevent.stop
       />
-    </transition>
+      <label :for="`checkbox-${itemID}`" class="checkbox-label">
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="checkmark">
+          <polyline points="20 6 9 17 4 12"></polyline>
+        </svg>
+      </label>
+    </div>
     <label :for="`checkbox-${itemID}`" class="checklist-item-content">
       <transition name="content" mode="out-in">
         <span key="content-{{ itemID }}"><slot></slot></span>
@@ -42,7 +46,8 @@ function toggleChecked() {
   min-height: 48px; /* 确保触摸目标至少48px高 */
   background-color: #f5f7fa;
   border-radius: 4px;
-  border-left: 3px solid #42b983;
+  /* 移除左侧绿色边框 */
+  border-left: none;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   align-items: center;
@@ -60,7 +65,8 @@ function toggleChecked() {
 
 .checklist-item.checked {
   background-color: #e6f7ee;
-  border-left-color: #52c41a;
+  /* 移除选中状态的绿色边框 */
+  border-left: none;
   transform: translateX(4px);
 }
 
@@ -101,13 +107,18 @@ function toggleChecked() {
   margin-right: 0.75rem;
   width: 18px;
   height: 18px;
+  border: 2px solid #52c41a;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
-  accent-color: #52c41a;
-  transition: transform 0.3s ease;
+  transition: all 0.3s ease;
 }
 
-.checklist-checkbox:checked {
-  transform: scale(1.2);
+.checklist-item.checked .checklist-checkbox {
+  background-color: #52c41a;
+  color: white;
 }
 
 .checklist-item-content {
@@ -145,5 +156,103 @@ function toggleChecked() {
 .checklist-item:active {
   transform: scale(0.98);
   transition: transform 0.1s ease;
+}
+
+.checkbox-container {
+  position: relative;
+  margin-right: 0.75rem;
+  width: 20px;
+  height: 20px;
+}
+
+.checklist-checkbox {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.checkbox-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #52c41a;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.checklist-checkbox:checked + .checkbox-label {
+  background-color: #52c41a;
+  border-color: #52c41a;
+  animation: checkbox-pulse 0.5s ease;
+}
+
+.checkmark {
+  color: white;
+  transform: scale(0);
+  opacity: 0;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checklist-checkbox:checked + .checkbox-label .checkmark {
+  transform: scale(1);
+  opacity: 1;
+  transition-delay: 0.1s;
+}
+
+@keyframes checkbox-pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* 夜间模式样式 */
+html[data-theme="dark"] .checklist-item {
+  background-color: #1e293b; /* 深灰色背景 */
+}
+
+html[data-theme="dark"] .checklist-item:hover {
+  background-color: #0f172a; /* 近黑色悬停背景 */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+html[data-theme="dark"] .checklist-item.checked {
+  background-color: #1e293b; /* 保持深灰色背景 */
+}
+
+html[data-theme="dark"] .checklist-item.checked .checklist-item-content {
+  color: #94a3b8; /* 浅灰色文字 */
+}
+
+html[data-theme="dark"] .checklist-item-content {
+  color: #f8fafc; /* 白色文字 */
+}
+
+html[data-theme="dark"] .checklist-item-content span::after {
+  background-color: #94a3b8; /* 匹配文字颜色 */
+}
+
+html[data-theme="dark"] .checkbox-label {
+  border-color: #3b82f6; /* 蓝色边框 */
+}
+
+html[data-theme="dark"] .checklist-checkbox:checked + .checkbox-label {
+  background-color: #3b82f6; /* 蓝色背景 */
+  border-color: #3b82f6; /* 蓝色边框 */
+}
+
+html[data-theme="dark"] .checklist-checkbox:checked + .checkbox-label .checkmark {
+  color: white; /* 白色对勾 */
 }
 </style>

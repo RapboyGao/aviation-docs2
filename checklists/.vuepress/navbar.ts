@@ -6,4 +6,5 @@ export default navbar([
     text: "Home",
   },
   "contents/before-flight-day.md",
+  "contents/before-flight-going.md",
 ]);
