@@ -1,7 +1,8 @@
+/* From Uiverse.io by della11 */
 html[data-theme="light"] {
   --background: #fff;
   --text: #414856;
-  --check: #4f29f0
+  --check: #4f29f0;
   --disabled: #c3c8de;
 }
 
@@ -11,8 +12,6 @@ html[data-theme="dark"] {
   --check: #8cc2ff;
   --disabled: #30363d;
 }
-
-
 
 #checklist {
   --width: 100px;
