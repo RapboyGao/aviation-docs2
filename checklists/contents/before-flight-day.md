@@ -10,7 +10,9 @@ next: ./before-flight-going.md
 
 ## 中午
 
-<MyCheckBar />
+<MyChecklistItem itemID="1">
+  准备网
+</MyChecklistItem>
 
 - [ ] 准备网
   - [ ] 通告
