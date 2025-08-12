@@ -1,16 +1,20 @@
 <template>
-  <div class="checklist-item" :data-item-id="itemID" @click="toggleChecked" @touchstart.prevent="toggleChecked" :class="{ checked: isChecked }">
+  <div class="checklist-item" :data-item-id="itemID" @click="toggleChecked" :class="{ checked: isChecked }">
     <div class="checkbox-container">
-      <input
-        type="checkbox"
-        class="checklist-checkbox"
-        :checked="isChecked"
-        :id="`checkbox-${itemID}`"
-        @click.prevent.stop
-        @touchstart.prevent.stop
-      />
+      <input type="checkbox" class="checklist-checkbox" :checked="isChecked" :id="`checkbox-${itemID}`" @click.prevent.stop @touchstart.prevent.stop />
       <label :for="`checkbox-${itemID}`" class="checkbox-label">
-        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="checkmark">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="14"
+          height="14"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="3"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          class="checkmark"
+        >
           <polyline points="20 6 9 17 4 12"></polyline>
         </svg>
       </label>
@@ -55,6 +59,11 @@ function toggleChecked() {
   transform-origin: left center;
   touch-action: manipulation; /* 优化触摸体验，防止浏览器默认行为 */
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0.1); /* 添加触摸反馈 */
+  /* 禁止文字选择 */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .checklist-item:hover {
@@ -89,7 +98,7 @@ function toggleChecked() {
 
 /* 添加文字划线动画 */
 .checklist-item-content span::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 0;
   top: 50%;
@@ -256,3 +265,5 @@ html[data-theme="dark"] .checklist-checkbox:checked + .checkbox-label .checkmark
   color: white; /* 白色对勾 */
 }
 </style>
+
+/* 为确保所有子元素也禁止选择 */ .checklist-item * { -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
