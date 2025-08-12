@@ -10,33 +10,53 @@ next: ./before-flight-going.md
 
 ## 中午
 
-<MyChecklistItem itemID="1">
+<MyChecklistItem itemID="prepare-net">
   准备网
 </MyChecklistItem>
-
-- [ ] 准备网
-  - [ ] 通告
-    - [ ] 目的地机场
-    - [ ] 备降机场
-  - [ ] 下载相关文件以便空中查阅
-- [ ] EFB 数据更新
-- [ ] 了解机组情况
-  - [ ] 着装要求
+<MyChecklistItem itemID="announce">
+  通告
+</MyChecklistItem>
+<MyChecklistItem itemID="download-files">
+  下载相关文件以便空中查阅
+</MyChecklistItem>
+<MyChecklistItem itemID="efb-data-update">
+  EFB 数据更新
+</MyChecklistItem>
+<MyChecklistItem itemID="know-crew">
+  了解机组情况
+</MyChecklistItem>
+<MyChecklistItem itemID="clothing">
+  着装要求
+</MyChecklistItem>
 
 ## 下午
 
-- [ ] 航班状况
+<MyChecklistItem itemID="flight-status">
+  航班状况
+</MyChecklistItem>
 
 ## 晚上
 
-- [ ] EFB 充电
-- [ ] 手电筒充电
-- [ ] (录音笔)
-  - [ ] 数据导出
-  - [ ] 充电
-- [ ] 闹钟
+<MyChecklistItem itemID="efb-charge">
+  EFB 充电
+</MyChecklistItem>
+<MyChecklistItem itemID="flashlight-charge">
+  手电筒充电
+</MyChecklistItem>
+<MyChecklistItem itemID="alarm">
+  闹钟
+</MyChecklistItem>
 
-## 个人对航班的要求
+### 录音笔
+
+<MyChecklistItem itemID="recorder-data-export">
+  数据导出
+</MyChecklistItem>
+<MyChecklistItem itemID="recorder-charge">
+  充电
+</MyChecklistItem>
+
+## 航前提示
 
 ```markdown
 1. 最晚准备前 20 分钟在群里说句话，如果没说话打电话互相提醒
@@ -67,7 +87,7 @@ next: ./before-flight-going.md
    - 滑出前是否有机务手势
    - 检查单是否按时完成
 
-8. 驾驶舱内动任何电门至少至少两人互相确认(包括调温度)，别人动电门之前要看一眼，确认后等一秒再动。如果来不及互相确认，则自己必须确保动的是对的，再跟其他人沟通。
+8. 驾驶舱内动任何电门至少两人互相确认(包括调温度)，别人动电门之前要看一眼，确认后等一秒再动。如果来不及互相确认，则自己必须确保动的是对的，再跟其他人沟通。
 
 9. 开驾驶舱门前，观察员需要与其他机组成员沟通，严禁擅自开门。三个摄像头都观察后再开门。
 
