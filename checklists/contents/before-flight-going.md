@@ -1,5 +1,5 @@
 ---
-title: 航前物品
+title: Before Flight
 sidebar: true
 isOriginal: true
 tag:

@@ -1,5 +1,5 @@
 ---
-title: 航前一天
+title: A Day Before
 sidebar: true
 isOriginal: true
 tag:

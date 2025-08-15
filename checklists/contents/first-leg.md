@@ -1,5 +1,5 @@
 ---
-title: 第一航段
+title: First Leg
 sidebar: true
 isOriginal: true
 tag:
@@ -9,158 +9,154 @@ prev: ./before-flight-going.md
 next: ./next-legs.md
 ---
 
-## 第一航段
+## First Leg
 
 <MyChecklistItem itemID="录音笔充电">
-  录音笔充电
+  Voice Recorder Charging
 </MyChecklistItem>
 
 <MyChecklistItem itemID="外部灯光">
-  外部灯光
+  External Lights
 </MyChecklistItem>
 
 <MyChecklistItem itemID="TLB 故障">
-  TLB 故障 
+  TLB Faults
 </MyChecklistItem>
 
 <MyChecklistItem itemID="保留故障">
-  保留故障 
+  Deferred Defects
 </MyChecklistItem>
 
 <MyChecklistItem itemID="应急设备">
-  应急设备
+  Emergency Equipments
 </MyChecklistItem>
 
 <MyChecklistItem itemID="跳开关">
-  跳开关 
+  Circuit Breakers
 </MyChecklistItem>
 
 <MyChecklistItem itemID="nav options">
-  NAV OPTIONS 
+  NAV OPTIONS
 </MyChecklistItem>
 
 <MyChecklistItem itemID="燃油系统测试">
-  燃油系统测试
+  Fuel System
 </MyChecklistItem>
 
 <MyChecklistItem itemID="液压系统测试">
-  液压系统测试
+  Hydraulic System
 </MyChecklistItem>
 
 <MyChecklistItem itemID="再现检查">
-  再现检查
+  Recall
 </MyChecklistItem>
 
 <MyChecklistItem itemID="HF测试">
-  HF 测试
+  HF Test
 </MyChecklistItem>
 
 <MyChecklistItem itemID="气象雷达">
-  气象雷达
+  Weather Radar
 </MyChecklistItem>
 
 <MyChecklistItem itemID="雨刷">
-  雨刷
+  Windshield Wipers
 </MyChecklistItem>
 
 <MyChecklistItem itemID="打印纸">
-  打印纸
+  Printer Paper
 </MyChecklistItem>
 
-## 手续
+## Procedures
 
 <MyChecklistItem itemID="three certificates">
-  三证 + 应急设备
+  Three Certificates
 </MyChecklistItem>
 
 <MyChecklistItem itemID="passport and task book">
-  护照 + 任务书
+  Passport + Mission Certificate
 </MyChecklistItem>
 
 <MyChecklistItem itemID="plugs and sockets 1">
-  销子和套子 @ 外部检查
+  Pins and Covers @ External Inspection
 </MyChecklistItem>
 
 <MyChecklistItem itemID="plugs and sockets 2">
-  销子和套子 @ 机上检查
-</MyChecklistItem>
-
-<MyChecklistItem itemID="remaining pages">
-  (上一段时间条已打印)
+  Pins and Covers @ Onboard Inspection
 </MyChecklistItem>
 
 <MyChecklistItem itemID="fuel quantity">
-  总油量与计划相等
+  Total Fuel Quantity Matches Plan
 </MyChecklistItem>
 
 <MyChecklistItem itemID="main tank fuel quantity">
-  主油箱油量相等
+  Main Tank Fuel Quantities Equal
 </MyChecklistItem>
 
 <MyChecklistItem itemID="remaining fuel quantity">
-  上一段剩余油量 + 油单 = 总量
+  Previous Leg Remaining Fuel + Fuel Slip = Total Quantity
 </MyChecklistItem>
 
 <MyChecklistItem itemID="fuel single uploaded">
-  油单已上传
+  Fuel Slip Uploaded
 </MyChecklistItem>
 
 <MyChecklistItem itemID="plan version">
-  计划 航段 + 油量正确
+  Flight Plan - Leg + Fuel Quantity Correct
 </MyChecklistItem>
 
 <MyChecklistItem itemID="plan signed">
-  计划已签字
+  Flight Plan Signed
 </MyChecklistItem>
 
 <MyChecklistItem itemID="loadSheet signed">
-  舱单 - 已签字
+  Load Sheet - Signed
 </MyChecklistItem>
 
 <MyChecklistItem itemID="loadSheet flight number">
-  舱单 - 航班号
+  Load Sheet - Flight Number
 </MyChecklistItem>
 
 <MyChecklistItem itemID="loadSheet fuel quantity">
-  舱单 - 油量
+  Load Sheet - Fuel Quantity
 </MyChecklistItem>
 
 <MyChecklistItem itemID="loadSheet pilot number">
-  舱单 - 乘机人数 / 机组人数 / 旅客人数
+  Load Sheet - Number of Occupants / Crew / Passengers
 </MyChecklistItem>
 
 <MyChecklistItem itemID="TLB signed">
-  TLB 已签字 / 机务完成工作
+  TLB Signed / Maintenance Work Completed
 </MyChecklistItem>
 
 <MyChecklistItem itemID="remaining pages">
-  有足够的剩余页数或有新本
+  Sufficient Remaining Pages or New Book Available
 </MyChecklistItem>
 
-# 推出前
-
-<MyChecklistItem itemID="核对放行许可">
-  核对放行许可
-</MyChecklistItem>
-
-<MyChecklistItem itemID="水平方式/起始高度">
-  水平方式 / 起始高度
-</MyChecklistItem>
-
-<MyChecklistItem itemID="航向">
-  航向
-</MyChecklistItem>
+# Before Pushback
 
 <MyChecklistItem itemID="fuel transfer">
-  (燃油交输)
+  (Fuel Transfer)
 </MyChecklistItem>
 
 <MyChecklistItem itemID="recycling fan">
-  (再循环风扇)
+  (Recirculation Fan)
 </MyChecklistItem>
 
 <MyChecklistItem itemID="windshield heater">
-  (风挡加温)
+  (Windshield Heater)
+</MyChecklistItem>
+
+<MyChecklistItem itemID="核对放行许可">
+  Verify Departure Clearance
+</MyChecklistItem>
+
+<MyChecklistItem itemID="水平方式/起始高度">
+  Lateral Mode / Initial Altitude
+</MyChecklistItem>
+
+<MyChecklistItem itemID="航向">
+  Heading
 </MyChecklistItem>
 
 <MyChecklistItem itemID="tug">
@@ -168,7 +164,7 @@ next: ./next-legs.md
 </MyChecklistItem>
 
 <MyChecklistItem itemID="桥载设备">
-  桥载设备
+  Ground Units
 </MyChecklistItem>
 
 <MyChecklistItem itemID="EOSID">
@@ -176,13 +172,17 @@ next: ./next-legs.md
 </MyChecklistItem>
 
 <MyChecklistItem itemID="记起飞数据">
-  记起飞数据
+  Record Takeoff Data
 </MyChecklistItem>
 
 <MyChecklistItem itemID="配平">
-  配平
+  Trim
 </MyChecklistItem>
 
 <MyChecklistItem itemID="已核对航路">
-  已核对航路
+  Route Verified
+</MyChecklistItem>
+
+<MyChecklistItem itemID="voice recorder">
+  Voice Recorder
 </MyChecklistItem>

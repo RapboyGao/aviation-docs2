@@ -10,7 +10,7 @@ const baseUrl = (process.env?.BASE_URL as BaseUrl) ?? "/";
 export default defineUserConfig({
   base: baseUrl,
   head,
-  lang: "zh-CN",
+  lang: "en-US",
   title: "Aviation Checklists",
   description: "Aviation Checklists for daily operations.",
   plugins: [
